@@ -703,7 +703,7 @@
 		(at 0 5.95)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "F.Mask")
+		(layers "F.Mask")
 		(uuid "2ca780a2-f760-49b2-96be-02d1a09cc248")
 	)
 	(pad "" np_thru_hole circle
