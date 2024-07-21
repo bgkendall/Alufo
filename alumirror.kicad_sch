@@ -2770,7 +2770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 90.932 52.07 90)
 			(effects
 				(font
@@ -3508,7 +3508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 167.132 57.15 90)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 116.332 41.91 90)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 116.332 62.23 90)
 			(effects
 				(font
@@ -4830,7 +4830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 141.732 57.15 90)
 			(effects
 				(font
@@ -4968,7 +4968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 217.932 52.07 90)
 			(effects
 				(font
@@ -5194,7 +5194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 192.532 41.91 90)
 			(effects
 				(font
@@ -5911,7 +5911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 192.532 62.23 90)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 141.732 36.83 90)
 			(effects
 				(font
@@ -6627,7 +6627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
 			(at 167.132 36.83 90)
 			(effects
 				(font

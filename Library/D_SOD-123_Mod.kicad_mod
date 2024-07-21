@@ -273,6 +273,39 @@
 		(layer "F.Fab")
 		(uuid "f61a44d2-13ce-426e-986f-3e4ffc45989d")
 	)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "1bf2b038-6b55-480c-9d45-4fca57124ecc")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "c40fdf27-d187-44f4-b708-0f248a6468a7")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "356ab962-615c-403c-9d0e-c7b6f79b52c3")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 180)
 		(layer "F.Fab")
