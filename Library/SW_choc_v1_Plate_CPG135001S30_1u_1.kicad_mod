@@ -1,0 +1,312 @@
+(footprint "SW_choc_v1_Plate_CPG135001S30_1u_1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Hotswap footprint for Kailh Choc style switches — modified from Marbastlib")
+	(property "Reference" "REF**"
+		(at 5 7.4 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "31959b40-f62b-4536-86df-62a575b52872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CPG135001S30"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "7501cf2b-f8b3-487e-ac4b-ebffcf77a19e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95e5e654-d93e-4919-b2c0-1943efb36139")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82e90f6d-d2a9-4875-8e61-9c7043f5dd3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b477d258-88ba-4f9f-9416-fdfaf319399c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9 -8.5)
+		(end 9 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f010e17f-8668-49ee-b852-ea7fad59c9ff")
+	)
+	(fp_line
+		(start -7 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1dd2b209-4b39-429b-8801-1ad39ad499dd")
+	)
+	(fp_line
+		(start -7 7)
+		(end -7 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "934c097f-281f-41db-bf26-6287606e8f6f")
+	)
+	(fp_line
+		(start -4.5 7)
+		(end -7 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "27e68084-b8fc-43f0-b73d-314f97d00249")
+	)
+	(fp_line
+		(start -4.5 7.25)
+		(end -4.5 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "69eed3ce-c759-4d3b-a20f-099bc98d1c3a")
+	)
+	(fp_line
+		(start -2.554 7.25)
+		(end -4.5 7.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bce5c158-995a-46a0-a930-3c7bdfb8b2f2")
+	)
+	(fp_line
+		(start -2.554 7.75)
+		(end -2.554 7.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "726ec349-80e8-479d-a403-4e33266688df")
+	)
+	(fp_line
+		(start -2.554 7.75)
+		(end -1.754 8.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e201116-e553-4751-b74d-49bcda2fe386")
+	)
+	(fp_line
+		(start -1.754 8.55)
+		(end 1.896 8.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6ee79a4e-9455-44ef-8cbc-e636bd2f1d42")
+	)
+	(fp_line
+		(start 2.696 7.75)
+		(end 1.896 8.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "45ca1d15-3ffa-476f-9b01-100e1a051a01")
+	)
+	(fp_line
+		(start 2.696 7.75)
+		(end 2.696 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "925c45f3-f1df-4e68-be37-f4ad9f98664f")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1c92adc6-cc44-4fe3-9ea4-3343bf555dae")
+	)
+	(fp_line
+		(start 7 7)
+		(end 2.696 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f9885117-db52-4ca2-b8b9-ae9ba84407a3")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "382c6e2d-8d7f-4a78-a052-de7bd2b59ec3")
+	)
+	(fp_line
+		(start 7.5 1.25)
+		(end 7 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "620a1faa-90cf-4a85-a12d-4c7fda766071")
+	)
+	(fp_line
+		(start 7.5 2.4)
+		(end 7.5 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "aedb7217-5526-4f29-bd45-e83717bd7463")
+	)
+	(fp_line
+		(start 7.5 5.1)
+		(end 7.5 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b518188b-1af7-43e8-b16e-26ee801ddba6")
+	)
+	(fp_line
+		(start 7.5 5.1)
+		(end 9.5 5.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c374eb66-d073-4676-aa4a-0151f2697aab")
+	)
+	(fp_line
+		(start 7.5 6.25)
+		(end 7 6.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "82189948-ce0b-4208-86eb-b9a87effeb4d")
+	)
+	(fp_line
+		(start 9.5 2.4)
+		(end 7.5 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "766c725f-dc6e-4e39-9ca7-1544c17b71c8")
+	)
+	(fp_line
+		(start 9.5 5.1)
+		(end 9.5 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d90a201b-ed1c-456c-bcd2-e647bb2f436c")
+	)
+	(fp_text user "18x17 spacing"
+		(at 0 -7.6 180)
+		(layer "Dwgs.User")
+		(uuid "923585b9-4a28-4e52-8d93-dc75cc715684")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.496 5.025 0)
+		(layer "F.Fab")
+		(uuid "353fdba5-7528-497d-b78f-a807e4571f26")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(hide yes)
+		(offset
+			(xyz -5 -3.75 -1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+)
