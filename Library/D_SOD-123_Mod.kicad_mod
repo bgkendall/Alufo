@@ -274,8 +274,8 @@
 		(uuid "f61a44d2-13ce-426e-986f-3e4ffc45989d")
 	)
 	(fp_rect
-		(start -1.27 -1.27)
-		(end 1.27 1.27)
+		(start -1.25 -1.1)
+		(end 1.25 1.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -285,8 +285,8 @@
 		(uuid "1bf2b038-6b55-480c-9d45-4fca57124ecc")
 	)
 	(fp_circle
-		(center -1.27 0)
-		(end 0 0)
+		(center -1.25 0)
+		(end -0.15 0)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -296,8 +296,8 @@
 		(uuid "c40fdf27-d187-44f4-b708-0f248a6468a7")
 	)
 	(fp_circle
-		(center 1.27 0)
-		(end 2.54 0)
+		(center 1.25 0)
+		(end 2.35 0)
 		(stroke
 			(width 0.05)
 			(type default)
