@@ -662,6 +662,17 @@
 		(layer "User.3")
 		(uuid "9b8c844e-de17-4a1b-83bd-4f7b611efa98")
 	)
+	(fp_rect
+		(start 1.5 -1.35)
+		(end 5.5 1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.3")
+		(uuid "b4dd4a3d-8dcd-4440-8eac-c510f3271482")
+	)
 	(fp_circle
 		(center -5.5 0)
 		(end -4.15 0)
