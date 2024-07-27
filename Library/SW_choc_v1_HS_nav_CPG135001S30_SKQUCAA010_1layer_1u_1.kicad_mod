@@ -1086,9 +1086,9 @@
 			(xyz 90 0 180)
 		)
 	)
-	(model "${KIPRJMOD}/Library/skquaaa010.stp"
+	(model "${KIPRJMOD}/Library/SKQUAAA010.stp"
 		(offset
-			(xyz 0 0 -1.2)
+			(xyz 0 0 -2.7)
 		)
 		(scale
 			(xyz 1 1 1)
