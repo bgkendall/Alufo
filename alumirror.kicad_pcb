@@ -6725,7 +6725,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D17"
-			(at 3.3 0.000001 360)
+			(at 3.3 0.000001 0)
 			(layer "F.SilkS")
 			(uuid "8b42374c-410d-45bc-9be0-a56062c273a2")
 			(effects
@@ -10014,7 +10014,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D23"
-			(at 3.3 0.000001 360)
+			(at 3.3 0.000001 0)
 			(layer "F.SilkS")
 			(uuid "27756442-c2cf-46af-a82d-a4261dab6e5a")
 			(effects
@@ -11995,7 +11995,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D24"
-			(at 3.3 0.000001 360)
+			(at 3.3 0.000001 0)
 			(layer "F.SilkS")
 			(uuid "17334b2f-865d-4706-941b-dc841f11213b")
 			(effects
@@ -12349,7 +12349,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D18"
-			(at 3.3 0.000001 360)
+			(at 3.3 0.000001 0)
 			(layer "F.SilkS")
 			(uuid "7fca0562-53f9-4957-8a1d-7ba5bed8d1d5")
 			(effects
@@ -24896,7 +24896,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D22"
-			(at 3.3 0.000001 360)
+			(at 3.3 0.000001 0)
 			(layer "F.SilkS")
 			(uuid "5b3c4471-6dea-4b33-acb9-683ceaf6de29")
 			(effects
@@ -29471,7 +29471,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D21"
-			(at 3.3 0.000001 360)
+			(at 3.3 0.000001 0)
 			(layer "F.SilkS")
 			(uuid "ace825c6-ba45-4636-9fc6-6266a28b268e")
 			(effects
@@ -29823,10 +29823,10 @@
 		(uuid "b93cec5e-1f4f-4153-81e0-432f432c975e")
 		(at 131.7625 100.583357)
 		(property "Reference" "SW21"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "2355d4a4-61a8-4323-a877-7f8218a35b8c")
+			(uuid "4bab6639-788b-402a-8ee9-c8ae9784936f")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -29836,10 +29836,10 @@
 			)
 		)
 		(property "Value" "SKQUCAA010"
-			(at 0 -5.825 360)
+			(at 0 -5.825 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1c7b4d99-1271-4b7b-9645-6b83b690c73c")
+			(uuid "c482651b-fb6e-4fc2-9e32-63121a2b26f8")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -29849,10 +29849,10 @@
 			)
 		)
 		(property "Footprint" "Project Library:Nav_Switch_SKQUAAA010"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d7033a88-0d2a-41be-8ead-d94a18838659")
+			(uuid "486655c4-d3c8-43c0-8dcf-9675600fd9d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29862,10 +29862,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "13833fd0-8cb5-4ca8-a99e-8829452bdd52")
+			(uuid "a0980b60-4471-4877-b959-10bcba028a2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29875,10 +29875,10 @@
 			)
 		)
 		(property "Description" "Switch, five position, single pole quintuple throw, 5 position switch, SP5T"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "150ec3cb-a44e-4d8a-9f5a-36910ac294ec")
+			(uuid "a168a442-1924-463b-be09-06db33bfbca5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29888,10 +29888,10 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "383c3d23-c10d-4e59-ad82-7a6af8e5aebc")
+			(uuid "e550db28-cb86-405d-9443-c67cc59777f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29901,10 +29901,10 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SKQUAAA010/ALPS/view-part/?ref=eda"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aa72e219-d0e4-4295-9f0c-294afb340af4")
+			(uuid "50f44296-8d24-4ec1-9ff9-55a846deaf55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29914,10 +29914,10 @@
 			)
 		)
 		(property "MF" "ALPS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ec4c8966-46e4-4c3d-ba49-17244dedd250")
+			(uuid "7ad49094-66ef-40c9-877c-b5a1e7fa90d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29927,10 +29927,10 @@
 			)
 		)
 		(property "MP" "SKQUAAA010"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9e8dccf1-b86b-40af-a5fa-fa7a5a9bd004")
+			(uuid "8abbdf49-fa97-4fe7-9bc1-eb0fb05d8b93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29940,10 +29940,10 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5309b259-d570-4b94-b935-5368ff3165ab")
+			(uuid "651837fb-1071-4f40-973c-1550a90c106c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29953,10 +29953,10 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "62f662ce-e19c-4a90-bc34-86138afaf1c4")
+			(uuid "b63a63de-8610-403f-9d0b-2338eb722ec3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29966,10 +29966,10 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SKQUAAA010/ALPS/view-part/?ref=snap"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c2f96d52-3dd4-472c-abb6-877c79ba0434")
+			(uuid "4d52e54c-33d9-4f50-9414-779a72bf2d04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29991,7 +29991,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "1e24015a-1beb-4bd2-864b-e726b5170e13")
+			(uuid "55946fd0-d197-4b2a-82fd-4d6f6009af57")
 		)
 		(fp_line
 			(start -1 5.025)
@@ -30001,7 +30001,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "98108473-42cb-4c42-8d6c-8d17b2be00d0")
+			(uuid "0fd1e367-c4f4-4702-8b75-8a8eb7fe428f")
 		)
 		(fp_line
 			(start 5 -5.025)
@@ -30011,7 +30011,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "84625bde-0be4-45fc-8914-4d2bdfe9aa26")
+			(uuid "071dc044-f9c9-4b86-afe7-1a637954b0e4")
 		)
 		(fp_line
 			(start 5 5.025)
@@ -30021,26 +30021,13 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ce5279a7-e759-48cb-81b2-1927035162a1")
-		)
-		(fp_text user "Nav. Switch"
-			(at -3 0 90)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "48c65020-96b3-408d-8b6a-2fb57046a8d5")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
+			(uuid "6ae11c71-5b2d-421d-9dda-993f851c8614")
 		)
 		(fp_text user "SKQUAAx010"
-			(at 0 -4.325 360)
+			(at 0 -4.325 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7855e41a-2c83-4375-889e-a6f6798fc123")
+			(uuid "130634b6-be3c-484f-a027-6430aa46067e")
 			(effects
 				(font
 					(size 0.801063 0.801063)
@@ -30049,11 +30036,24 @@
 				(justify mirror)
 			)
 		)
+		(fp_text user "Nav. Switch"
+			(at -3 0 90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "3f557f40-2513-4105-9929-6b73f26c9a3c")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
 		(fp_text user "<"
 			(at -4.064 3.81 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "a95e365b-02bb-43f1-8fe5-f7ad73044902")
+			(uuid "e540ae9f-22db-4275-9802-db58784892fe")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -30074,7 +30074,7 @@
 			(pinfunction "A")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "9263bbd3-6d4c-483b-8fd9-4ea28fc7c52d")
+			(uuid "df9f401b-bb4c-4b09-ad85-9171004782b5")
 		)
 		(pad "2" thru_hole circle
 			(at -5.15 -0.425)
@@ -30086,7 +30086,7 @@
 			(pinfunction "B")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "e155c24a-ae82-4587-86fb-2ef3eabc793a")
+			(uuid "729d1b10-63b1-41f4-b49d-62bbc9cac886")
 		)
 		(pad "3" thru_hole circle
 			(at -5.15 -3.225)
@@ -30098,7 +30098,7 @@
 			(pinfunction "C")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "d76cda23-c759-44c4-a558-024ee2e295a5")
+			(uuid "faf7c790-b243-4c69-8e80-42df6faf56ef")
 		)
 		(pad "4" thru_hole circle
 			(at 5.15 -3.225)
@@ -30110,7 +30110,7 @@
 			(pinfunction "Com")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1e6c38f8-33e9-482a-9636-f6a729e19b8c")
+			(uuid "45760c49-64d8-4d81-8e45-e966820beec4")
 		)
 		(pad "5" thru_hole circle
 			(at 5.15 -0.425)
@@ -30122,7 +30122,7 @@
 			(pinfunction "D")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "63a99c4e-b2c4-44a1-bc3b-32480f01f1dd")
+			(uuid "fde9860b-3d5b-448e-93e0-a92fb78d2f93")
 		)
 		(pad "6" thru_hole circle
 			(at 5.15 3.275)
@@ -30134,9 +30134,9 @@
 			(pinfunction "Ctr")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "b12b816b-1e41-49b2-abae-ca4f35de3c5f")
+			(uuid "6e5de8d2-e985-4fa1-a3e7-271d119a78dc")
 		)
-		(model "${KIPRJMOD}/Library/SKQUCAA010/SKQUCAA010.STP"
+		(model "${KIPRJMOD}/Library/skquaaa010.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30144,7 +30144,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
