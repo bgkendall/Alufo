@@ -4067,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1350"
+		(property "Value" "PG1350_1½U"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "a137590e-2dd6-4a90-bc23-00519ee36a24")
@@ -14736,7 +14736,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1350"
+		(property "Value" "PG1350_1½U"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "4d5ef403-a318-4038-9070-9f422c46123d")
