@@ -214,7 +214,7 @@
 		(uuid "01a70619-6093-4b3c-9b19-d6b1082d0749")
 		(at 104.775 69.416683)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW15"
+		(property "Reference" "K15"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "75e58b9c-42ef-4b80-8565-70d78b65a140")
@@ -1756,7 +1756,7 @@
 		(uuid "03206bfd-8bc6-4079-9858-3fb9a5dfe06c")
 		(at 123.825 77.916684)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW23"
+		(property "Reference" "K23"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "ff695317-9cd4-41e2-b235-d3d510fbf4ee")
@@ -3141,7 +3141,7 @@
 		(uuid "09fcb8e5-5681-4717-a97b-0813d5e068c0")
 		(at 180.975 43.916677)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW01"
+		(property "Reference" "K01"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "ff043dca-d4fd-42c6-9bc2-86e7dcdb690a")
@@ -4642,7 +4642,7 @@
 		(uuid "14060751-5351-4c17-b2b2-523419d2e832")
 		(at 195.525 105.272109)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW30"
+		(property "Reference" "K30"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "faa96389-7d75-400c-bc0c-d3b7aeabafa6")
@@ -5542,7 +5542,7 @@
 		(uuid "178482b0-57d1-4f2a-883b-6e915ce08f96")
 		(at 142.875 56.66668)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW13"
+		(property "Reference" "K13"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "41dc4a56-6446-4134-bc68-c8681ab7694e")
@@ -7248,7 +7248,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 2.413 0 360)
+			(at 2.413 0 0)
 			(layer "F.SilkS")
 			(uuid "79afd6c2-e5c3-4059-b86c-558ee886ee39")
 			(effects
@@ -7259,7 +7259,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e9b07da6-d5e8-45ac-8284-f33ce9a50968")
 			(effects
@@ -7440,7 +7440,7 @@
 			(uuid "2a92ade6-2d03-4f14-a931-bcf6425171bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3146c751-7268-4e3e-8394-1d661910d99e")
 			(effects
@@ -8195,7 +8195,7 @@
 		(uuid "32edad07-bb1d-43c2-8b8e-77c1a54606dc")
 		(at 123.825 60.916681)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW14"
+		(property "Reference" "K14"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "c995e522-5d26-4ce8-aef1-e2f2e3e3c85b")
@@ -9095,7 +9095,7 @@
 		(uuid "3772d687-39ce-49cf-848b-1568292bb613")
 		(at 200.025 69.416683)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW10"
+		(property "Reference" "K10"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "49f3db7c-6d2e-49bd-b5c1-19610f6fef40")
@@ -10598,7 +10598,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "0287f689-f031-4180-ae7d-76740cf9c5a9")
 			(effects
@@ -10609,7 +10609,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0ffc6075-ebf6-461d-94c6-8dbf24d8017b")
 			(effects
@@ -10790,7 +10790,7 @@
 			(uuid "2ffb4db1-c9ae-4607-9e43-2987d2d81658")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3ca5530f-516d-4ea3-9575-d5129e650f37")
 			(effects
@@ -11081,7 +11081,7 @@
 		(uuid "3b3cf712-fcee-4a0b-bde2-7f91980fb5fd")
 		(at 104.775 52.416679)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW05"
+		(property "Reference" "K05"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "a6729f7a-b96d-4df8-a8d8-3ff17c12b3bd")
@@ -13049,7 +13049,7 @@
 		(uuid "4a37dc94-c310-4507-918e-a1d0fd645527")
 		(at 200.025 52.416679)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW00"
+		(property "Reference" "K00"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "6dd2790c-ca34-4873-ae9d-634179cf3d1f")
@@ -13949,7 +13949,7 @@
 		(uuid "4aa2e2af-5075-4eeb-8639-da3753404a23")
 		(at 180.975 77.916685)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW20"
+		(property "Reference" "K20"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "b01e52cb-53ed-49dc-ba26-25d92b12d630")
@@ -14849,7 +14849,7 @@
 		(uuid "4b5ac0da-fea8-4ddf-bed2-06854ad40812")
 		(at 131.7625 100.583357)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW24"
+		(property "Reference" "K24"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "2dfbd21b-09b8-47d1-90b4-f4c591970e4f")
@@ -16439,7 +16439,7 @@
 		(uuid "7074e0f4-1587-48f8-9216-6f376c5993a4")
 		(at 109.275 104.833358)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW25"
+		(property "Reference" "K25"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "463a966d-8c27-4f39-b125-b3b0255e9f9b")
@@ -17339,7 +17339,7 @@
 		(uuid "70a8e485-4e1d-4f92-96c7-111e7855ab6d")
 		(at 142.875 73.666684)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW22"
+		(property "Reference" "K22"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "3d2c2443-0159-4575-83e4-7ac5448b7232")
@@ -18949,7 +18949,7 @@
 		(uuid "7b40be95-1146-4e8b-9ceb-ea24aae08901")
 		(at 180.975 60.916681)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW11"
+		(property "Reference" "K11"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "feb1e92c-d3da-444f-a967-3e0526133129")
@@ -20744,7 +20744,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0.775 1.524 360)
+			(at 0.775 1.524 0)
 			(layer "F.SilkS")
 			(uuid "6a7e2ae8-59ca-4e55-84b4-9b8259fdf3ed")
 			(effects
@@ -20755,7 +20755,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0eff2435-276e-486a-b55f-84f5a905bba3")
 			(effects
@@ -20936,7 +20936,7 @@
 			(uuid "0c2180a0-153e-462c-876e-5e992987d37f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e707e59b-a7c8-4dd4-b356-125e84bdd27e")
 			(effects
@@ -20981,7 +20981,7 @@
 		(uuid "8c410571-4e77-49b9-a001-8bd7d9c83385")
 		(at 123.825 43.916677)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW04"
+		(property "Reference" "K04"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "130406a3-361c-4228-9846-5595eb1ab34e")
@@ -25491,7 +25491,7 @@
 		(uuid "b93cec5e-1f4f-4153-81e0-432f432c975e")
 		(at 173.025 100.583357)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW31"
+		(property "Reference" "K31"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "6ea693e3-9c82-45b4-b2e5-3ce500a8f851")
@@ -26700,7 +26700,7 @@
 		(at 152.4 34.000008 180)
 		(descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html")
 		(tags "SPST Button Switch")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 0 -3.6 180)
 			(layer "F.SilkS")
 			(uuid "2737671c-1aab-49c0-a6d8-54d01ec2f26d")
@@ -27867,7 +27867,7 @@
 		(uuid "cfc665bb-be1a-46ed-aade-5fe6e76334f8")
 		(at 161.925 39.666676)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW02"
+		(property "Reference" "K02"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "28ef9c52-f91f-4c7e-b6cd-0346c9f4a282")
@@ -30980,7 +30980,7 @@
 		(uuid "e3a6992c-366d-4a3b-a3f6-d9f6c14532ce")
 		(at 161.925 56.66668)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW12"
+		(property "Reference" "K12"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "609de9cd-59d1-4678-8dd5-5c19b00980a4")
@@ -32235,7 +32235,7 @@
 		(uuid "edfc285f-5b83-47ee-b757-f3bc3f61aa84")
 		(at 161.925 73.666684)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW21"
+		(property "Reference" "K21"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "1da31710-1da2-4c36-b1ae-3fc80e8ad341")
@@ -33135,7 +33135,7 @@
 		(uuid "f6c497dc-c091-46c0-b8ef-c3a3f2d7f760")
 		(at 142.875 39.666676)
 		(descr "Hotswap footprint for Kailh Choc style switches")
-		(property "Reference" "SW03"
+		(property "Reference" "K03"
 			(at 5 7.4 180)
 			(layer "F.SilkS")
 			(uuid "1e7ef482-debe-4be5-8133-a09d3dfce9cb")
