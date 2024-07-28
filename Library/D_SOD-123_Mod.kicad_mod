@@ -6,7 +6,7 @@
 	(descr "SOD-123")
 	(tags "SOD-123")
 	(property "Reference" "D3"
-		(at -3.3 0.000001 -90)
+		(at -3.556 0.000001 -90)
 		(layer "F.SilkS")
 		(uuid "419e61f3-03be-426b-8382-8f4d843a7a66")
 		(effects
@@ -95,16 +95,6 @@
 	(attr smd)
 	(fp_line
 		(start -2.36 -1)
-		(end -2.36 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5f9048fb-f33b-42b0-82a3-146c87b511a7")
-	)
-	(fp_line
-		(start -2.36 -1)
 		(end 1.65 -1)
 		(stroke
 			(width 0.12)
@@ -122,6 +112,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "36609f0f-4d67-4e37-9e71-a065c96b7072")
+	)
+	(fp_rect
+		(start -2.586 -1)
+		(end -2.286 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2d187ee8-9238-4ed1-9fc3-1377a5dda984")
 	)
 	(fp_line
 		(start -2.35 -1.15)
