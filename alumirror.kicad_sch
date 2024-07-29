@@ -8008,7 +8008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 153.67 175.26 0)
 			(effects
 				(font
@@ -9092,10 +9092,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "42df8309-b761-475d-931a-eaf090887a53")
+			(uuid "42df8309-b761-475d-931a-eaf090887a54")
 		)
 		(pin "1"
-			(uuid "3dd198ae-b508-4af3-ae63-736ef3455119")
+			(uuid "3dd198ae-b508-4af3-ae63-736ef345511a")
 		)
 		(instances
 			(project ""
@@ -9512,10 +9512,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "42df8309-b761-475d-931a-eaf090887a53")
+			(uuid "42df8309-b761-475d-931a-eaf090887a55")
 		)
 		(pin "1"
-			(uuid "3dd198ae-b508-4af3-ae63-736ef3455119")
+			(uuid "3dd198ae-b508-4af3-ae63-736ef345511b")
 		)
 		(instances
 			(project ""
