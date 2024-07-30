@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start -3.75 0)
-		(end -1.75 0)
+		(end -2.032 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -126,7 +126,7 @@
 	)
 	(fp_line
 		(start 0 -3.75)
-		(end 0 -1.75)
+		(end 0 -2.032)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -135,7 +135,7 @@
 		(uuid "e026cd88-24ff-46de-8564-8a3aa84f0a03")
 	)
 	(fp_line
-		(start 0 1.75)
+		(start 0 2.032)
 		(end 0 3.75)
 		(stroke
 			(width 0.1)
@@ -145,7 +145,7 @@
 		(uuid "29a5a92f-95ad-46d9-865d-9ba4c4c16238")
 	)
 	(fp_line
-		(start 1.75 0)
+		(start 2.032 0)
 		(end 3.75 0)
 		(stroke
 			(width 0.1)
@@ -184,6 +184,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "8311c4ed-b431-4c4e-a00f-acac50a34384")
+	)
+	(fp_poly
+		(pts
+			(xy -3.81 3.25) (xy -3.302 2.742) (xy -3.302 3.758)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a07042ff-2672-4905-aa8d-288f3756ff39")
 	)
 	(fp_rect
 		(start -9 -8.5)
@@ -900,20 +912,6 @@
 		(fill none)
 		(layer "User.4")
 		(uuid "ca677efd-1d4f-4ea6-9b2a-3273eb79da25")
-	)
-	(fp_text user "<"
-		(at -4.064 3.78535 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3e3d1d93-b3ff-4458-b4cf-7ae90d912e26")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.18)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
 	)
 	(fp_text user "18x17 spacing"
 		(at 0 -7.6 180)
