@@ -1375,8 +1375,8 @@
 		)
 		(symbol "USB_C_Receptacle_USB2.0_16P_2SH_0_0"
 			(rectangle
-				(start -0.254 -17.78)
-				(end 0.254 -16.764)
+				(start 2.286 -17.78)
+				(end 2.794 -16.764)
 				(stroke
 					(width 0)
 					(type default)
@@ -1688,7 +1688,7 @@
 		)
 		(symbol "USB_C_Receptacle_USB2.0_16P_2SH_1_1"
 			(pin passive line
-				(at 0 -22.86 90)
+				(at 2.54 -22.86 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1706,7 +1706,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
+				(at 2.54 -22.86 90)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1832,7 +1832,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
+				(at 2.54 -22.86 90)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1850,7 +1850,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
+				(at 2.54 -22.86 90)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -2004,6 +2004,42 @@
 					)
 				)
 				(number "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -22.86 90)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S4"
 					(effects
 						(font
 							(size 1.27 1.27)
