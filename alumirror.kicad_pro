@@ -429,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -493,7 +493,8 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(SD1-A)": "Power"
+      "Net-(SD1-A)": "Power",
+      "Net-(SD2-A)": "Power"
     },
     "netclass_patterns": [
       {
@@ -655,6 +656,10 @@
     [
       "52f043ac-ccff-4c85-bc10-2db9d3c9e3f3",
       "Root"
+    ],
+    [
+      "ba0213d9-9934-4194-9bec-bf394cd27126",
+      "Matrix"
     ]
   ],
   "text_variables": {}
