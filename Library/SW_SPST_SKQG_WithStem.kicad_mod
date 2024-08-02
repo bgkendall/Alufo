@@ -355,38 +355,36 @@
 		(layer "F.Fab")
 		(uuid "4feb4ece-fd46-4c31-9d04-ce9dfcd304e2")
 	)
-	(fp_rect
-		(start -3 -2.85)
-		(end 3 2.85)
+	(fp_poly
+		(pts
+			(arc
+				(start 4.541185 -2.255185)
+				(mid 4.318 -2.794)
+				(end 3.779185 -3.017185)
+			)
+			(arc
+				(start -3.81 -3.017185)
+				(mid -4.348815 -2.794)
+				(end -4.572 -2.255185)
+			)
+			(arc
+				(start -4.572 2.255185)
+				(mid -4.348815 2.794)
+				(end -3.81 3.017185)
+			)
+			(arc
+				(start 3.779185 3.017185)
+				(mid 4.318 2.794)
+				(end 4.541185 2.255185)
+			)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill none)
 		(layer "User.4")
-		(uuid "47578028-8f0d-428c-817b-4c70a280ed64")
-	)
-	(fp_circle
-		(center -3 0)
-		(end -0.15 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "User.4")
-		(uuid "ff895601-9fca-41d1-ad96-44988fef292a")
-	)
-	(fp_circle
-		(center 3 0)
-		(end 5.85 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "User.4")
-		(uuid "9deadaf4-4329-4c70-9759-5590da454389")
+		(uuid "9010a40e-6334-4410-b8d8-663d43ed691e")
 	)
 	(fp_circle
 		(center 0 0)
