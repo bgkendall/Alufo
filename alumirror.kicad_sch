@@ -6298,7 +6298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Project Library:SOT-666_Mod"
 			(at 251.206 185.801 0)
 			(effects
 				(font
@@ -7781,7 +7781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Project Library:SOT-666_Mod"
 			(at 116.586 185.801 0)
 			(effects
 				(font
@@ -9998,7 +9998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Project Library:SOT-666_Mod"
 			(at 251.206 119.761 0)
 			(effects
 				(font
@@ -10851,7 +10851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Project Library:SOT-666_Mod"
 			(at 121.666 119.761 0)
 			(effects
 				(font
