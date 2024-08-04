@@ -1692,7 +1692,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U3"
-			(at 0 -2 90)
+			(at -1.778 -4.064 180)
 			(layer "F.SilkS")
 			(uuid "a8848c33-fa9f-4100-ab6a-c335f915c5f5")
 			(effects
@@ -16831,7 +16831,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U6"
-			(at 0 -2 -90)
+			(at 0 2.175749 0)
 			(layer "F.SilkS")
 			(uuid "38d86a3d-8692-489a-b2f6-4519ff583977")
 			(effects
@@ -17176,7 +17176,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U4"
-			(at 0 -2 90)
+			(at -2.159 0.003 180)
 			(layer "F.SilkS")
 			(uuid "e2338886-1254-40c0-af5d-52e12f58e41f")
 			(effects
@@ -31952,7 +31952,7 @@
 		(descr "SOT666")
 		(tags "SOT-666")
 		(property "Reference" "U5"
-			(at 0 -2 -90)
+			(at 0 2.1295 0)
 			(layer "F.SilkS")
 			(uuid "0e09a17a-eabb-413c-a6fd-dcb5cac8e93c")
 			(effects
