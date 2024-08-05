@@ -493,6 +493,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(D1-A)": "Power",
+      "Net-(D2-A)": "Power",
+      "Net-(D3-K)": "Power",
       "Net-(SD1-A)": "Power",
       "Net-(SD2-A)": "Power"
     },
