@@ -3825,7 +3825,7 @@
 		(uuid "af52c4ad-f407-4a2c-8484-2fbfc180886d")
 	)
 	(no_connect
-		(at 60.96 53.34)
+		(at 60.96 50.8)
 		(uuid "c11b5b18-e2ec-4526-9dae-3bc2bd2826a4")
 	)
 	(no_connect
@@ -5118,7 +5118,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 60.96 50.8 0)
+		(at 60.96 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5128,7 +5128,7 @@
 		)
 		(uuid "417e04ba-c9bd-491e-82f2-62a2e6f465b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.3923 50.8 0)
+			(at 67.3923 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.9 211.1248 0)
 			(effects
 				(font
@@ -10495,7 +10495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 63.5 222.758 90)
 			(effects
 				(font
