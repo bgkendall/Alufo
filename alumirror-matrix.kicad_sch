@@ -2449,7 +2449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Project Library:D_SOD-123"
 			(at 77.47 161.29 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Project Library:D_SOD-123"
 			(at 77.47 151.13 0)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Project Library:D_SOD-123"
 			(at 77.47 166.37 0)
 			(effects
 				(font
@@ -5016,7 +5016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Project Library:D_SOD-123"
 			(at 44.45 152.4 0)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Project Library:D_SOD-123"
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -6131,7 +6131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Project Library:D_SOD-123"
 			(at 77.47 156.21 0)
 			(effects
 				(font

@@ -11049,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project Library:D_SOD-123"
 			(at 69.85 212.09 0)
 			(effects
 				(font
