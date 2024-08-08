@@ -7023,7 +7023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:LED_0603_1608Metric"
+		(property "Footprint" "Project Library:LED_0805_2012Metric_Mod"
 			(at 40.64 285.75 0)
 			(effects
 				(font
