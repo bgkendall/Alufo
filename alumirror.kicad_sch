@@ -7,7 +7,8 @@
 	(title_block
 		(title "Alumirror ")
 		(rev "0.1")
-		(comment 1 "Split 1-layer reversible keyboard PCB")
+		(company "bgkendall")
+		(comment 1 "Split one-layer reversible keyboard PCB")
 	)
 	(lib_symbols
 		(symbol "Device:C"

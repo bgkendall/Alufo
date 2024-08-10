@@ -118,6 +118,8 @@
 			(outputdirectory "Gerbers/")
 		)
 	)
+	(property "AUTHOR" "bgkendall")
+	(property "PCB_REVISION" "1.0")
 	(net 0 "")
 	(net 1 "Row0")
 	(net 2 "Col1RT")
@@ -20131,7 +20133,7 @@
 		)
 		(fp_arc
 			(start 1.749484 0.919719)
-			(mid 1.712517 0.81407)
+			(mid 1.712511 0.81407)
 			(end 1.699999 0.702842)
 			(stroke
 				(width 0.1)
@@ -20153,7 +20155,7 @@
 		)
 		(fp_arc
 			(start 1.699999 -0.702843)
-			(mid 1.712527 -0.814069)
+			(mid 1.712528 -0.814069)
 			(end 1.749484 -0.919721)
 			(stroke
 				(width 0.1)
@@ -20241,7 +20243,7 @@
 		)
 		(fp_arc
 			(start -1.749484 -0.919721)
-			(mid -1.638071 -1.504036)
+			(mid -1.638071 -1.504035)
 			(end -1.046711 -1.568299)
 			(stroke
 				(width 0.1)
@@ -39807,6 +39809,29 @@
 		(fill none)
 		(layer "User.4")
 		(uuid "f5f37cf9-464a-479c-925c-1bc1ca4967d8")
+	)
+	(gr_text "${PROJECTNAME} v${PCB_REVISION}•${AUTHOR}"
+		(at 203.2 79.333352 0)
+		(layer "F.SilkS")
+		(uuid "3e37583f-ae2f-47c6-937c-f3935cf4530c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "${PROJECTNAME} v${PCB_REVISION}•${AUTHOR}"
+		(at 101.6 79.333352 0)
+		(layer "F.SilkS")
+		(uuid "4444f9bc-c1dc-44ae-8423-f33f4e75bd9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(gr_text "Top edge arc\ncentre point"
 		(at 152.4 146.812 0)

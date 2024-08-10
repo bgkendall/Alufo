@@ -665,5 +665,8 @@
       "Matrix"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "bgkendall",
+    "PCB_REVISION": "1.0"
+  }
 }

@@ -5,7 +5,11 @@
 	(uuid "323524c6-0ba1-44e6-914f-484921c5e48e")
 	(paper "A4")
 	(title_block
-		(comment 1 "Key switch matrix")
+		(title "Alumirror ")
+		(rev "0.1")
+		(company "bgkendall")
+		(comment 1 "Split one-layer reversible keyboard PCB")
+		(comment 2 "Key switch matrix for")
 	)
 	(lib_symbols
 		(symbol "Device:D"
