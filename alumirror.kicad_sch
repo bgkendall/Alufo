@@ -3819,10 +3819,6 @@
 		(uuid "19a274ac-a052-4424-aecb-7f9bac89bf67")
 	)
 	(no_connect
-		(at 60.96 60.96)
-		(uuid "2023d167-e4a6-48a7-8273-cd7584b97759")
-	)
-	(no_connect
 		(at 168.91 189.23)
 		(uuid "21be68a4-bb94-49ef-a3f5-c66ed2508407")
 	)
@@ -3877,6 +3873,10 @@
 	(no_connect
 		(at 39.37 189.23)
 		(uuid "79e16984-f261-41ea-a178-05909d7c1d18")
+	)
+	(no_connect
+		(at 38.1 43.18)
+		(uuid "7e6e8b1e-46e8-4383-b005-722b57a813b6")
 	)
 	(no_connect
 		(at 85.09 220.98)
@@ -5112,22 +5112,22 @@
 	)
 	(global_label "Col4L"
 		(shape input)
-		(at 38.1 43.18 180)
+		(at 60.96 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "378e4452-e8fa-4f75-9692-b366dae43eff")
+		(uuid "325a17d3-3c4e-4c6b-af81-f4d4e58b5d1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.793 43.18 0)
+			(at 69.267 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5728,7 +5728,7 @@
 	)
 	(global_label "Col5"
 		(shape input)
-		(at 60.96 66.04 0)
+		(at 60.96 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5738,7 +5738,7 @@
 		)
 		(uuid "bb29ac95-a170-4d4c-9074-ef521ad2fea8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2389 66.04 0)
+			(at 68.2389 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,7 +6014,7 @@
 	)
 	(global_label "Row0"
 		(shape input)
-		(at 60.96 63.5 0)
+		(at 60.96 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6024,7 +6024,7 @@
 		)
 		(uuid "dd20d050-2cc6-4f17-92fe-f837adb8fd1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9042 63.5 0)
+			(at 68.9042 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,7 +11922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 128.27 62.738 90)
 			(effects
 				(font
