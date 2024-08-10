@@ -332,7 +332,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b40fd6c8-4fe9-46fa-8215-399e685a7c2d")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -540,7 +540,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/dc3b9026-7f81-4c46-95e1-dde3299056de")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -1404,7 +1404,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/6c70e3f4-4111-43d5-a590-eaf662e44282")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -1722,7 +1722,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e7ee6bee-8a50-4240-b86a-e5af7af652ce")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1852,7 +1852,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/c8c5575a-a1da-4638-8d4e-2316d8ad83ad")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 -0.99)
@@ -2181,7 +2181,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/216f0f7f-c365-4960-b27b-bbb7e0c3f0ab")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -3019,7 +3019,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/597d1291-ee34-4b08-8f17-8c53cfd7fe29")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -3269,7 +3269,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/784515f4-94af-4dff-819d-51be3e85aef6")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -3477,7 +3477,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7fe0432b-de52-4c03-8b4a-06e24feed117")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -4315,7 +4315,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f0371eef-6112-475b-a1ef-ccce6168b1b1")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -4565,7 +4565,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/26f94493-6a73-4eb5-a41e-365d837e801d")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -4878,7 +4878,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/68eaca40-f305-45e4-b346-0c21bfe2901d")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -5716,7 +5716,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0c4d77e4-b0a3-4a60-8c02-de8e005ad164")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -6554,7 +6554,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/042b6c04-96c7-4845-a5f2-0f63e6db85f9")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.7 2)
@@ -7024,7 +7024,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/09ac8e54-c8a3-4754-8ce6-4df568de10df")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -7347,7 +7347,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/017931d2-c52e-473a-8b7c-c9d94bbc960c")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -7586,7 +7586,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/eb58befc-e000-4e1e-a087-9ce9ead50168")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 -0.85)
@@ -7897,7 +7897,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/ff459a94-7666-41ab-a85a-7e242a7ab4dc")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -8240,7 +8240,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/8c58f811-dde7-445e-bbc9-3e63fc33d027")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -8552,7 +8552,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/85f01ba4-3a07-40e6-b1a3-c74a5fec10c3")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -9385,7 +9385,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/6a7afaf7-4e2e-47e5-8d82-ee176b88fe44")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -10249,7 +10249,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/db9b83ee-cedb-4174-beb7-9d469a4bad57")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -10546,7 +10546,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/4f7deb15-d868-46a1-8317-394cf3fbb561")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -10796,7 +10796,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/91a3b107-1c86-4c49-8bb6-b542215bef87")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -11009,7 +11009,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/2b185fcc-c821-47ef-8529-1db04ee0b12d")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -11228,7 +11228,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f5501762-e65d-4368-9346-d0d6d0687fdb")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -12092,7 +12092,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6f4bc759-4cdc-46a9-a248-5d9a67aa763e")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -12307,7 +12307,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/9a7114d8-e2b9-4399-abe6-26259cb4e40c")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
@@ -12418,7 +12418,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/c8e7c4f1-cbe4-42a8-a6f9-1005af6ba08c")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -12668,7 +12668,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/3fd96573-7385-48ff-93af-ffd0ce757dc6")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -12991,7 +12991,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/7b7644d0-bee4-4c1f-8b58-75d16daa12b4")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.162779 0.51)
@@ -13230,7 +13230,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/ef153a71-208f-4628-b56f-5d4f66d19234")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -13522,7 +13522,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/4882b6ba-3d1c-4be8-807a-a6dba655fc5c")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -14355,7 +14355,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5d1e9425-8fea-42e9-9c44-275820e0a437")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -15188,7 +15188,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/855e7eeb-6c23-41a2-b8f8-0a95b7d2ba46")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -16033,7 +16033,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/cc1f9d97-6da7-4373-99bd-15e0e3688f5c")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
@@ -16144,7 +16144,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/727ea1f7-a782-44e2-ab10-bc799e92a224")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.7 2)
@@ -16589,7 +16589,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/1749a226-d743-4207-86ab-2a51ab49d6a4")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -16719,7 +16719,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/0c93c999-1ea9-40cb-9175-49fffcd2f38a")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 0.99)
@@ -17053,7 +17053,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/9f5518a0-40b4-4e64-8e98-3f22686fc000")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 -0.99)
@@ -17387,7 +17387,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a1246ed9-ff66-4027-8b33-f8b20f7c33f3")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -17612,7 +17612,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0cc6e4c1-5de3-49aa-abd6-26caa592a5b7")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -17737,7 +17737,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/25500372-659d-435f-904b-ea7e02b38d3e")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -18575,7 +18575,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/160b356f-7bda-4e84-a480-e44e5a5e58cd")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -19439,7 +19439,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/846236da-51cd-4c39-aaae-943dfc3b798d")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -19782,7 +19782,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba3069a5-ba16-45e1-a2c0-38af7b85764e")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -20077,7 +20077,7 @@
 		)
 		(path "/467aeef4-18e1-49c8-82d1-b9c178532c97")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -20514,7 +20514,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f2a2f7cd-2c63-4508-958d-97f0a3618a39")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -20826,7 +20826,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d14abc8d-cd7e-442d-b6d9-d1bb349f7137")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -21690,7 +21690,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c76a87d1-6548-4c05-a2b1-0b5c01be826a")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -21929,7 +21929,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/22481b4f-c9c8-462f-968c-e360e46f38f7")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -22154,7 +22154,7 @@
 		)
 		(path "/1f23f698-29d7-4b79-9d4d-16bd7ff6f6c1")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -3.385)
@@ -22591,7 +22591,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/5adfa011-60ae-452d-a38a-7fd5ccc24a5b")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.7 2)
@@ -23047,7 +23047,7 @@
 		)
 		(path "/c49d48fd-b03c-46b7-b417-27471cf0a100")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -3.385)
@@ -23510,7 +23510,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8f045435-1cc7-4763-8e9f-611e2b9084a0")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -23718,7 +23718,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/71886eed-0851-4047-bfcf-6b0c8179158b")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -24582,7 +24582,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a72cccd9-12e0-440b-9228-483ce33f330d")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -24925,7 +24925,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/3f41ae48-43ca-41a0-b836-6136f8484caa")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -25268,7 +25268,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/99717b07-1fce-45b2-903d-4710dc0f5428")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -25585,7 +25585,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d7d0f4a8-dbe1-4fa7-9887-e47051b06616")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -25810,7 +25810,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ab210c86-d523-43a8-8bd4-ecbbd75ee9d5")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -25966,7 +25966,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/9e6a82ff-77be-4eb4-bfce-37690faa0cde")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -26309,7 +26309,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/2b3fb19b-0fa9-41d3-a0f9-9834db038b69")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -26652,7 +26652,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d134f743-9d2b-4f71-b815-9984d5e3bcd8")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -26995,7 +26995,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/65087728-7554-407d-81fc-f65eceb4d37d")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -27338,7 +27338,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f079c958-dba1-4a5e-959f-41c8475c95ea")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -27656,7 +27656,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/33072f74-5ed2-46fe-a151-55622accb5e8")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -27895,7 +27895,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2f604cba-ebee-431a-b1d4-0432bca71890")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 -0.85)
@@ -28181,7 +28181,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/55695a68-c2f9-4179-a0c2-3cb3367e669b")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -28391,7 +28391,7 @@
 		(property ki_fp_filters "SW* SP3T*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5a1ce6cc-6c45-43f8-a710-10282d2e2f15")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -29455,7 +29455,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/4d619561-061d-475b-8aca-da237f93468e")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 0.56)
@@ -29690,7 +29690,7 @@
 		)
 		(path "/ea8ee0c6-d58d-465f-b8bf-38149582708c")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.72 1.04)
@@ -30292,7 +30292,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/849f1b0b-0dad-456c-ae90-78c30426b513")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -30635,7 +30635,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9ced2b09-d5ea-4371-93e3-14bead43db7c")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -30848,7 +30848,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/0c09852c-d21f-4e48-b9da-2bf405256fce")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.7 -1.9)
@@ -31292,7 +31292,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/1945e799-8155-439c-b9a6-8455df89e3ce")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -31511,7 +31511,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/da53bbf2-561e-4023-8416-02750fd638f5")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -32349,7 +32349,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/5215cc88-bf86-4895-b1d8-0fb7f9e4eb9d")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 0.99)
@@ -32709,7 +32709,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5f54bcc3-cec9-4bb4-aa2f-8cf61a4d8c67")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -33006,7 +33006,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e3e0be27-0b65-46c3-939d-e0d903431c35")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -33245,7 +33245,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/81ec5d65-f94d-45ca-8f3a-c1f6b5e1d42c")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -33562,7 +33562,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5cdbd2a1-d37c-41e9-9192-fee15e1fdd69")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -33786,7 +33786,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/4f300d7d-2bc5-44c9-9cd3-8f6884ed5b19")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -34036,7 +34036,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e3926a83-d1ad-4770-88c8-ad01893e7c88")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -34275,7 +34275,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/0ede0dce-f951-4a7b-aef3-b18b6e1ae288")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.162779 0.51)
@@ -34483,7 +34483,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0e40a047-bfa5-4858-a80b-daed7ec5f3d7")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -35347,7 +35347,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/52a43939-da5e-47f7-b485-3b94622c5330")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -35560,7 +35560,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1cdd3364-bd5b-446e-8162-392d3de066f9")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -35853,7 +35853,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7f69d6d3-6224-4a53-b149-4991e72e83ce")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -36165,7 +36165,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7535f086-45f1-4298-b23d-a2232035088f")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -37029,7 +37029,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/26954e1a-b86f-441a-9681-f939f4b5a777")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -37242,7 +37242,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d738f77a-6033-4d9c-bc26-4cad8bdd2639")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -37450,7 +37450,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/167508b7-2fad-4433-9eb4-919ddf6a8fd5")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -8.75 -8.25)
@@ -38314,7 +38314,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/91c4348e-0186-4346-a79c-d7a7511e9b35")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -38632,7 +38632,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/16d226dc-7a1c-481c-b543-64d250beb820")
 		(sheetname "Root")
-		(sheetfile "alumirror.kicad_sch")
+		(sheetfile "Alumirror.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -38788,7 +38788,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/894e4bb6-9aa7-4965-bf77-01f96ea2b5f2")
 		(sheetname "Matrix")
-		(sheetfile "alumirror-matrix.kicad_sch")
+		(sheetfile "Alumirror-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
