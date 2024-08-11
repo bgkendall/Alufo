@@ -112,17 +112,12 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 2.7 2.7)
-		(drill 2.7)
-		(layers "F.Mask")
-		(uuid "949f2f2f-e88f-4142-aed0-64c4cb342c9d")
-	)
-	(pad "" connect circle
+	(pad "" thru_hole circle
 		(at 0 0)
 		(size 4.7 4.7)
-		(layers "F.Cu" "F.Mask")
-		(uuid "46e261c9-c6b9-4d6d-aa00-187a23acb7e1")
+		(drill 2.7)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "949f2f2f-e88f-4142-aed0-64c4cb342c9d")
 	)
 )

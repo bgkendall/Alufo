@@ -229,6 +229,7 @@
 		(size 0.6 0.75)
 		(rect_delta -0.45 0)
 		(layers "F.Cu")
+		(clearance 0.127)
 		(zone_connect 2)
 		(uuid "c95a2776-d273-4921-a13a-a25a2eb3da66")
 	)
