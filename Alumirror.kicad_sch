@@ -4804,6 +4804,25 @@
 		)
 		(uuid "5bcfd1c3-7878-430e-89e2-7bc6f2c7b7db")
 	)
+	(text_box "NOTE ON NUMBERING\n\n• For single-digit components:\n  • Odd numbers are populated on the lefthand board only\n  • Even numbers are populated on the righthand board only\n• Double-digit components are populated on both sides"
+		(exclude_from_sim no)
+		(at 15.24 314.96 0)
+		(size 64.77 21.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62ac187d-6dc7-48c8-83c7-5a8f44f6d8c3")
+	)
 	(text_box "Split Connection"
 		(exclude_from_sim no)
 		(at 15.24 139.7 90)
@@ -5075,7 +5094,7 @@
 			)
 		)
 	)
-	(global_label "Col0"
+	(global_label "Col1"
 		(shape input)
 		(at 38.1 53.34 180)
 		(fields_autoplaced yes)
@@ -5099,7 +5118,7 @@
 	)
 	(global_label "TX_PL"
 		(shape input)
-		(at 120.65 179.07 0)
+		(at 125.73 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5109,7 +5128,7 @@
 		)
 		(uuid "2eea1fd1-a70e-4fca-b02a-f0c32cf9746d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.078 179.07 0)
+			(at 134.158 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +5138,7 @@
 			)
 		)
 	)
-	(global_label "Col4L"
+	(global_label "Col5L"
 		(shape input)
 		(at 60.96 63.5 0)
 		(fields_autoplaced yes)
@@ -5163,7 +5182,7 @@
 			)
 		)
 	)
-	(global_label "Row2"
+	(global_label "Row3"
 		(shape input)
 		(at 38.1 60.96 180)
 		(fields_autoplaced yes)
@@ -5229,7 +5248,7 @@
 			)
 		)
 	)
-	(global_label "Row1"
+	(global_label "Row2"
 		(shape input)
 		(at 38.1 58.42 180)
 		(fields_autoplaced yes)
@@ -5251,7 +5270,7 @@
 			)
 		)
 	)
-	(global_label "Col2L"
+	(global_label "Col3L"
 		(shape input)
 		(at 38.1 48.26 180)
 		(fields_autoplaced yes)
@@ -5295,7 +5314,7 @@
 			)
 		)
 	)
-	(global_label "Col1L"
+	(global_label "Col2L"
 		(shape input)
 		(at 38.1 50.8 180)
 		(fields_autoplaced yes)
@@ -5317,7 +5336,7 @@
 			)
 		)
 	)
-	(global_label "Col4R"
+	(global_label "Col5R"
 		(shape input)
 		(at 167.64 50.8 180)
 		(fields_autoplaced yes)
@@ -5515,7 +5534,7 @@
 			)
 		)
 	)
-	(global_label "Col3R"
+	(global_label "Col4R"
 		(shape input)
 		(at 167.64 53.34 180)
 		(fields_autoplaced yes)
@@ -5559,7 +5578,7 @@
 			)
 		)
 	)
-	(global_label "Col3L"
+	(global_label "Col4L"
 		(shape input)
 		(at 60.96 66.04 0)
 		(fields_autoplaced yes)
@@ -5581,7 +5600,7 @@
 			)
 		)
 	)
-	(global_label "Row3R"
+	(global_label "Row4R"
 		(shape input)
 		(at 190.5 66.04 0)
 		(fields_autoplaced yes)
@@ -5605,7 +5624,7 @@
 	)
 	(global_label "RX_L"
 		(shape input)
-		(at 110.49 181.61 180)
+		(at 115.57 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5615,7 +5634,7 @@
 		)
 		(uuid "b0bf5b5f-8aaa-4a7b-a284-661166a345b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.0296 181.61 0)
+			(at 108.1096 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5644,7 @@
 			)
 		)
 	)
-	(global_label "Col1R"
+	(global_label "Col2R"
 		(shape input)
 		(at 167.64 60.96 180)
 		(fields_autoplaced yes)
@@ -5691,7 +5710,7 @@
 			)
 		)
 	)
-	(global_label "Row1"
+	(global_label "Row2"
 		(shape input)
 		(at 167.64 63.5 180)
 		(fields_autoplaced yes)
@@ -5715,7 +5734,7 @@
 	)
 	(global_label "TX_L"
 		(shape input)
-		(at 110.49 179.07 180)
+		(at 115.57 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5725,7 +5744,7 @@
 		)
 		(uuid "b7dca4ea-2b00-4076-ba8e-135877bf9874")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.332 179.07 0)
+			(at 108.412 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5754,7 @@
 			)
 		)
 	)
-	(global_label "Col5"
+	(global_label "Col6"
 		(shape input)
 		(at 60.96 60.96 0)
 		(fields_autoplaced yes)
@@ -5801,7 +5820,7 @@
 			)
 		)
 	)
-	(global_label "Row2"
+	(global_label "Row3"
 		(shape input)
 		(at 167.64 66.04 180)
 		(fields_autoplaced yes)
@@ -5889,7 +5908,7 @@
 			)
 		)
 	)
-	(global_label "Col0"
+	(global_label "Col1"
 		(shape input)
 		(at 167.64 48.26 180)
 		(fields_autoplaced yes)
@@ -6021,7 +6040,7 @@
 			)
 		)
 	)
-	(global_label "Row0"
+	(global_label "Row1"
 		(shape input)
 		(at 60.96 53.34 0)
 		(fields_autoplaced yes)
@@ -6043,7 +6062,7 @@
 			)
 		)
 	)
-	(global_label "Row0"
+	(global_label "Row1"
 		(shape input)
 		(at 167.64 43.18 180)
 		(fields_autoplaced yes)
@@ -6065,7 +6084,7 @@
 			)
 		)
 	)
-	(global_label "Col5"
+	(global_label "Col6"
 		(shape input)
 		(at 167.64 45.72 180)
 		(fields_autoplaced yes)
@@ -6089,7 +6108,7 @@
 	)
 	(global_label "RX_PL"
 		(shape input)
-		(at 120.65 181.61 0)
+		(at 125.73 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6099,7 +6118,7 @@
 		)
 		(uuid "e9c9e6d6-0699-4848-aeb3-8cf09e6ce812")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3804 181.61 0)
+			(at 134.4604 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6172,7 @@
 			)
 		)
 	)
-	(global_label "Col2R"
+	(global_label "Col3R"
 		(shape input)
 		(at 167.64 58.42 180)
 		(fields_autoplaced yes)
@@ -7581,7 +7600,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 115.57 173.99 0)
+		(at 120.65 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7590,7 +7609,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ca39e25-923f-4958-8e24-b292d7ac764d")
 		(property "Reference" "#PWR02"
-			(at 115.57 177.8 0)
+			(at 120.65 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7618,7 @@
 			)
 		)
 		(property "Value" "VCC_L'"
-			(at 115.57 168.91 0)
+			(at 120.65 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 173.99 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 173.99 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 173.99 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8357,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2P6")
-		(at 115.57 179.07 0)
+		(at 120.65 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8347,7 +8366,7 @@
 		(fields_autoplaced yes)
 		(uuid "5215cc88-bf86-4895-b1d8-0fb7f9e4eb9d")
 		(property "Reference" "U5"
-			(at 117.2211 171.45 0)
+			(at 122.3011 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8375,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 117.2211 173.99 0)
+			(at 122.3011 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8384,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SOT-666_Mod"
-			(at 116.586 185.801 0)
+			(at 121.666 185.801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +8395,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 116.586 187.706 0)
+			(at 121.666 187.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8405,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
-			(at 115.57 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 186.69 0)
+		(at 120.65 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8520,7 +8539,7 @@
 		(fields_autoplaced yes)
 		(uuid "5448049f-32ea-4f98-8874-2924dd2d9a19")
 		(property "Reference" "#PWR014"
-			(at 115.57 193.04 0)
+			(at 120.65 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 191.77 0)
+			(at 120.65 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 186.69 0)
+			(at 120.65 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 186.69 0)
+			(at 120.65 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 186.69 0)
+			(at 120.65 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,7 +10068,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 132.08 60.96 270)
+		(at 124.46 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10058,7 +10077,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a762c41-2091-49f5-b237-608f9f44843e")
 		(property "Reference" "#PWR019"
-			(at 128.27 60.96 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10086,7 @@
 			)
 		)
 		(property "Value" "VCC_L'"
-			(at 135.89 60.9599 90)
+			(at 128.27 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,7 +10095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 60.96 0)
+			(at 124.46 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +10104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 60.96 0)
+			(at 124.46 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 60.96 0)
+			(at 124.46 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +11926,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 60.96 90)
+		(at 120.65 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11916,7 +11935,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3e0be27-0b65-46c3-939d-e0d903431c35")
 		(property "Reference" "R7"
-			(at 128.27 54.61 90)
+			(at 120.65 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11924,7 +11943,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 128.27 57.15 90)
+			(at 120.65 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +11951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 128.27 62.738 90)
+			(at 120.65 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +11960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 60.96 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,7 +11969,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 60.96 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12345,7 +12364,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 124.46 60.96 90)
+		(at 116.84 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12354,7 +12373,7 @@
 		(fields_autoplaced yes)
 		(uuid "f76409f1-90e1-48d8-bba7-0b4f93357437")
 		(property "Reference" "#PWR018"
-			(at 128.27 60.96 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,7 +12382,7 @@
 			)
 		)
 		(property "Value" "VCC_L"
-			(at 120.65 60.9599 90)
+			(at 113.03 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 60.96 0)
+			(at 116.84 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12381,7 +12400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 60.96 0)
+			(at 116.84 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12390,7 +12409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 60.96 0)
+			(at 116.84 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1788,7 +1788,7 @@
 		)
 		(uuid "e55453b1-eb61-418d-b5e7-680a7279557b")
 	)
-	(global_label "Col4T"
+	(global_label "Col5T"
 		(shape input)
 		(at 199.39 83.82 270)
 		(fields_autoplaced yes)
@@ -1810,7 +1810,7 @@
 			)
 		)
 	)
-	(global_label "Row2"
+	(global_label "Row3"
 		(shape input)
 		(at 68.58 106.68 180)
 		(fields_autoplaced yes)
@@ -1832,7 +1832,7 @@
 			)
 		)
 	)
-	(global_label "Row2"
+	(global_label "Row3"
 		(shape input)
 		(at 123.19 154.94 180)
 		(fields_autoplaced yes)
@@ -1854,7 +1854,7 @@
 			)
 		)
 	)
-	(global_label "Col1RT"
+	(global_label "Col2RT"
 		(shape input)
 		(at 88.9 146.05 0)
 		(fields_autoplaced yes)
@@ -1876,7 +1876,7 @@
 			)
 		)
 	)
-	(global_label "Col2R"
+	(global_label "Col3R"
 		(shape input)
 		(at 143.51 60.96 0)
 		(fields_autoplaced yes)
@@ -1898,7 +1898,7 @@
 			)
 		)
 	)
-	(global_label "Col0T"
+	(global_label "Col1T"
 		(shape input)
 		(at 57.15 148.59 0)
 		(fields_autoplaced yes)
@@ -1920,7 +1920,7 @@
 			)
 		)
 	)
-	(global_label "Col5T"
+	(global_label "Col6T"
 		(shape input)
 		(at 165.1 147.32 0)
 		(fields_autoplaced yes)
@@ -1942,7 +1942,7 @@
 			)
 		)
 	)
-	(global_label "Col0"
+	(global_label "Col1"
 		(shape input)
 		(at 87.63 53.34 0)
 		(fields_autoplaced yes)
@@ -1964,7 +1964,7 @@
 			)
 		)
 	)
-	(global_label "Col2RT"
+	(global_label "Col3RT"
 		(shape input)
 		(at 166.37 93.98 0)
 		(fields_autoplaced yes)
@@ -1986,7 +1986,7 @@
 			)
 		)
 	)
-	(global_label "Col1RT"
+	(global_label "Col2RT"
 		(shape input)
 		(at 138.43 93.98 0)
 		(fields_autoplaced yes)
@@ -2008,7 +2008,7 @@
 			)
 		)
 	)
-	(global_label "Col3RT"
+	(global_label "Col4RT"
 		(shape input)
 		(at 194.31 99.06 0)
 		(fields_autoplaced yes)
@@ -2030,7 +2030,7 @@
 			)
 		)
 	)
-	(global_label "Col5T"
+	(global_label "Col6T"
 		(shape input)
 		(at 227.33 81.28 0)
 		(fields_autoplaced yes)
@@ -2052,7 +2052,7 @@
 			)
 		)
 	)
-	(global_label "Row3R"
+	(global_label "Row4R"
 		(shape input)
 		(at 40.64 156.21 180)
 		(fields_autoplaced yes)
@@ -2074,7 +2074,7 @@
 			)
 		)
 	)
-	(global_label "Col4L"
+	(global_label "Col5L"
 		(shape input)
 		(at 199.39 43.18 0)
 		(fields_autoplaced yes)
@@ -2096,7 +2096,7 @@
 			)
 		)
 	)
-	(global_label "Col3R"
+	(global_label "Col4R"
 		(shape input)
 		(at 171.45 60.96 0)
 		(fields_autoplaced yes)
@@ -2118,7 +2118,7 @@
 			)
 		)
 	)
-	(global_label "Col5"
+	(global_label "Col6"
 		(shape input)
 		(at 88.9 166.37 0)
 		(fields_autoplaced yes)
@@ -2140,7 +2140,7 @@
 			)
 		)
 	)
-	(global_label "Row0"
+	(global_label "Row1"
 		(shape input)
 		(at 68.58 60.96 180)
 		(fields_autoplaced yes)
@@ -2162,7 +2162,7 @@
 			)
 		)
 	)
-	(global_label "Col2L"
+	(global_label "Col3L"
 		(shape input)
 		(at 143.51 38.1 0)
 		(fields_autoplaced yes)
@@ -2184,7 +2184,7 @@
 			)
 		)
 	)
-	(global_label "Col4T"
+	(global_label "Col5T"
 		(shape input)
 		(at 139.7 147.32 0)
 		(fields_autoplaced yes)
@@ -2206,7 +2206,7 @@
 			)
 		)
 	)
-	(global_label "Col1R"
+	(global_label "Col2R"
 		(shape input)
 		(at 115.57 60.96 0)
 		(fields_autoplaced yes)
@@ -2228,7 +2228,7 @@
 			)
 		)
 	)
-	(global_label "Col3RT"
+	(global_label "Col4RT"
 		(shape input)
 		(at 88.9 156.21 0)
 		(fields_autoplaced yes)
@@ -2250,7 +2250,7 @@
 			)
 		)
 	)
-	(global_label "Col3L"
+	(global_label "Col4L"
 		(shape input)
 		(at 171.45 38.1 0)
 		(fields_autoplaced yes)
@@ -2272,7 +2272,7 @@
 			)
 		)
 	)
-	(global_label "Col5"
+	(global_label "Col6"
 		(shape input)
 		(at 227.33 53.34 0)
 		(fields_autoplaced yes)
@@ -2294,7 +2294,7 @@
 			)
 		)
 	)
-	(global_label "Col2RT"
+	(global_label "Col3RT"
 		(shape input)
 		(at 88.9 151.13 0)
 		(fields_autoplaced yes)
@@ -2316,7 +2316,7 @@
 			)
 		)
 	)
-	(global_label "Row1"
+	(global_label "Row2"
 		(shape input)
 		(at 68.58 88.9 180)
 		(fields_autoplaced yes)
@@ -2338,7 +2338,7 @@
 			)
 		)
 	)
-	(global_label "Col0T"
+	(global_label "Col1T"
 		(shape input)
 		(at 110.49 99.06 0)
 		(fields_autoplaced yes)
@@ -2360,7 +2360,7 @@
 			)
 		)
 	)
-	(global_label "Col1L"
+	(global_label "Col2L"
 		(shape input)
 		(at 115.57 43.18 0)
 		(fields_autoplaced yes)
@@ -2382,7 +2382,7 @@
 			)
 		)
 	)
-	(global_label "Col4T"
+	(global_label "Col5T"
 		(shape input)
 		(at 88.9 161.29 0)
 		(fields_autoplaced yes)
@@ -2404,7 +2404,7 @@
 			)
 		)
 	)
-	(global_label "Col4R"
+	(global_label "Col5R"
 		(shape input)
 		(at 199.39 60.96 0)
 		(fields_autoplaced yes)
@@ -2435,7 +2435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09ac8e54-c8a3-4754-8ce6-4df568de10df")
-		(property "Reference" "D34"
+		(property "Reference" "D45"
 			(at 82.804 160.274 0)
 			(effects
 				(font
@@ -2507,7 +2507,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D34")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c4d77e4-b0a3-4a60-8c02-de8e005ad164")
-		(property "Reference" "K13"
+		(property "Reference" "K24"
 			(at 161.29 58.42 0)
 			(effects
 				(font
@@ -2575,7 +2575,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K13")
+					(reference "K24")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e40a047-bfa5-4858-a80b-daed7ec5f3d7")
-		(property "Reference" "K12"
+		(property "Reference" "K23"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -2643,7 +2643,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K12")
+					(reference "K23")
 					(unit 1)
 				)
 			)
@@ -2659,7 +2659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "160b356f-7bda-4e84-a480-e44e5a5e58cd")
-		(property "Reference" "K22"
+		(property "Reference" "K33"
 			(at 161.29 86.36 0)
 			(effects
 				(font
@@ -2711,7 +2711,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K22")
+					(reference "K33")
 					(unit 1)
 				)
 			)
@@ -2727,7 +2727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "167508b7-2fad-4433-9eb4-919ddf6a8fd5")
-		(property "Reference" "K03"
+		(property "Reference" "K14"
 			(at 161.29 30.48 0)
 			(effects
 				(font
@@ -2779,7 +2779,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K03")
+					(reference "K14")
 					(unit 1)
 				)
 			)
@@ -2865,7 +2865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "216f0f7f-c365-4960-b27b-bbb7e0c3f0ab")
-		(property "Reference" "K23"
+		(property "Reference" "K34"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K23")
+					(reference "K34")
 					(unit 1)
 				)
 			)
@@ -2933,7 +2933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25500372-659d-435f-904b-ea7e02b38d3e")
-		(property "Reference" "K25"
+		(property "Reference" "K36"
 			(at 157.48 139.7 0)
 			(effects
 				(font
@@ -2985,7 +2985,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K25")
+					(reference "K36")
 					(unit 1)
 				)
 			)
@@ -3001,7 +3001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f94493-6a73-4eb5-a41e-365d837e801d")
-		(property "Reference" "D25"
+		(property "Reference" "D36"
 			(at 154.94 149.8599 90)
 			(effects
 				(font
@@ -3073,7 +3073,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D25")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -3158,7 +3158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3fb19b-0fa9-41d3-a0f9-9834db038b69")
-		(property "Reference" "DO1"
+		(property "Reference" "D12"
 			(at 102.87 45.7199 90)
 			(effects
 				(font
@@ -3230,7 +3230,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "DO1")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f41ae48-43ca-41a0-b836-6136f8484caa")
-		(property "Reference" "D20"
+		(property "Reference" "D31"
 			(at 102.87 101.5999 90)
 			(effects
 				(font
@@ -3317,7 +3317,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D20")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -3332,7 +3332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fd96573-7385-48ff-93af-ffd0ce757dc6")
-		(property "Reference" "D32"
+		(property "Reference" "D43"
 			(at 82.804 150.114 0)
 			(effects
 				(font
@@ -3404,7 +3404,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D32")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4882b6ba-3d1c-4be8-807a-a6dba655fc5c")
-		(property "Reference" "K00"
+		(property "Reference" "K11"
 			(at 77.47 45.72 0)
 			(effects
 				(font
@@ -3472,7 +3472,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K00")
+					(reference "K11")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a1ce6cc-6c45-43f8-a710-10282d2e2f15")
-		(property "Reference" "K31"
+		(property "Reference" "K42"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -3761,7 +3761,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K31")
+					(reference "K42")
 					(unit 1)
 				)
 			)
@@ -3847,7 +3847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d1e9425-8fea-42e9-9c44-275820e0a437")
-		(property "Reference" "K20"
+		(property "Reference" "K31"
 			(at 105.41 91.44 0)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K20")
+					(reference "K31")
 					(unit 1)
 				)
 			)
@@ -3914,7 +3914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f54bcc3-cec9-4bb4-aa2f-8cf61a4d8c67")
-		(property "Reference" "D35"
+		(property "Reference" "D46"
 			(at 82.804 165.354 0)
 			(effects
 				(font
@@ -3986,7 +3986,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D35")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -4002,7 +4002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65087728-7554-407d-81fc-f65eceb4d37d")
-		(property "Reference" "DO4"
+		(property "Reference" "D15"
 			(at 186.69 45.7199 90)
 			(effects
 				(font
@@ -4074,7 +4074,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "DO4")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4090,7 +4090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68eaca40-f305-45e4-b346-0c21bfe2901d")
-		(property "Reference" "K30"
+		(property "Reference" "K41"
 			(at 49.53 140.97 0)
 			(effects
 				(font
@@ -4142,7 +4142,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K30")
+					(reference "K41")
 					(unit 1)
 				)
 			)
@@ -4158,7 +4158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a7afaf7-4e2e-47e5-8d82-ee176b88fe44")
-		(property "Reference" "K10"
+		(property "Reference" "K21"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -4210,7 +4210,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K10")
+					(reference "K21")
 					(unit 1)
 				)
 			)
@@ -4225,7 +4225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c70e3f4-4111-43d5-a590-eaf662e44282")
-		(property "Reference" "D15"
+		(property "Reference" "D26"
 			(at 214.63 83.8199 90)
 			(effects
 				(font
@@ -4297,7 +4297,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D15")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4313,7 +4313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71886eed-0851-4047-bfcf-6b0c8179158b")
-		(property "Reference" "K04"
+		(property "Reference" "K15"
 			(at 189.23 35.56 0)
 			(effects
 				(font
@@ -4365,7 +4365,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K04")
+					(reference "K15")
 					(unit 1)
 				)
 			)
@@ -4381,7 +4381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7535f086-45f1-4298-b23d-a2232035088f")
-		(property "Reference" "K21"
+		(property "Reference" "K32"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -4433,7 +4433,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K21")
+					(reference "K32")
 					(unit 1)
 				)
 			)
@@ -4448,7 +4448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f69d6d3-6224-4a53-b149-4991e72e83ce")
-		(property "Reference" "D21"
+		(property "Reference" "D32"
 			(at 130.81 96.5199 90)
 			(effects
 				(font
@@ -4520,7 +4520,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D21")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fe0432b-de52-4c03-8b4a-06e24feed117")
-		(property "Reference" "K01"
+		(property "Reference" "K12"
 			(at 105.41 35.56 0)
 			(effects
 				(font
@@ -4588,7 +4588,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K01")
+					(reference "K12")
 					(unit 1)
 				)
 			)
@@ -4604,7 +4604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81ec5d65-f94d-45ca-8f3a-c1f6b5e1d42c")
-		(property "Reference" "D22"
+		(property "Reference" "D33"
 			(at 153.67 96.5199 90)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D22")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "846236da-51cd-4c39-aaae-943dfc3b798d")
-		(property "Reference" "DO5"
+		(property "Reference" "D16"
 			(at 214.63 55.8799 90)
 			(effects
 				(font
@@ -4763,7 +4763,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "DO5")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "849f1b0b-0dad-456c-ae90-78c30426b513")
-		(property "Reference" "D23"
+		(property "Reference" "D34"
 			(at 186.69 101.5999 90)
 			(effects
 				(font
@@ -4850,7 +4850,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D23")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -4866,7 +4866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "855e7eeb-6c23-41a2-b8f8-0a95b7d2ba46")
-		(property "Reference" "K24"
+		(property "Reference" "K35"
 			(at 132.08 139.7 0)
 			(effects
 				(font
@@ -4918,7 +4918,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K24")
+					(reference "K35")
 					(unit 1)
 				)
 			)
@@ -4934,7 +4934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85f01ba4-3a07-40e6-b1a3-c74a5fec10c3")
-		(property "Reference" "K14"
+		(property "Reference" "K25"
 			(at 189.23 63.5 0)
 			(effects
 				(font
@@ -4986,7 +4986,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K14")
+					(reference "K25")
 					(unit 1)
 				)
 			)
@@ -5002,7 +5002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "894e4bb6-9aa7-4965-bf77-01f96ea2b5f2")
-		(property "Reference" "D30"
+		(property "Reference" "D41"
 			(at 46.99 151.1299 90)
 			(effects
 				(font
@@ -5074,7 +5074,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D30")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -5090,7 +5090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c58f811-dde7-445e-bbc9-3e63fc33d027")
-		(property "Reference" "D10"
+		(property "Reference" "D21"
 			(at 74.93 83.8199 90)
 			(effects
 				(font
@@ -5162,7 +5162,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D10")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -5178,7 +5178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c4348e-0186-4346-a79c-d7a7511e9b35")
-		(property "Reference" "DO2"
+		(property "Reference" "D13"
 			(at 130.81 40.6399 90)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "DO2")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5266,7 +5266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99717b07-1fce-45b2-903d-4710dc0f5428")
-		(property "Reference" "D12"
+		(property "Reference" "D23"
 			(at 130.81 68.5799 90)
 			(effects
 				(font
@@ -5338,7 +5338,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D12")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -5354,7 +5354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e6a82ff-77be-4eb4-bfce-37690faa0cde")
-		(property "Reference" "D14"
+		(property "Reference" "D25"
 			(at 186.69 73.6599 90)
 			(effects
 				(font
@@ -5426,7 +5426,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D14")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -5512,7 +5512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a72cccd9-12e0-440b-9228-483ce33f330d")
-		(property "Reference" "DO0"
+		(property "Reference" "D11"
 			(at 74.93 55.8799 90)
 			(effects
 				(font
@@ -5584,7 +5584,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "DO0")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5670,7 +5670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d134f743-9d2b-4f71-b815-9984d5e3bcd8")
-		(property "Reference" "D13"
+		(property "Reference" "D24"
 			(at 158.75 68.5799 90)
 			(effects
 				(font
@@ -5742,7 +5742,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D13")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -5758,7 +5758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d14abc8d-cd7e-442d-b6d9-d1bb349f7137")
-		(property "Reference" "K11"
+		(property "Reference" "K22"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -5810,7 +5810,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K11")
+					(reference "K22")
 					(unit 1)
 				)
 			)
@@ -5895,7 +5895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da53bbf2-561e-4023-8416-02750fd638f5")
-		(property "Reference" "K02"
+		(property "Reference" "K13"
 			(at 133.35 30.48 0)
 			(effects
 				(font
@@ -5947,7 +5947,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K02")
+					(reference "K13")
 					(unit 1)
 				)
 			)
@@ -5962,7 +5962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db9b83ee-cedb-4174-beb7-9d469a4bad57")
-		(property "Reference" "D31"
+		(property "Reference" "D42"
 			(at 82.804 145.034 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D31")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -6050,7 +6050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc3b9026-7f81-4c46-95e1-dde3299056de")
-		(property "Reference" "K15"
+		(property "Reference" "K26"
 			(at 217.17 73.66 0)
 			(effects
 				(font
@@ -6102,7 +6102,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K15")
+					(reference "K26")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef153a71-208f-4628-b56f-5d4f66d19234")
-		(property "Reference" "D33"
+		(property "Reference" "D44"
 			(at 83.058 155.194 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D33")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -6275,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f079c958-dba1-4a5e-959f-41c8475c95ea")
-		(property "Reference" "D24"
+		(property "Reference" "D35"
 			(at 129.54 149.8599 90)
 			(effects
 				(font
@@ -6347,7 +6347,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D24")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2a2f7cd-2c63-4508-958d-97f0a3618a39")
-		(property "Reference" "D11"
+		(property "Reference" "D22"
 			(at 102.87 73.6599 90)
 			(effects
 				(font
@@ -6435,7 +6435,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D11")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6451,7 +6451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5501762-e65d-4368-9346-d0d6d0687fdb")
-		(property "Reference" "K05"
+		(property "Reference" "K16"
 			(at 217.17 45.72 0)
 			(effects
 				(font
@@ -6503,7 +6503,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K05")
+					(reference "K16")
 					(unit 1)
 				)
 			)
@@ -6519,7 +6519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff459a94-7666-41ab-a85a-7e242a7ab4dc")
-		(property "Reference" "DO3"
+		(property "Reference" "D14"
 			(at 158.75 40.6399 90)
 			(effects
 				(font
@@ -6591,7 +6591,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "DO3")
+					(reference "D14")
 					(unit 1)
 				)
 			)
