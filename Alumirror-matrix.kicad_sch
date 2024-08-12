@@ -2795,7 +2795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1945e799-8155-439c-b9a6-8455df89e3ce")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 146.05 44.4499 0)
 			(effects
 				(font
@@ -2849,7 +2849,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3088,7 +3088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b185fcc-c821-47ef-8529-1db04ee0b12d")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 90.17 59.6899 0)
 			(effects
 				(font
@@ -3142,7 +3142,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3488,7 +3488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f300d7d-2bc5-44c9-9cd3-8f6884ed5b19")
-		(property "Reference" "R9"
+		(property "Reference" "R19"
 			(at 173.99 72.3899 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R9")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3558,7 +3558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f7deb15-d868-46a1-8317-394cf3fbb561")
-		(property "Reference" "R6"
+		(property "Reference" "R16"
 			(at 229.87 59.6899 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R6")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "597d1291-ee34-4b08-8f17-8c53cfd7fe29")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 118.11 49.5299 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3777,7 +3777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cdbd2a1-d37c-41e9-9192-fee15e1fdd69")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 173.99 44.4499 0)
 			(effects
 				(font
@@ -3831,7 +3831,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5442,7 +5442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1246ed9-ff66-4027-8b33-f8b20f7c33f3")
-		(property "Reference" "R8"
+		(property "Reference" "R18"
 			(at 146.05 72.3899 0)
 			(effects
 				(font
@@ -5496,7 +5496,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R8")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5600,7 +5600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e7c4f1-cbe4-42a8-a6f9-1005af6ba08c")
-		(property "Reference" "R7"
+		(property "Reference" "R17"
 			(at 118.11 77.4699 0)
 			(effects
 				(font
@@ -5654,7 +5654,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R7")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5825,7 +5825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7d0f4a8-dbe1-4fa7-9887-e47051b06616")
-		(property "Reference" "R10"
+		(property "Reference" "R20"
 			(at 201.93 77.4699 0)
 			(effects
 				(font
@@ -5879,7 +5879,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R10")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0371eef-6112-475b-a1ef-ccce6168b1b1")
-		(property "Reference" "R5"
+		(property "Reference" "R15"
 			(at 201.93 49.5299 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 		(instances
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R5")
+					(reference "R15")
 					(unit 1)
 				)
 			)
