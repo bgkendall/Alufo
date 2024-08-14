@@ -4814,10 +4814,10 @@
 		)
 		(uuid "5bcfd1c3-7878-430e-89e2-7bc6f2c7b7db")
 	)
-	(text_box "NOTE ON NUMBERING\n\n• For single-digit components:\n  • Odd numbers are populated on the lefthand board only\n  • Even numbers are populated on the righthand board only\n• Double-digit components are populated on both sides"
+	(text_box "NUMBERING NOTES\n\n• For single-digit components:\n  • Odd numbers are populated on the lefthand board only\n  • Even numbers are populated on the righthand board only\n• Double-digit components are populated on both sides\n• The SMD nuts, H1–6, are only populated when the PCB is acting as the base of the keyboard."
 		(exclude_from_sim no)
 		(at 15.24 314.96 0)
-		(size 64.77 21.59)
+		(size 99.06 24.13)
 		(stroke
 			(width 0)
 			(type default)
