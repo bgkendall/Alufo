@@ -1,0 +1,253 @@
+(footprint "SW_choc_v1_Plate_CPG135001S30_1.5u"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Hotswap footprint for Kailh Choc style switches")
+	(property "Reference" "REF**"
+		(at 5 7.4 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0710bc2d-ed75-4b97-9622-3d8684e11e26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CPG135001S30"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "604ad33e-cc54-415a-a3f4-bdd0f3d991ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7478c99-d84b-4f5e-af54-b3d83080cec7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00194839-e4d0-4588-a921-d1c7a3c7c2bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8dc15fc-b10f-4595-ba46-0da4dedec4b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.35 -5.2)
+		(end -7.35 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1967abbe-4890-4fa7-956d-63472659fd01")
+	)
+	(fp_line
+		(start -7.35 -1.8)
+		(end -7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff1bad06-b643-460a-9d8c-040e9663b6ae")
+	)
+	(fp_line
+		(start -7.35 1.8)
+		(end -7.35 5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c8a653e9-2805-4128-8b82-f079c74ed8e2")
+	)
+	(fp_line
+		(start -7.35 5.2)
+		(end -7 5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2ad27b8-908b-4beb-8480-8b5b407a2128")
+	)
+	(fp_line
+		(start -7 -5.2)
+		(end -7.35 -5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6aef5b6f-9a2c-4450-89c5-7cf5fbfcc637")
+	)
+	(fp_line
+		(start -7 1.8)
+		(end -7.35 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87977a9e-81ed-405f-bb90-914da7577013")
+	)
+	(fp_line
+		(start 7 -5.2)
+		(end 7.35 -5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67f9248c-aee2-4019-8d67-b0dbc6be76c4")
+	)
+	(fp_line
+		(start 7 1.8)
+		(end 7.35 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19360179-d499-4f1b-8c9a-2af32e1341d9")
+	)
+	(fp_line
+		(start 7.35 -5.2)
+		(end 7.35 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "037ca81d-5e52-4d54-9c4c-6f634c7b9ce1")
+	)
+	(fp_line
+		(start 7.35 -1.8)
+		(end 7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f24f840-d64f-46fa-bfab-fb1d525e9fa2")
+	)
+	(fp_line
+		(start 7.35 1.8)
+		(end 7.35 5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c8129821-b35a-46b8-9bb8-09b6e07dffb5")
+	)
+	(fp_line
+		(start 7.35 5.2)
+		(end 7 5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e47cb68-abea-4885-901e-1189b70bf03e")
+	)
+	(fp_rect
+		(start -13.5 -8.5)
+		(end 13.5 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "12d26d3e-1aed-4411-bbf3-71744ad9e5e8")
+	)
+	(fp_rect
+		(start -14.2875 -9.525)
+		(end 14.2875 9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "1e2c4e53-9810-4565-9a20-aafe9329edd1")
+	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "8981ab8e-3eda-4ce6-9bb0-010c1767b7d0")
+	)
+	(fp_text user "18x17 spacing"
+		(at 0 -7.6 180)
+		(layer "Dwgs.User")
+		(uuid "afc93f34-53b3-4429-b072-780ea85d3706")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "19.05 spacing"
+		(at 0 -8.7 180)
+		(layer "Eco1.User")
+		(uuid "254dbf29-885f-45ae-880c-b788cc7483e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+		(offset
+			(xyz -5 -3.75 0.12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
+)
