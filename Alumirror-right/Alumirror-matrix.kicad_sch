@@ -5113,6 +5113,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 217.17 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5425,6 +5426,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 217.17 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
