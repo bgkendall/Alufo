@@ -5774,7 +5774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u_clipped"
+		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 105.41 66.04 0)
 			(effects
 				(font
