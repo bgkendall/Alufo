@@ -4001,16 +4001,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 220.98) (xy 59.69 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5146c44a-789a-4d82-b4e5-5f14e61eef18")
-	)
-	(wire
-		(pts
 			(xy 132.08 43.18) (xy 134.62 43.18)
 		)
 		(stroke
@@ -4068,16 +4058,6 @@
 			(type default)
 		)
 		(uuid "61306324-dc38-4bcb-985a-2c7d4d3b41e7")
-	)
-	(wire
-		(pts
-			(xy 67.31 220.98) (xy 69.85 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c50868-7f50-439f-aeb6-8d3a97eeb1cd")
 	)
 	(wire
 		(pts
@@ -4942,7 +4922,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 55.88 220.98 180)
+		(at 69.85 220.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4952,7 +4932,7 @@
 		)
 		(uuid "c5ac3c84-fd6d-4e27-821d-ab335019f262")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4477 220.98 0)
+			(at 63.4177 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,91 +7887,6 @@
 			(project ""
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 220.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b40fd6c8-4fe9-46fa-8215-399e685a7c2d")
-		(property "Reference" "R9"
-			(at 63.5 216.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 63.5 218.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 63.5 222.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23186"
-			(at 63.5 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "311-5.10KHR"
-			(at 63.5 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ea76370-c0a3-47b2-a557-765f80ec7875")
-		)
-		(pin "2"
-			(uuid "5d1d21b3-d946-4d2a-a640-865a1e711884")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "R9")
 					(unit 1)
 				)
 			)
