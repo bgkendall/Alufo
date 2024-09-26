@@ -4463,7 +4463,7 @@
 	)
 	(global_label "Col1"
 		(shape input)
-		(at 38.1 58.42 180)
+		(at 38.1 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4473,7 +4473,7 @@
 		)
 		(uuid "2e59674f-a782-411a-a93d-ee5e12e4f572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.8211 58.42 0)
+			(at 30.8211 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4551,7 @@
 	)
 	(global_label "Row3"
 		(shape input)
-		(at 38.1 53.34 180)
+		(at 38.1 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4561,7 +4561,7 @@
 		)
 		(uuid "3bdc5077-79d3-49bd-bc9f-5131f8c2f84d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1558 53.34 0)
+			(at 30.1558 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4617,7 @@
 	)
 	(global_label "Row2"
 		(shape input)
-		(at 38.1 50.8 180)
+		(at 38.1 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4627,7 +4627,7 @@
 		)
 		(uuid "4ef2072d-e7cb-46f1-84f8-00fc36415c9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1558 50.8 0)
+			(at 30.1558 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4637,7 @@
 			)
 		)
 	)
-	(global_label "Col5"
+	(global_label "Col3"
 		(shape input)
 		(at 38.1 45.72 180)
 		(fields_autoplaced yes)
@@ -4813,7 +4813,7 @@
 			)
 		)
 	)
-	(global_label "Col3"
+	(global_label "Col5"
 		(shape input)
 		(at 60.96 66.04 0)
 		(fields_autoplaced yes)
@@ -5665,7 +5665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_L'"
+		(property "Value" "VCC_L"
 			(at 66.04 151.1299 90)
 			(effects
 				(font
@@ -5950,7 +5950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_L'"
+		(property "Value" "VCC_L"
 			(at 120.65 168.91 0)
 			(effects
 				(font
@@ -7477,73 +7477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 124.46 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a762c41-2091-49f5-b237-608f9f44843e")
-		(property "Reference" "#PWR019"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_L'"
-			(at 128.27 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4be19848-3e9c-45b8-8758-35275bb3ddde")
-		)
-		(instances
-			(project "Alumirror"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 120.65 0)
 		(unit 1)
@@ -8396,74 +8329,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 120.65 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3e0be27-0b65-46c3-939d-e0d903431c35")
-		(property "Reference" "R7"
-			(at 120.65 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 120.65 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 120.65 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e1c4b42-ba70-42e3-80f2-64529a8361b5")
-		)
-		(pin "2"
-			(uuid "71c32264-1b1d-46af-9ee6-94c9d719bd2d")
-		)
-		(instances
-			(project "Alumirror"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 254 270.51 0)
 		(unit 1)
@@ -8742,73 +8607,6 @@
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 116.84 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f76409f1-90e1-48d8-bba7-0b4f93357437")
-		(property "Reference" "#PWR018"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_L"
-			(at 113.03 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb003148-7c05-4ab5-8ddb-396dd44b8f38")
-		)
-		(instances
-			(project "Alumirror"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)

@@ -972,16 +972,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 115.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fe3c981-4ac3-468d-b1cb-ba3326f5d2a8")
-	)
-	(wire
-		(pts
 			(xy 199.39 43.18) (xy 199.39 71.12)
 		)
 		(stroke
@@ -1002,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 71.12) (xy 115.57 74.93)
+			(xy 115.57 71.12) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3921,76 +3911,6 @@
 			(project "Alumirror"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8e7c4f1-cbe4-42a8-a6f9-1005af6ba08c")
-		(property "Reference" "R17"
-			(at 118.11 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 118.11 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 113.792 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c58cee0c-a517-48fa-976f-23b6a0a7e3eb")
-		)
-		(pin "2"
-			(uuid "b5733985-4de8-499c-a8b6-e07a46375007")
-		)
-		(instances
-			(project "Alumirror"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R17")
 					(unit 1)
 				)
 			)
