@@ -8,7 +8,7 @@
 		(title "Alufo ")
 		(rev "0.1")
 		(company "bgkendall")
-		(comment 1 "Split one-layer reversible keyboard PCB")
+		(comment 1 "Split one-layer reversible keyboard PCB (righthand side)")
 		(comment 2 "Key switch matrix for")
 	)
 	(lib_symbols
@@ -809,12 +809,6 @@
 		(uuid "b44942d0-da8f-45b7-b72c-9fac4252f162")
 	)
 	(junction
-		(at 127 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c20de91c-5b27-40cf-8e81-66defefa8a57")
-	)
-	(junction
 		(at 184.15 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1002,16 +996,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 147.32) (xy 165.1 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32343bb9-4bc2-4d3a-bb85-e8e88a2666f0")
-	)
-	(wire
-		(pts
 			(xy 71.12 166.37) (xy 71.12 161.29)
 		)
 		(stroke
@@ -1152,16 +1136,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 154.94) (xy 127 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "548ee16a-e490-4fa9-bfc5-e07470d8ea5d")
-	)
-	(wire
-		(pts
 			(xy 71.12 166.37) (xy 73.66 166.37)
 		)
 		(stroke
@@ -1259,16 +1233,6 @@
 			(type default)
 		)
 		(uuid "7c37d778-9eb0-4b55-83a6-24062967211a")
-	)
-	(wire
-		(pts
-			(xy 127 154.94) (xy 152.4 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "814ea77b-f056-49e1-ba04-b89eea42636c")
 	)
 	(wire
 		(pts
@@ -1479,16 +1443,6 @@
 			(type default)
 		)
 		(uuid "c2615800-c105-4f78-bb55-3703f09854a1")
-	)
-	(wire
-		(pts
-			(xy 139.7 147.32) (xy 137.16 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c553f14a-ff5b-4306-9335-6210de6808c4")
 	)
 	(wire
 		(pts
@@ -1750,25 +1704,6 @@
 		)
 		(uuid "ff357b3c-462d-4c8c-9707-cdefeb77d1f3")
 	)
-	(text_box "Lefthand Thumb Keys"
-		(exclude_from_sim no)
-		(at 109.22 127 0)
-		(size 69.85 35.56)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left top)
-		)
-		(uuid "1424d19f-900f-46cf-b9dc-f0b4b5df7b61")
-	)
 	(text_box "Righthand Thumb Keys"
 		(exclude_from_sim no)
 		(at 25.4 127 0)
@@ -1823,28 +1758,6 @@
 		(uuid "09d05eb0-d670-4d06-8768-910fc8b35895")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.6358 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row3"
-		(shape input)
-		(at 123.19 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "13674cc3-b4a4-44c7-8f80-02d4140b658b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.2458 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,28 +1824,6 @@
 		(uuid "29c53cd1-d90b-4a75-926f-5885b4a5b311")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 65.3965 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col6T"
-		(shape input)
-		(at 165.1 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3922357b-68b3-4f8a-8a31-650e2aff1e51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3465 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,28 +2066,6 @@
 		(uuid "95c908de-2e43-48be-a045-72938e047f79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.817 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col5T"
-		(shape input)
-		(at 139.7 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c336b99-edc3-4420-a9de-956f14d69937")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9465 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,162 +2787,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "K34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25500372-659d-435f-904b-ea7e02b38d3e")
-		(property "Reference" "K36"
-			(at 157.48 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PG1350_1½U"
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1.5u"
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0cfeff02-2cef-4513-b94f-c5b3ea723675")
-		)
-		(pin "1"
-			(uuid "dc750bff-97e0-4615-9491-1b473fce7d7a")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 152.4 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26f94493-6a73-4eb5-a41e-365d837e801d")
-		(property "Reference" "D36"
-			(at 154.94 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 154.94 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "797d1046-1e2c-4304-b8fb-480bafbb5db5")
-		)
-		(pin "2"
-			(uuid "c4baa149-85e0-4b3e-be7b-6e965ae010f8")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -4858,74 +4571,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 132.08 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "855e7eeb-6c23-41a2-b8f8-0a95b7d2ba46")
-		(property "Reference" "K35"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PG1350"
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 132.08 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dae78d8f-66df-4fb0-ad7d-3bb2881334e9")
-		)
-		(pin "1"
-			(uuid "926b24d4-eb30-4d20-8b5f-10e8f67eac7d")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 189.23 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -6260,94 +5905,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 127 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f079c958-dba1-4a5e-959f-41c8475c95ea")
-		(property "Reference" "D35"
-			(at 129.54 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 129.54 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b6d2dc5-eef0-4805-8138-3d2edd0ba7e9")
-		)
-		(pin "2"
-			(uuid "90004d53-6960-432e-be55-f3d34ed2bdfd")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D35")
 					(unit 1)
 				)
 			)
