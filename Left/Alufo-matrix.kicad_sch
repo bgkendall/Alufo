@@ -8,7 +8,7 @@
 		(title "Alufo ")
 		(rev "0.1")
 		(company "bgkendall")
-		(comment 1 "Split one-layer reversible keyboard PCB")
+		(comment 1 "Split one-layer reversible keyboard PCB (left-hand side)")
 		(comment 2 "Key switch matrix for")
 	)
 	(lib_symbols
@@ -296,264 +296,6 @@
 				)
 			)
 		)
-		(symbol "Project Library:SW_SP5T"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SP5T"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.875 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -17.78 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, five position, single pole quintuple throw, 5 position switch, SP5T"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch sp3t ON-ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW* SP3T*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SP5T_0_1"
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.7569 -2.1414) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -7.62)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -5.08)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SP5T_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "Com"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name "Ctr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -719,12 +461,6 @@
 		(uuid "1be35016-eec2-4b62-9597-962cf06e5abf")
 	)
 	(junction
-		(at 44.45 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bf3aec6-ed08-4c08-bbc8-0dd84f9e0e5e")
-	)
-	(junction
 		(at 128.27 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -852,16 +588,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 146.05) (xy 73.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "093fbd0a-c96a-411e-bf6a-749d329ca7dd")
-	)
-	(wire
-		(pts
 			(xy 184.15 50.8) (xy 208.28 50.8)
 		)
 		(stroke
@@ -912,16 +638,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 148.59) (xy 57.15 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e20cf8-8c73-499f-a7aa-e4a8982edf1c")
-	)
-	(wire
-		(pts
 			(xy 128.27 73.66) (xy 120.65 78.74)
 		)
 		(stroke
@@ -952,16 +668,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 151.13) (xy 73.66 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a298345-cbde-4252-861d-e43c99369389")
-	)
-	(wire
-		(pts
 			(xy 208.28 60.96) (xy 210.82 60.96)
 		)
 		(stroke
@@ -969,16 +675,6 @@
 			(type default)
 		)
 		(uuid "2ae64d31-bd8c-4978-a2ee-d4d40d9e0b83")
-	)
-	(wire
-		(pts
-			(xy 71.12 156.21) (xy 73.66 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b22439c-e57c-47a5-be44-ec311250b040")
 	)
 	(wire
 		(pts
@@ -1009,16 +705,6 @@
 			(type default)
 		)
 		(uuid "32343bb9-4bc2-4d3a-bb85-e8e88a2666f0")
-	)
-	(wire
-		(pts
-			(xy 71.12 166.37) (xy 71.12 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d4658d-ca68-4566-8e71-3f60763181d6")
 	)
 	(wire
 		(pts
@@ -1092,16 +778,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 146.05) (xy 81.28 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45f0bfc1-70ce-49d2-a793-b174aefa744a")
-	)
-	(wire
-		(pts
 			(xy 205.74 78.74) (xy 205.74 88.9)
 		)
 		(stroke
@@ -1109,16 +785,6 @@
 			(type default)
 		)
 		(uuid "47304898-5e96-40be-8387-5ef8ad02c087")
-	)
-	(wire
-		(pts
-			(xy 40.64 156.21) (xy 44.45 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f868301-1511-4a08-accf-980685f41ab1")
 	)
 	(wire
 		(pts
@@ -1159,16 +825,6 @@
 			(type default)
 		)
 		(uuid "548ee16a-e490-4fa9-bfc5-e07470d8ea5d")
-	)
-	(wire
-		(pts
-			(xy 71.12 166.37) (xy 73.66 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f2cdc8-4e75-40fa-9965-13650bc2aa22")
 	)
 	(wire
 		(pts
@@ -1249,16 +905,6 @@
 			(type default)
 		)
 		(uuid "79467f14-9f6a-47cf-9be6-890e849f0799")
-	)
-	(wire
-		(pts
-			(xy 73.66 153.67) (xy 71.12 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c37d778-9eb0-4b55-83a6-24062967211a")
 	)
 	(wire
 		(pts
@@ -1372,16 +1018,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 158.75) (xy 71.12 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f112714-3897-4fad-854f-3af3dead2773")
-	)
-	(wire
-		(pts
 			(xy 100.33 106.68) (xy 128.27 106.68)
 		)
 		(stroke
@@ -1409,16 +1045,6 @@
 			(type default)
 		)
 		(uuid "a6340c35-3d5d-4759-a9c9-5a8bb2db8915")
-	)
-	(wire
-		(pts
-			(xy 88.9 151.13) (xy 81.28 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6f9340-584a-4132-9278-65b1d3547e4e")
 	)
 	(wire
 		(pts
@@ -1472,16 +1098,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 156.21) (xy 60.96 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2615800-c105-4f78-bb55-3703f09854a1")
-	)
-	(wire
-		(pts
 			(xy 139.7 147.32) (xy 137.16 147.32)
 		)
 		(stroke
@@ -1499,16 +1115,6 @@
 			(type default)
 		)
 		(uuid "c6291301-e09d-4f52-9098-306608876032")
-	)
-	(wire
-		(pts
-			(xy 71.12 146.05) (xy 71.12 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a81385-8a1b-4a05-9680-135a66dc4166")
 	)
 	(wire
 		(pts
@@ -1562,16 +1168,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 161.29) (xy 81.28 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d15d922f-6cb3-4ec8-9d05-d8b71a6e21b0")
-	)
-	(wire
-		(pts
 			(xy 115.57 83.82) (xy 138.43 83.82)
 		)
 		(stroke
@@ -1622,16 +1218,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 156.21) (xy 81.28 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01bb58c-52d4-401f-ba14-70c744aed0c7")
-	)
-	(wire
-		(pts
 			(xy 143.51 77.47) (xy 143.51 83.82)
 		)
 		(stroke
@@ -1639,16 +1225,6 @@
 			(type default)
 		)
 		(uuid "e051978e-84a0-40f5-a135-aa2075130fb3")
-	)
-	(wire
-		(pts
-			(xy 88.9 166.37) (xy 81.28 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3323cb4-5bb3-4777-9cb7-52fe0935e437")
 	)
 	(wire
 		(pts
@@ -1712,16 +1288,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 158.75) (xy 73.66 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e5bfad-edea-4b49-aab2-45a14d7599ea")
-	)
-	(wire
-		(pts
 			(xy 72.39 60.96) (xy 100.33 60.96)
 		)
 		(stroke
@@ -1768,25 +1334,6 @@
 			(justify left top)
 		)
 		(uuid "1424d19f-900f-46cf-b9dc-f0b4b5df7b61")
-	)
-	(text_box "Righthand Thumb Keys"
-		(exclude_from_sim no)
-		(at 25.4 127 0)
-		(size 78.74 48.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left top)
-		)
-		(uuid "e55453b1-eb61-418d-b5e7-680a7279557b")
 	)
 	(global_label "Col5T"
 		(shape input)
@@ -1854,28 +1401,6 @@
 			)
 		)
 	)
-	(global_label "Col2RT"
-		(shape input)
-		(at 88.9 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1372c1fa-a281-4f48-9531-c132f60138b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4165 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col3R"
 		(shape input)
 		(at 143.51 60.96 0)
@@ -1889,28 +1414,6 @@
 		(uuid "25d8f695-6d66-49d5-a2b8-82e626514a4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.0589 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col1T"
-		(shape input)
-		(at 57.15 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29c53cd1-d90b-4a75-926f-5885b4a5b311")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.3965 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,28 +1555,6 @@
 			)
 		)
 	)
-	(global_label "Row4R"
-		(shape input)
-		(at 40.64 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72953fba-61e1-4f78-9da6-5daa52eef91b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4258 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col5L"
 		(shape input)
 		(at 199.39 43.18 0)
@@ -2109,28 +1590,6 @@
 		(uuid "7857309f-61b2-4896-b0c2-422a92ab6efc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.9989 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col6"
-		(shape input)
-		(at 88.9 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ea13f44-0c92-4c86-8a66-b213cf711927")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1789 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,28 +1687,6 @@
 			)
 		)
 	)
-	(global_label "Col4RT"
-		(shape input)
-		(at 88.9 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3cffb16-0454-4852-ab7d-5a926fdcbdd1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4165 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col4L"
 		(shape input)
 		(at 171.45 38.1 0)
@@ -2285,28 +1722,6 @@
 		(uuid "be5b0750-339a-4ce3-8a0d-ae46f343c417")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 234.6089 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col3RT"
-		(shape input)
-		(at 88.9 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6c9db1a-9a30-4bd1-8637-027dfc82c851")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4165 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,28 +1797,6 @@
 			)
 		)
 	)
-	(global_label "Col5T"
-		(shape input)
-		(at 88.9 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "feed93a6-adae-4663-9f8a-5a2e5d5db114")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1465 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col5R"
 		(shape input)
 		(at 199.39 60.96 0)
@@ -2423,93 +1816,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 77.47 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09ac8e54-c8a3-4754-8ce6-4df568de10df")
-		(property "Reference" "D45"
-			(at 82.804 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 86.614 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ae5f3aa-61a4-4764-b5c0-37c7195e8b9d")
-		)
-		(pin "2"
-			(uuid "aef6baec-1d7f-48b7-a7bd-116c69dfa7aa")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D45")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3324,93 +2630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 77.47 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fd96573-7385-48ff-93af-ffd0ce757dc6")
-		(property "Reference" "D43"
-			(at 82.804 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 86.614 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b065fe6-89db-40d7-8d71-89deac971c74")
-		)
-		(pin "2"
-			(uuid "cdd7bddd-566e-4f1f-9430-6bd718bd4ee7")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 77.47 53.34 0)
 		(mirror y)
@@ -3688,86 +2907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:SW_SP5T")
-		(at 66.04 158.75 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a1ce6cc-6c45-43f8-a710-10282d2e2f15")
-		(property "Reference" "K42"
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PG1350/SKQUCAA010"
-			(at 68.58 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_nav_CPG135001S30_SKQUCAA010_1layer_1u_1"
-			(at 50.165 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, five position, single pole quintuple throw, 5 position switch, SP5T"
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6939f988-5bfb-4ccd-b020-7cbdb49aa667")
-		)
-		(pin "4"
-			(uuid "cca01aa3-a5cb-4e06-aa11-1171d0e6e861")
-		)
-		(pin "6"
-			(uuid "516553d5-1acc-4a4b-8f12-9d4e6f8564b2")
-		)
-		(pin "5"
-			(uuid "73045b8c-9bb7-4159-881f-1b3921fb9b83")
-		)
-		(pin "3"
-			(uuid "efe032a8-afc9-4aca-9f22-ef718debc07a")
-		)
-		(pin "1"
-			(uuid "fa16d20c-707b-4df4-a89c-a240076c3e52")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 45.72 0)
 		(unit 1)
@@ -3907,93 +3046,6 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 77.47 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f54bcc3-cec9-4bb4-aa2f-8cf61a4d8c67")
-		(property "Reference" "D46"
-			(at 82.804 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 86.614 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b660d0c-4bc7-4296-be21-dbfba3890e4f")
-		)
-		(pin "2"
-			(uuid "ccdd1f3d-43dd-49ff-afd4-832ebde9d669")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
 		(at 184.15 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4075,74 +3127,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 49.53 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68eaca40-f305-45e4-b346-0c21bfe2901d")
-		(property "Reference" "K41"
-			(at 49.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PG1350_1½U"
-			(at 49.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1.5u"
-			(at 49.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 49.53 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ed75827-02e0-4edb-b718-13aef99e864e")
-		)
-		(pin "1"
-			(uuid "fa4a54e0-9e00-45f0-9ea1-0b3c67ea402c")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K41")
 					(unit 1)
 				)
 			)
@@ -4987,94 +3971,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "K25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 44.45 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "894e4bb6-9aa7-4965-bf77-01f96ea2b5f2")
-		(property "Reference" "D41"
-			(at 46.99 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 46.99 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3bba815-047e-408e-a9ed-2cdb4a4faffa")
-		)
-		(pin "2"
-			(uuid "c6dfc27f-793b-48ed-8988-4236f85a52b9")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -5954,93 +4850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 77.47 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db9b83ee-cedb-4174-beb7-9d469a4bad57")
-		(property "Reference" "D42"
-			(at 82.804 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 86.614 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123"
-			(at 77.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76b7df40-cd4c-4249-ac5c-fc1f4f9eadbe")
-		)
-		(pin "2"
-			(uuid "f4999629-b055-4e3a-a286-de32ae951aa2")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 217.17 81.28 0)
 		(mirror y)
@@ -6103,93 +4912,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "K26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 77.47 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef153a71-208f-4628-b56f-5d4f66d19234")
-		(property "Reference" "D44"
-			(at 83.058 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 86.868 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123"
-			(at 77.47 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "189b4fa0-2558-47e9-a03c-b576910fa7f7")
-		)
-		(pin "2"
-			(uuid "20b5dfc8-35f4-408e-abea-3751de31ebde")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D44")
 					(unit 1)
 				)
 			)
