@@ -5,7 +5,7 @@
 	(uuid "52f043ac-ccff-4c85-bc10-2db9d3c9e3f3")
 	(paper "A3" portrait)
 	(title_block
-		(title "Alumirror ")
+		(title "Alufo ")
 		(rev "0.1")
 		(company "bgkendall")
 		(comment 1 "Split one-layer reversible keyboard PCB")
@@ -6352,7 +6352,7 @@
 			(uuid "78ada855-d472-4cf2-b0b8-56d0fc300cae")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C1")
 					(unit 1)
@@ -6474,7 +6474,7 @@
 			(uuid "29161700-8666-497c-bb4c-ff0c9533601e")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "J2")
 					(unit 1)
@@ -6596,7 +6596,7 @@
 			(uuid "2219ce0b-851b-4adf-9742-2b2b3a961540")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "J4")
 					(unit 1)
@@ -6681,7 +6681,7 @@
 			(uuid "6e183252-695f-4531-a34a-c8db13d03ba4")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "U6")
 					(unit 1)
@@ -6832,7 +6832,7 @@
 			(uuid "87d733a9-4ad3-42ab-a451-7d36c7227465")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "F1")
 					(unit 1)
@@ -6899,7 +6899,7 @@
 			(uuid "6035bbfc-7419-4be8-bc7f-6d27b1d31430")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR04")
 					(unit 1)
@@ -7162,7 +7162,7 @@
 			(uuid "d1140ece-8564-4260-919d-c66d9fac8467")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR016")
 					(unit 1)
@@ -7382,7 +7382,7 @@
 			(uuid "52ddcfd9-2e4a-42f3-ac9c-3978adc3a71d")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C2")
 					(unit 1)
@@ -7468,7 +7468,7 @@
 			(uuid "6d92e6d4-0456-436f-a0df-e0ac3b36d2e2")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C5")
 					(unit 1)
@@ -7534,7 +7534,7 @@
 			(uuid "e2180789-2cbb-4bca-86eb-c5fcfdec8b94")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR030")
 					(unit 1)
@@ -7600,7 +7600,7 @@
 			(uuid "d3b55c9e-bb5d-496f-98fc-62bf26cd4108")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR032")
 					(unit 1)
@@ -7666,7 +7666,7 @@
 			(uuid "ede924e5-1e66-4b0a-b41d-3a2391c443ce")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR02")
 					(unit 1)
@@ -7752,7 +7752,7 @@
 			(uuid "71217eca-d533-4ebc-9fbb-adf053e6c286")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "D1")
 					(unit 1)
@@ -7819,7 +7819,7 @@
 			(uuid "7ec639bf-6202-4005-8558-ab5e0e845507")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR00")
 					(unit 1)
@@ -7953,7 +7953,7 @@
 			(uuid "4a5f3642-3db9-4cf5-a843-6ac457e1ddf7")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR035")
 					(unit 1)
@@ -8019,7 +8019,7 @@
 			(uuid "83edb55c-af8b-45fb-9cba-bb95a2406143")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR026")
 					(unit 1)
@@ -8085,7 +8085,7 @@
 			(uuid "f2b3da14-4ece-411a-8a9e-a7def181d51c")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR011")
 					(unit 1)
@@ -8224,7 +8224,7 @@
 			(uuid "a91ff837-e7bb-4447-8694-2c9b9d7d5835")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR033")
 					(unit 1)
@@ -8290,7 +8290,7 @@
 			(uuid "cf583800-34cc-41de-aea9-021ee5ece182")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR03")
 					(unit 1)
@@ -8357,7 +8357,7 @@
 			(uuid "0d352f83-a9f7-4177-95b5-f752fd8f9ecd")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "FB2")
 					(unit 1)
@@ -8442,7 +8442,7 @@
 			(uuid "624121ae-f5e8-4e82-b30f-849f20b0c251")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "U5")
 					(unit 1)
@@ -8530,7 +8530,7 @@
 			(uuid "bcca4d95-3d15-47f3-8196-7bdf0f31b4ab")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C4")
 					(unit 1)
@@ -8596,7 +8596,7 @@
 			(uuid "6d48c913-7228-4174-80bf-a356aeace1ed")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR014")
 					(unit 1)
@@ -8660,7 +8660,7 @@
 			)
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H6")
 					(unit 1)
@@ -8849,7 +8849,7 @@
 			(uuid "c423ca6f-7bf3-49a4-9570-33d7e61084cb")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR029")
 					(unit 1)
@@ -8934,7 +8934,7 @@
 			(uuid "7659cfc3-746d-4db8-a14c-e20e3b2e440a")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R2")
 					(unit 1)
@@ -9000,7 +9000,7 @@
 			(uuid "d24f17cf-3bbd-4b25-ba87-94902f58af08")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR015")
 					(unit 1)
@@ -9066,7 +9066,7 @@
 			(uuid "12a7f8bd-9cb0-4472-935a-719df386c6ad")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR031")
 					(unit 1)
@@ -9255,7 +9255,7 @@
 			(uuid "08281025-20ad-4d54-8cfc-6e67f5fb8acc")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR010")
 					(unit 1)
@@ -9340,7 +9340,7 @@
 			(uuid "03810ffe-6645-4510-8418-4cefc40c79a5")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R1")
 					(unit 1)
@@ -9427,7 +9427,7 @@
 			(uuid "a3cc4751-559b-40d1-af35-bc31717af415")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "F2")
 					(unit 1)
@@ -9494,7 +9494,7 @@
 			(uuid "3db7350f-94b8-474e-bae3-7278e44846cf")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR023")
 					(unit 1)
@@ -9561,7 +9561,7 @@
 			(uuid "119cdef1-670a-4a04-9c90-61f6264d2778")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR039")
 					(unit 1)
@@ -9627,7 +9627,7 @@
 			(uuid "1e1df4f0-6fca-4ab9-b455-0ffe0a2c625c")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR036")
 					(unit 1)
@@ -9694,7 +9694,7 @@
 			(uuid "7d78c9ec-4ece-4ea9-acbe-c4105fd14f62")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR034")
 					(unit 1)
@@ -9760,7 +9760,7 @@
 			(uuid "a239f4db-6c72-4c39-bd9b-4f3b63c3977e")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR013")
 					(unit 1)
@@ -9848,7 +9848,7 @@
 			(uuid "032fbfb4-40a0-4952-893f-2fcd30aef593")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C3")
 					(unit 1)
@@ -9934,7 +9934,7 @@
 			(uuid "e50a849b-9d6d-408a-8b52-10a65118c9b1")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R5")
 					(unit 1)
@@ -10001,7 +10001,7 @@
 			(uuid "ad51da3c-069c-493a-8e0d-ba31dd47e270")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR020")
 					(unit 1)
@@ -10068,7 +10068,7 @@
 			(uuid "b6f2dede-1914-4129-bae7-f7e78027b1c0")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "NT1")
 					(unit 1)
@@ -10135,7 +10135,7 @@
 			(uuid "4be19848-3e9c-45b8-8758-35275bb3ddde")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR019")
 					(unit 1)
@@ -10268,7 +10268,7 @@
 			(uuid "c41f9fd9-561c-4298-b16f-5fedd85aa550")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR028")
 					(unit 1)
@@ -10354,7 +10354,7 @@
 			(uuid "6d4a2647-b3a7-4ac3-9f10-28c26196df5e")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R4")
 					(unit 1)
@@ -10420,7 +10420,7 @@
 			(uuid "9a8f47e9-fb18-42e2-b7aa-63af5541eb74")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR038")
 					(unit 1)
@@ -10486,7 +10486,7 @@
 			(uuid "df538466-8e39-44cc-b87a-12023ee70f5c")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR01")
 					(unit 1)
@@ -10571,7 +10571,7 @@
 			(uuid "0a05b688-04de-47b7-88f5-4325924a9203")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "U4")
 					(unit 1)
@@ -10638,7 +10638,7 @@
 			(uuid "383da429-7d64-4789-98e6-274dd8932a33")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR05")
 					(unit 1)
@@ -10705,7 +10705,7 @@
 			(uuid "a95cff7b-1496-4e5a-a196-6edb6a42020c")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR021")
 					(unit 1)
@@ -10772,7 +10772,7 @@
 			(uuid "1fd71888-2e88-4993-87a8-35fae4feb2a4")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR022")
 					(unit 1)
@@ -10838,7 +10838,7 @@
 			(uuid "6d9315d9-0fde-4c81-ba81-932513f392b6")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR025")
 					(unit 1)
@@ -10987,7 +10987,7 @@
 			(uuid "5d1d21b3-d946-4d2a-a640-865a1e711884")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R9")
 					(unit 1)
@@ -11053,7 +11053,7 @@
 			(uuid "9a57521a-f6db-4141-ab4e-99b6c9c21001")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR027")
 					(unit 1)
@@ -11205,7 +11205,7 @@
 			(uuid "d6d141df-8400-4dc6-b3dc-b4acc53af9fb")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR09")
 					(unit 1)
@@ -11271,7 +11271,7 @@
 			(uuid "68551d54-ea09-4166-a37e-aa7ad608a10b")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR024")
 					(unit 1)
@@ -11489,7 +11489,7 @@
 			(uuid "45368c9a-f3e7-4f02-b7c2-263002cd9ee7")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R6")
 					(unit 1)
@@ -11641,7 +11641,7 @@
 			(uuid "6e800325-d109-4a54-bae3-b720a3516620")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "NT2")
 					(unit 1)
@@ -11707,7 +11707,7 @@
 			(uuid "77e5517f-f701-492c-874f-c54083042bed")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR06")
 					(unit 1)
@@ -11773,7 +11773,7 @@
 			(uuid "b1997932-a69e-4696-be4c-5796798deae8")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR037")
 					(unit 1)
@@ -11840,7 +11840,7 @@
 			(uuid "7ff85f0d-640a-4368-ada3-3057764cf29a")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R10")
 					(unit 1)
@@ -11926,7 +11926,7 @@
 			(uuid "e39e2c73-fc41-4b5b-bd38-649d2b844a45")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R3")
 					(unit 1)
@@ -11994,7 +11994,7 @@
 			(uuid "71c32264-1b1d-46af-9ee6-94c9d719bd2d")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R7")
 					(unit 1)
@@ -12144,7 +12144,7 @@
 			(uuid "8a263554-d156-4c1f-a999-7d81af13901f")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "SW10")
 					(unit 1)
@@ -12230,7 +12230,7 @@
 			(uuid "cb36e760-21a5-4411-aa57-f587a702df72")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "D2")
 					(unit 1)
@@ -12297,7 +12297,7 @@
 			(uuid "b7bbfde7-0aed-4bbe-919c-dba64f5dcbd7")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR017")
 					(unit 1)
@@ -12364,7 +12364,7 @@
 			(uuid "119bef39-7476-4722-ab71-1c1bd8eda494")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR08")
 					(unit 1)
@@ -12431,7 +12431,7 @@
 			(uuid "cb003148-7c05-4ab5-8ddb-396dd44b8f38")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR018")
 					(unit 1)
@@ -12498,7 +12498,7 @@
 			(uuid "02d4c1c0-147c-4a49-80c1-ea952c3b764f")
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR012")
 					(unit 1)
@@ -12527,7 +12527,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Alumirror-matrix.kicad_sch"
+		(property "Sheetfile" "Alufo-matrix.kicad_sch"
 			(at 101.6 307.9246 0)
 			(effects
 				(font
@@ -12537,7 +12537,7 @@
 			)
 		)
 		(instances
-			(project "Alumirror"
+			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(page "2")
 				)
