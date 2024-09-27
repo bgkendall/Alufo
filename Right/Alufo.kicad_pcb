@@ -30016,6 +30016,17 @@
 		(net 37)
 		(uuid "c2832cda-2b69-4993-a5e8-06c5aa5229d1")
 	)
+	(gr_arc
+		(start 184.176623 90.528877)
+		(mid 179.929818 90.886857)
+		(end 175.795135 89.853467)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f25a67f-a1b5-4bdd-9e01-9edff535d8bf")
+	)
 	(gr_poly
 		(pts
 			(xy 89.16513 50.50285) (xy 89.165746 50.508683) (xy 89.166474 50.514376) (xy 89.16732 50.519928)
@@ -30661,9 +30672,20 @@
 		(layer "Cmts.User")
 		(uuid "c603e077-75f3-49e0-a4ee-79b36a5a1cec")
 	)
+	(gr_circle
+		(center 180.975 77.916685)
+		(end 181.975 77.916685)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "e0d17549-74e8-4fde-8dd6-3ce3e35915ba")
+	)
 	(gr_arc
 		(start 175.44862 89.697047)
-		(mid 172.628321 87.899209)
+		(mid 172.425269 87.725861)
 		(end 170.05968 85.00002)
 		(stroke
 			(width 0.05)
@@ -30786,7 +30808,7 @@
 	)
 	(gr_arc
 		(start 193.674999 80.750019)
-		(mid 190.434985 86.851249)
+		(mid 190.434986 86.851251)
 		(end 184.528647 90.434247)
 		(stroke
 			(width 0.05)
@@ -30922,17 +30944,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d7bb7103-d7b5-43c9-b9ea-6d3fb0c9daa5")
-	)
-	(gr_circle
-		(center 180.975 77.916685)
-		(end 181.975 77.916685)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "e0d17549-74e8-4fde-8dd6-3ce3e35915ba")
 	)
 	(gr_arc
 		(start 210.541769 96.979442)
