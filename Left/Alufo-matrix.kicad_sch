@@ -648,16 +648,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 64.77) (xy 87.63 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21cf4926-b0b6-4f7b-a482-ab4d6464639d")
-	)
-	(wire
-		(pts
 			(xy 171.45 66.04) (xy 171.45 69.85)
 		)
 		(stroke
@@ -1208,7 +1198,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 53.34) (xy 87.63 57.15)
+			(xy 87.63 53.34) (xy 87.63 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1467,72 +1457,6 @@
 			)
 		)
 	)
-	(global_label "Col3RT"
-		(shape input)
-		(at 166.37 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5efa2358-9b0d-4c71-9add-c72e7a8aba7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.8865 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col2RT"
-		(shape input)
-		(at 138.43 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "665deab0-e469-401c-8407-1a92ac6982fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9465 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col4RT"
-		(shape input)
-		(at 194.31 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68617173-96de-44ee-9737-a798f26c4bf0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8265 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col6T"
 		(shape input)
 		(at 227.33 81.28 0)
@@ -1749,28 +1673,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col1T"
-		(shape input)
-		(at 110.49 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8819a6a-2212-4b5b-b53c-814f4cccc734")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.7365 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2380,75 +2282,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b185fcc-c821-47ef-8529-1db04ee0b12d")
-		(property "Reference" "R11"
-			(at 90.17 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 90.17 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 85.852 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4957ccf-49a8-4374-92f4-bdc9867b6328")
-		)
-		(pin "2"
-			(uuid "78228889-75ec-41dd-8dd7-a7c18cf5349c")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R11")
 					(unit 1)
 				)
 			)
