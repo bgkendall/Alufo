@@ -578,7 +578,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 82.55) (xy 199.39 83.82)
+			(xy 199.39 71.12) (xy 199.39 83.82)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 66.04) (xy 171.45 69.85)
+			(xy 171.45 66.04) (xy 171.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -918,16 +918,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 143.51 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889c52ee-ec1a-46b8-a425-a61d9b110f78")
-	)
-	(wire
-		(pts
 			(xy 115.57 54.61) (xy 115.57 71.12)
 		)
 		(stroke
@@ -955,6 +945,16 @@
 			(type default)
 		)
 		(uuid "8d1e37fb-9b0a-4b6a-a333-572b6315f0a6")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef6a396-70d9-44b8-8978-28a0e0419c4d")
 	)
 	(wire
 		(pts
@@ -1025,26 +1025,6 @@
 			(type default)
 		)
 		(uuid "a27221b3-e812-4e64-8ea4-aa69ba150143")
-	)
-	(wire
-		(pts
-			(xy 199.39 71.12) (xy 199.39 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6340c35-3d5d-4759-a9c9-5a8bb2db8915")
-	)
-	(wire
-		(pts
-			(xy 115.57 71.12) (xy 115.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace02306-61fb-4039-ba45-a3bf02d71d89")
 	)
 	(wire
 		(pts
@@ -1208,26 +1188,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 77.47) (xy 143.51 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e051978e-84a0-40f5-a135-aa2075130fb3")
-	)
-	(wire
-		(pts
-			(xy 171.45 77.47) (xy 171.45 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e9ec77-3ca8-4a2c-91e8-42a148be2ae1")
-	)
-	(wire
-		(pts
 			(xy 194.31 86.36) (xy 194.31 99.06)
 		)
 		(stroke
@@ -1268,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 83.82) (xy 115.57 82.55)
+			(xy 115.57 71.12) (xy 115.57 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1391,28 +1351,6 @@
 			)
 		)
 	)
-	(global_label "Col3R"
-		(shape input)
-		(at 143.51 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25d8f695-6d66-49d5-a2b8-82e626514a4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.0589 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col6T"
 		(shape input)
 		(at 165.1 147.32 0)
@@ -1501,28 +1439,6 @@
 			)
 		)
 	)
-	(global_label "Col4R"
-		(shape input)
-		(at 171.45 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7857309f-61b2-4896-b0c2-422a92ab6efc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.9989 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row1"
 		(shape input)
 		(at 68.58 60.96 180)
@@ -1580,28 +1496,6 @@
 		(uuid "9c336b99-edc3-4420-a9de-956f14d69937")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.9465 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col2R"
-		(shape input)
-		(at 115.57 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a594f291-360e-49e5-a4fb-85a496c3f68b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.1189 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,28 +1584,6 @@
 		(uuid "f89c2b3d-784c-45fe-a51d-28a9eafabdc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 123.877 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col5R"
-		(shape input)
-		(at 199.39 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ffdec414-a377-4e09-85ab-9c3c45ef71f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.9389 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,76 +2397,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "K11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f300d7d-2bc5-44c9-9cd3-8f6884ed5b19")
-		(property "Reference" "R19"
-			(at 173.99 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 173.99 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 169.672 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17a288a6-b871-41cf-94f5-f71a6a7618a8")
-		)
-		(pin "2"
-			(uuid "1183df37-de64-4189-9e8d-3b74212bd9ee")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4162,76 +3964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1246ed9-ff66-4027-8b33-f8b20f7c33f3")
-		(property "Reference" "R18"
-			(at 146.05 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 146.05 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 141.732 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8a9d0e4-dca4-402f-8d66-e5055f71a2a1")
-		)
-		(pin "2"
-			(uuid "d7454e9f-b939-425b-a0b8-ab2a22d14808")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 72.39 57.15 90)
 		(unit 1)
@@ -4314,76 +4046,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8e7c4f1-cbe4-42a8-a6f9-1005af6ba08c")
-		(property "Reference" "R17"
-			(at 118.11 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 118.11 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 113.792 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c58cee0c-a517-48fa-976f-23b6a0a7e3eb")
-		)
-		(pin "2"
-			(uuid "b5733985-4de8-499c-a8b6-e07a46375007")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4540,75 +4202,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "K22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7d0f4a8-dbe1-4fa7-9887-e47051b06616")
-		(property "Reference" "R20"
-			(at 201.93 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 201.93 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 197.612 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "486d274c-06ce-403b-a8b7-af1e37a22552")
-		)
-		(pin "2"
-			(uuid "a1c1516e-ef7e-4e0e-82a2-00f1dd290ee5")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R20")
 					(unit 1)
 				)
 			)
