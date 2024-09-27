@@ -1200,16 +1200,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 64.77) (xy 227.33 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79467f14-9f6a-47cf-9be6-890e849f0799")
-	)
-	(wire
-		(pts
 			(xy 73.66 153.67) (xy 71.12 153.67)
 		)
 		(stroke
@@ -1480,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 53.34) (xy 227.33 57.15)
+			(xy 227.33 53.34) (xy 227.33 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1856,28 +1846,6 @@
 		(uuid "692338d8-4e37-4355-9fb8-4beff2614e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.8765 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col6T"
-		(shape input)
-		(at 227.33 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69e61e03-b32a-462f-b9e4-b636d2942949")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.5765 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,76 +3168,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 227.33 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f7deb15-d868-46a1-8317-394cf3fbb561")
-		(property "Reference" "R16"
-			(at 229.87 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 229.87 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 225.552 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 227.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b80489d-7ed3-4701-b8c4-2129b40b7614")
-		)
-		(pin "2"
-			(uuid "84ac449c-07f4-4fb4-81ed-f95b9f37c343")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R16")
 					(unit 1)
 				)
 			)
