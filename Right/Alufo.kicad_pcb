@@ -140,7 +140,7 @@
 	(net 17 "unconnected-(J2-SHIELD-PadS4)")
 	(net 18 "unconnected-(J2-SHIELD-PadS3)")
 	(net 19 "+3V3")
-	(net 20 "Net-(L10-K)")
+	(net 20 "Net-(L2-K)")
 	(net 21 "VCC")
 	(net 22 "Net-(FB2-Pad1)")
 	(net 23 "unconnected-(J2-SHIELD-PadS2)")
@@ -21918,7 +21918,7 @@
 		(at 152.4 35.941 180)
 		(descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html")
 		(tags "SPST Button Switch")
-		(property "Reference" "SW10"
+		(property "Reference" "SW2"
 			(at 0 -1.865 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -26563,7 +26563,7 @@
 		(at 152.42 32.131)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "L10"
+		(property "Reference" "L2"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "cdf86cfd-2269-49d6-97d5-ecd6870a14d5")
@@ -26797,7 +26797,7 @@
 			(size 0.975 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(L10-K)")
+			(net 20 "Net-(L2-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "cac0073b-a6db-4b37-aa65-1eadabf75f3e")
@@ -28006,7 +28006,7 @@
 		(at 147.828 32.131 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 0 1.504 180)
 			(layer "F.SilkS")
 			(uuid "3d3e7365-95e1-4041-ac45-d72eea8a250b")
@@ -28188,7 +28188,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(L10-K)")
+			(net 20 "Net-(L2-K)")
 			(pintype "passive")
 			(uuid "a013ed84-ecfd-4ce1-b8d8-b99e85d23ef5")
 		)
