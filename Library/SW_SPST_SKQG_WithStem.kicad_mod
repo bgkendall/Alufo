@@ -453,13 +453,6 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 2.4 2.4)
-		(drill 2.4)
-		(layers "F.Mask")
-		(uuid "8bea444e-7bb6-42ec-b683-95527101e8bf")
-	)
 	(pad "1" smd roundrect
 		(at -3.1 -1.85)
 		(size 1.8 1.1)
