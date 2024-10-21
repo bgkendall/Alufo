@@ -8,7 +8,7 @@
 		(title "Alufo ")
 		(rev "0.1")
 		(company "bgkendall")
-		(comment 1 "Split one-layer reversible keyboard PCB")
+		(comment 1 "Split one-layer reversible keyboard PCB (righthand side)")
 		(comment 2 "Key switch matrix for")
 	)
 	(lib_symbols
@@ -737,12 +737,6 @@
 		(uuid "2d87e873-d721-4cce-8695-13d297581c7e")
 	)
 	(junction
-		(at 87.63 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34da8df2-b43d-4c69-969f-8783ab88c18d")
-	)
-	(junction
 		(at 100.33 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -809,12 +803,6 @@
 		(uuid "b44942d0-da8f-45b7-b72c-9fac4252f162")
 	)
 	(junction
-		(at 127 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c20de91c-5b27-40cf-8e81-66defefa8a57")
-	)
-	(junction
 		(at 184.15 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -842,16 +830,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 82.55) (xy 199.39 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050d8691-5194-455b-b3dc-428a05587c94")
-	)
-	(wire
-		(pts
 			(xy 71.12 146.05) (xy 73.66 146.05)
 		)
 		(stroke
@@ -872,23 +850,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 166.37 93.98)
+			(xy 199.39 71.12) (xy 199.39 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "140a9327-a73e-4a02-aea7-b61e095fc26c")
-	)
-	(wire
-		(pts
-			(xy 138.43 83.82) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14dd337c-09cc-4680-b75e-c5a2547198f5")
+		(uuid "10656322-b0df-44fb-a714-a66d5267f564")
 	)
 	(wire
 		(pts
@@ -899,6 +867,16 @@
 			(type default)
 		)
 		(uuid "15550f0a-863e-4082-af09-e1df25a87cd7")
+	)
+	(wire
+		(pts
+			(xy 171.45 66.04) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1597093e-cae6-4191-83ce-ef2b402308b3")
 	)
 	(wire
 		(pts
@@ -942,13 +920,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 66.04) (xy 171.45 69.85)
+			(xy 143.51 93.98) (xy 138.43 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25ebe7a8-6875-45a4-b845-6354a7ae06e2")
+		(uuid "22cc5bec-6f43-4018-b8dc-083371b72ead")
 	)
 	(wire
 		(pts
@@ -999,16 +977,6 @@
 			(type default)
 		)
 		(uuid "31c49500-3368-42eb-947c-fc6fb584f5e3")
-	)
-	(wire
-		(pts
-			(xy 162.56 147.32) (xy 165.1 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32343bb9-4bc2-4d3a-bb85-e8e88a2666f0")
 	)
 	(wire
 		(pts
@@ -1072,13 +1040,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 81.28) (xy 87.63 86.36)
+			(xy 115.57 99.06) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4162b8b0-f40d-4bd7-a76f-1497ab2b917e")
+		(uuid "432ba4e8-4852-4957-8bf6-887f0720855a")
 	)
 	(wire
 		(pts
@@ -1152,16 +1120,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 154.94) (xy 127 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "548ee16a-e490-4fa9-bfc5-e07470d8ea5d")
-	)
-	(wire
-		(pts
 			(xy 71.12 166.37) (xy 73.66 166.37)
 		)
 		(stroke
@@ -1232,26 +1190,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 194.31 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71db40ad-709a-4cf5-a6c1-971759d3f2a3")
-	)
-	(wire
-		(pts
-			(xy 227.33 64.77) (xy 227.33 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79467f14-9f6a-47cf-9be6-890e849f0799")
-	)
-	(wire
-		(pts
 			(xy 73.66 153.67) (xy 71.12 153.67)
 		)
 		(stroke
@@ -1259,16 +1197,6 @@
 			(type default)
 		)
 		(uuid "7c37d778-9eb0-4b55-83a6-24062967211a")
-	)
-	(wire
-		(pts
-			(xy 127 154.94) (xy 152.4 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "814ea77b-f056-49e1-ba04-b89eea42636c")
 	)
 	(wire
 		(pts
@@ -1282,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 143.51 69.85)
+			(xy 143.51 66.04) (xy 143.51 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1402,13 +1330,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 71.12) (xy 199.39 74.93)
+			(xy 199.39 99.06) (xy 194.31 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6340c35-3d5d-4759-a9c9-5a8bb2db8915")
+		(uuid "a9a3a02a-cd3a-4465-950a-f2ebe882e3c6")
 	)
 	(wire
 		(pts
@@ -1422,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 71.12) (xy 115.57 74.93)
+			(xy 115.57 71.12) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1452,16 +1380,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 110.49 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9cc1c0-a411-42ba-9508-7bc96aaf5fd1")
-	)
-	(wire
-		(pts
 			(xy 95.25 78.74) (xy 95.25 88.9)
 		)
 		(stroke
@@ -1479,16 +1397,6 @@
 			(type default)
 		)
 		(uuid "c2615800-c105-4f78-bb55-3703f09854a1")
-	)
-	(wire
-		(pts
-			(xy 139.7 147.32) (xy 137.16 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c553f14a-ff5b-4306-9335-6210de6808c4")
 	)
 	(wire
 		(pts
@@ -1542,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 53.34) (xy 227.33 57.15)
+			(xy 227.33 53.34) (xy 227.33 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1572,16 +1480,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 83.82) (xy 138.43 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3fc4c03-3a27-4757-a483-e7ae43cdfd85")
-	)
-	(wire
-		(pts
 			(xy 138.43 66.04) (xy 143.51 66.04)
 		)
 		(stroke
@@ -1589,16 +1487,6 @@
 			(type default)
 		)
 		(uuid "d421c62d-0bf1-4b5d-977f-84307d585a7a")
-	)
-	(wire
-		(pts
-			(xy 87.63 86.36) (xy 110.49 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbfc5265-339b-4be0-9aa4-bc17d2b39be6")
 	)
 	(wire
 		(pts
@@ -1632,16 +1520,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 77.47) (xy 143.51 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e051978e-84a0-40f5-a135-aa2075130fb3")
-	)
-	(wire
-		(pts
 			(xy 88.9 166.37) (xy 81.28 166.37)
 		)
 		(stroke
@@ -1649,26 +1527,6 @@
 			(type default)
 		)
 		(uuid "e3323cb4-5bb3-4777-9cb7-52fe0935e437")
-	)
-	(wire
-		(pts
-			(xy 171.45 77.47) (xy 171.45 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e9ec77-3ca8-4a2c-91e8-42a148be2ae1")
-	)
-	(wire
-		(pts
-			(xy 194.31 86.36) (xy 194.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ac7af4-eff7-4179-aeff-f431f549334e")
 	)
 	(wire
 		(pts
@@ -1692,23 +1550,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 166.37 83.82)
+			(xy 171.45 93.98) (xy 166.37 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0c3cbf3-ef9f-4bc1-95d6-92a19efc7adb")
-	)
-	(wire
-		(pts
-			(xy 115.57 83.82) (xy 115.57 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2735119-c424-48f7-8af7-03df96bd6a81")
+		(uuid "f7977d40-9c07-41c6-89b2-801438de3c1e")
 	)
 	(wire
 		(pts
@@ -1750,25 +1598,6 @@
 		)
 		(uuid "ff357b3c-462d-4c8c-9707-cdefeb77d1f3")
 	)
-	(text_box "Lefthand Thumb Keys"
-		(exclude_from_sim no)
-		(at 109.22 127 0)
-		(size 69.85 35.56)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left top)
-		)
-		(uuid "1424d19f-900f-46cf-b9dc-f0b4b5df7b61")
-	)
 	(text_box "Righthand Thumb Keys"
 		(exclude_from_sim no)
 		(at 25.4 127 0)
@@ -1787,28 +1616,6 @@
 			(justify left top)
 		)
 		(uuid "e55453b1-eb61-418d-b5e7-680a7279557b")
-	)
-	(global_label "Col5T"
-		(shape input)
-		(at 199.39 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0979f6cd-2aa2-46fa-8bab-e0016648be0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 92.0665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "Row3"
 		(shape input)
@@ -1832,29 +1639,7 @@
 			)
 		)
 	)
-	(global_label "Row3"
-		(shape input)
-		(at 123.19 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "13674cc3-b4a4-44c7-8f80-02d4140b658b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.2458 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col2RT"
+	(global_label "Col2T"
 		(shape input)
 		(at 88.9 146.05 0)
 		(fields_autoplaced yes)
@@ -1866,29 +1651,7 @@
 		)
 		(uuid "1372c1fa-a281-4f48-9531-c132f60138b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4165 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col3R"
-		(shape input)
-		(at 143.51 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25d8f695-6d66-49d5-a2b8-82e626514a4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.0589 60.96 0)
+			(at 97.1465 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,28 +1683,6 @@
 			)
 		)
 	)
-	(global_label "Col6T"
-		(shape input)
-		(at 165.1 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3922357b-68b3-4f8a-8a31-650e2aff1e51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3465 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col1"
 		(shape input)
 		(at 87.63 53.34 0)
@@ -1964,9 +1705,9 @@
 			)
 		)
 	)
-	(global_label "Col3RT"
+	(global_label "Col4T"
 		(shape input)
-		(at 166.37 93.98 0)
+		(at 171.45 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1976,7 +1717,7 @@
 		)
 		(uuid "5efa2358-9b0d-4c71-9add-c72e7a8aba7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.8865 93.98 0)
+			(at 179.6965 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,9 +1727,9 @@
 			)
 		)
 	)
-	(global_label "Col2RT"
+	(global_label "Col3T"
 		(shape input)
-		(at 138.43 93.98 0)
+		(at 143.51 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1998,7 +1739,7 @@
 		)
 		(uuid "665deab0-e469-401c-8407-1a92ac6982fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9465 93.98 0)
+			(at 151.7565 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,9 +1749,9 @@
 			)
 		)
 	)
-	(global_label "Col4RT"
+	(global_label "Col5T"
 		(shape input)
-		(at 194.31 99.06 0)
+		(at 199.39 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2020,7 +1761,7 @@
 		)
 		(uuid "68617173-96de-44ee-9737-a798f26c4bf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8265 99.06 0)
+			(at 207.6365 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,9 +1771,9 @@
 			)
 		)
 	)
-	(global_label "Col6T"
+	(global_label "Col1T"
 		(shape input)
-		(at 227.33 81.28 0)
+		(at 87.63 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2040,9 +1781,9 @@
 			)
 			(justify left)
 		)
-		(uuid "69e61e03-b32a-462f-b9e4-b636d2942949")
+		(uuid "692338d8-4e37-4355-9fb8-4beff2614e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.5765 81.28 0)
+			(at 95.8765 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +1793,7 @@
 			)
 		)
 	)
-	(global_label "Row4R"
+	(global_label "Row4"
 		(shape input)
 		(at 40.64 156.21 180)
 		(fields_autoplaced yes)
@@ -2064,7 +1805,7 @@
 		)
 		(uuid "72953fba-61e1-4f78-9da6-5daa52eef91b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4258 156.21 0)
+			(at 32.6958 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +1815,7 @@
 			)
 		)
 	)
-	(global_label "Col5L"
+	(global_label "Col5"
 		(shape input)
 		(at 199.39 43.18 0)
 		(fields_autoplaced yes)
@@ -2086,29 +1827,7 @@
 		)
 		(uuid "7840e915-f6af-4e05-a606-61c101a4aff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.697 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col4R"
-		(shape input)
-		(at 171.45 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7857309f-61b2-4896-b0c2-422a92ab6efc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.9989 60.96 0)
+			(at 206.6689 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +1881,7 @@
 			)
 		)
 	)
-	(global_label "Col3L"
+	(global_label "Col3"
 		(shape input)
 		(at 143.51 38.1 0)
 		(fields_autoplaced yes)
@@ -2174,7 +1893,7 @@
 		)
 		(uuid "95c908de-2e43-48be-a045-72938e047f79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.817 38.1 0)
+			(at 150.7889 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,51 +1903,7 @@
 			)
 		)
 	)
-	(global_label "Col5T"
-		(shape input)
-		(at 139.7 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c336b99-edc3-4420-a9de-956f14d69937")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9465 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col2R"
-		(shape input)
-		(at 115.57 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a594f291-360e-49e5-a4fb-85a496c3f68b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.1189 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col4RT"
+	(global_label "Col4T"
 		(shape input)
 		(at 88.9 156.21 0)
 		(fields_autoplaced yes)
@@ -2240,7 +1915,7 @@
 		)
 		(uuid "b3cffb16-0454-4852-ab7d-5a926fdcbdd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4165 156.21 0)
+			(at 97.1465 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +1925,7 @@
 			)
 		)
 	)
-	(global_label "Col4L"
+	(global_label "Col4"
 		(shape input)
 		(at 171.45 38.1 0)
 		(fields_autoplaced yes)
@@ -2262,7 +1937,7 @@
 		)
 		(uuid "b69ec4b8-b27b-4271-8781-e5aba8949e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.757 38.1 0)
+			(at 178.7289 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +1969,7 @@
 			)
 		)
 	)
-	(global_label "Col3RT"
+	(global_label "Col3T"
 		(shape input)
 		(at 88.9 151.13 0)
 		(fields_autoplaced yes)
@@ -2306,7 +1981,7 @@
 		)
 		(uuid "c6c9db1a-9a30-4bd1-8637-027dfc82c851")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4165 151.13 0)
+			(at 97.1465 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,9 +2013,9 @@
 			)
 		)
 	)
-	(global_label "Col1T"
+	(global_label "Col2T"
 		(shape input)
-		(at 110.49 99.06 0)
+		(at 115.57 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2350,7 +2025,7 @@
 		)
 		(uuid "d8819a6a-2212-4b5b-b53c-814f4cccc734")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.7365 99.06 0)
+			(at 123.8165 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2035,7 @@
 			)
 		)
 	)
-	(global_label "Col2L"
+	(global_label "Col2"
 		(shape input)
 		(at 115.57 43.18 0)
 		(fields_autoplaced yes)
@@ -2372,7 +2047,7 @@
 		)
 		(uuid "f89c2b3d-784c-45fe-a51d-28a9eafabdc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.877 43.18 0)
+			(at 122.8489 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,28 +2070,6 @@
 		(uuid "feed93a6-adae-4663-9f8a-5a2e5d5db114")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.1465 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col5R"
-		(shape input)
-		(at 199.39 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ffdec414-a377-4e09-85ab-9c3c45ef71f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.9389 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "160b356f-7bda-4e84-a480-e44e5a5e58cd")
-		(property "Reference" "K33"
+		(property "Reference" "K34"
 			(at 161.29 86.36 0)
 			(effects
 				(font
@@ -2711,7 +2364,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K33")
+					(reference "K34")
 					(unit 1)
 				)
 			)
@@ -2813,7 +2466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 141.732 45.72 90)
 			(effects
 				(font
@@ -2865,7 +2518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "216f0f7f-c365-4960-b27b-bbb7e0c3f0ab")
-		(property "Reference" "K34"
+		(property "Reference" "K35"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -2917,163 +2570,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25500372-659d-435f-904b-ea7e02b38d3e")
-		(property "Reference" "K36"
-			(at 157.48 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PG1350_1½U"
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1.5u"
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0cfeff02-2cef-4513-b94f-c5b3ea723675")
-		)
-		(pin "1"
-			(uuid "dc750bff-97e0-4615-9491-1b473fce7d7a")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 152.4 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26f94493-6a73-4eb5-a41e-365d837e801d")
-		(property "Reference" "D36"
-			(at 154.94 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 154.94 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "797d1046-1e2c-4304-b8fb-480bafbb5db5")
-		)
-		(pin "2"
-			(uuid "c4baa149-85e0-4b3e-be7b-6e965ae010f8")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D36")
+					(reference "K35")
 					(unit 1)
 				)
 			)
@@ -3106,7 +2603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 85.852 60.96 90)
 			(effects
 				(font
@@ -3245,7 +2742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f41ae48-43ca-41a0-b836-6136f8484caa")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 102.87 101.5999 90)
 			(effects
 				(font
@@ -3317,7 +2814,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -3480,146 +2977,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f300d7d-2bc5-44c9-9cd3-8f6884ed5b19")
-		(property "Reference" "R19"
-			(at 173.99 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 173.99 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 169.672 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17a288a6-b871-41cf-94f5-f71a6a7618a8")
-		)
-		(pin "2"
-			(uuid "1183df37-de64-4189-9e8d-3b74212bd9ee")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 227.33 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f7deb15-d868-46a1-8317-394cf3fbb561")
-		(property "Reference" "R16"
-			(at 229.87 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 229.87 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 225.552 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 227.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b80489d-7ed3-4701-b8c4-2129b40b7614")
-		)
-		(pin "2"
-			(uuid "84ac449c-07f4-4fb4-81ed-f95b9f37c343")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 115.57 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3645,7 +3002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 113.792 50.8 90)
 			(effects
 				(font
@@ -3795,7 +3152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 169.672 45.72 90)
 			(effects
 				(font
@@ -3847,7 +3204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d1e9425-8fea-42e9-9c44-275820e0a437")
-		(property "Reference" "K31"
+		(property "Reference" "K32"
 			(at 105.41 91.44 0)
 			(effects
 				(font
@@ -3899,7 +3256,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K31")
+					(reference "K32")
 					(unit 1)
 				)
 			)
@@ -4381,7 +3738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7535f086-45f1-4298-b23d-a2232035088f")
-		(property "Reference" "K32"
+		(property "Reference" "K33"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -4433,7 +3790,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K32")
+					(reference "K33")
 					(unit 1)
 				)
 			)
@@ -4448,7 +3805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f69d6d3-6224-4a53-b149-4991e72e83ce")
-		(property "Reference" "D32"
+		(property "Reference" "D33"
 			(at 130.81 96.5199 90)
 			(effects
 				(font
@@ -4520,7 +3877,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D32")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -4604,7 +3961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81ec5d65-f94d-45ca-8f3a-c1f6b5e1d42c")
-		(property "Reference" "D33"
+		(property "Reference" "D34"
 			(at 153.67 96.5199 90)
 			(effects
 				(font
@@ -4676,7 +4033,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D33")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "849f1b0b-0dad-456c-ae90-78c30426b513")
-		(property "Reference" "D34"
+		(property "Reference" "D35"
 			(at 186.69 101.5999 90)
 			(effects
 				(font
@@ -4850,75 +4207,7 @@
 		(instances
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 132.08 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "855e7eeb-6c23-41a2-b8f8-0a95b7d2ba46")
-		(property "Reference" "K35"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PG1350"
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 132.08 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dae78d8f-66df-4fb0-ad7d-3bb2881334e9")
-		)
-		(pin "1"
-			(uuid "926b24d4-eb30-4d20-8b5f-10e8f67eac7d")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "K35")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -5433,76 +4722,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1246ed9-ff66-4027-8b33-f8b20f7c33f3")
-		(property "Reference" "R18"
-			(at 146.05 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 146.05 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 141.732 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8a9d0e4-dca4-402f-8d66-e5055f71a2a1")
-		)
-		(pin "2"
-			(uuid "d7454e9f-b939-425b-a0b8-ab2a22d14808")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 72.39 57.15 90)
 		(unit 1)
@@ -5585,76 +4804,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8e7c4f1-cbe4-42a8-a6f9-1005af6ba08c")
-		(property "Reference" "R17"
-			(at 118.11 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 118.11 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 113.792 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c58cee0c-a517-48fa-976f-23b6a0a7e3eb")
-		)
-		(pin "2"
-			(uuid "b5733985-4de8-499c-a8b6-e07a46375007")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5811,75 +4960,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "K22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7d0f4a8-dbe1-4fa7-9887-e47051b06616")
-		(property "Reference" "R20"
-			(at 201.93 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 201.93 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
-			(at 197.612 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "486d274c-06ce-403b-a8b7-af1e37a22552")
-		)
-		(pin "2"
-			(uuid "a1c1516e-ef7e-4e0e-82a2-00f1dd290ee5")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6223,7 +5303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:R_2010_5025Metric_Mod"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 197.612 50.8 90)
 			(effects
 				(font
@@ -6260,94 +5340,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 127 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f079c958-dba1-4a5e-959f-41c8475c95ea")
-		(property "Reference" "D35"
-			(at 129.54 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 129.54 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b6d2dc5-eef0-4805-8138-3d2edd0ba7e9")
-		)
-		(pin "2"
-			(uuid "90004d53-6960-432e-be55-f3d34ed2bdfd")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "D35")
 					(unit 1)
 				)
 			)
