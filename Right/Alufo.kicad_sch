@@ -6,7 +6,7 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "Alufo ")
-		(rev "0.1")
+		(rev "1.0R")
 		(company "bgkendall")
 		(comment 1 "Split one-layer reversible keyboard PCB (righthand side)")
 	)

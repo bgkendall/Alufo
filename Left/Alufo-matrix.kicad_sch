@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Alufo ")
-		(rev "0.1")
+		(rev "1.0L")
 		(company "bgkendall")
-		(comment 1 "Split one-layer reversible keyboard PCB (left-hand side)")
+		(comment 1 "Split one-layer reversible keyboard PCB (lefthand side)")
 		(comment 2 "Key switch matrix for")
 	)
 	(lib_symbols
