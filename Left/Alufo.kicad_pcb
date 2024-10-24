@@ -13756,7 +13756,7 @@
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
-			(at 0 0 0)
+			(at 0 1.05 0)
 			(layer "F.SilkS")
 			(uuid "717b1937-41c1-4922-aa2c-9bb850e66fb0")
 			(effects
@@ -13954,7 +13954,7 @@
 			(uuid "816f1979-2d05-48ea-a9b5-151c4db3bfde")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "c58a57a7-0d37-4939-b41e-7f68d684ebcd")
 			(effects
@@ -20196,7 +20196,7 @@
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J3"
-			(at 0 0 90)
+			(at 0 1.05 90)
 			(layer "F.SilkS")
 			(uuid "ce0c5416-e9b7-4d35-8d6c-4a3666d6a12e")
 			(effects
@@ -20394,7 +20394,7 @@
 			(uuid "fb6bf87f-a189-4a70-8b39-23f726322469")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "c426da7c-fedb-4f06-a707-18e6a4d589e4")
 			(effects
@@ -37493,6 +37493,18 @@
 		(fill none)
 		(layer "User.4")
 		(uuid "88bb7e0f-cde9-4f6d-b3cb-cd13e49bde85")
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 175.517 45.619 0)
+		(layer "F.SilkS")
+		(uuid "ce4da6b4-b89b-4273-aac4-42a9ae639b1d")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
 	)
 	(gr_text "${TITLE} v${REVISION} • ${COMPANY}"
 		(at 180.388958 99.065448 11)
