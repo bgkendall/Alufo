@@ -4281,7 +4281,7 @@
 	(text_box "Miscellaneous"
 		(exclude_from_sim no)
 		(at 149.86 139.7 0)
-		(size 45.72 96.52)
+		(size 45.72 110.49)
 		(stroke
 			(width 0)
 			(type default)
@@ -4299,7 +4299,7 @@
 	)
 	(text_box "The SMD nuts, H1–5, are only populated when the PCB is acting as the base of the keyboard."
 		(exclude_from_sim no)
-		(at 151.13 220.98 0)
+		(at 151.13 234.95 0)
 		(size 43.18 13.97)
 		(stroke
 			(width 0)
@@ -5187,7 +5187,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 153.67 205.74 0)
+		(at 153.67 201.93 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5196,7 +5196,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cc6e4c1-5de3-49aa-abd6-26caa592a5b7")
 		(property "Reference" "H2"
-			(at 156.21 204.4699 0)
+			(at 156.21 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,8 +5204,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 156.21 207.0099 0)
+		(property "Value" "SolderNut"
+			(at 156.21 203.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 153.67 205.74 0)
+			(at 153.67 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 205.74 0)
+			(at 153.67 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5232,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 153.67 205.74 0)
+			(at 153.67 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,6 +5244,70 @@
 			(project ""
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 228.6 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d360a8a-b189-40ef-b8e9-f140339827b8")
+		(property "Reference" "H10"
+			(at 181.61 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ScrewHole"
+			(at 181.61 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 179.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -5405,7 +5469,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 153.67 196.85 0)
+		(at 153.67 193.04 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5414,7 +5478,7 @@
 		(fields_autoplaced yes)
 		(uuid "16d226dc-7a1c-481c-b543-64d250beb820")
 		(property "Reference" "H1"
-			(at 156.21 195.5799 0)
+			(at 156.21 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,8 +5486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 156.21 198.1199 0)
+		(property "Value" "SolderNut"
+			(at 156.21 194.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5496,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 153.67 196.85 0)
+			(at 153.67 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5505,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 196.85 0)
+			(at 153.67 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5514,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 153.67 196.85 0)
+			(at 153.67 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5533,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 153.67 214.63 0)
+		(at 153.67 210.82 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5478,7 +5542,7 @@
 		(fields_autoplaced yes)
 		(uuid "1749a226-d743-4207-86ab-2a51ab49d6a4")
 		(property "Reference" "H3"
-			(at 156.21 213.3599 0)
+			(at 156.21 209.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,8 +5550,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 156.21 215.8999 0)
+		(property "Value" "SolderNut"
+			(at 156.21 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5560,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 153.67 214.63 0)
+			(at 153.67 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 214.63 0)
+			(at 153.67 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5578,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 153.67 214.63 0)
+			(at 153.67 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,6 +5590,70 @@
 			(project ""
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 201.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199da4c0-5796-4a7e-b4a6-c9139ecbc7e8")
+		(property "Reference" "H7"
+			(at 181.61 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ScrewHole"
+			(at 181.61 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 179.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -5879,6 +6007,70 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 210.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27781cf3-f7f1-41e3-8f30-b46bc3648a98")
+		(property "Reference" "H8"
+			(at 181.61 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ScrewHole"
+			(at 181.61 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 179.07 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -7056,6 +7248,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d3a50f-357e-4bf1-af17-09dc7e0ee241")
+		(property "Reference" "H6"
+			(at 181.61 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ScrewHole"
+			(at 181.61 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 179.07 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 55.88 0)
 		(unit 1)
@@ -7830,7 +8086,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 177.8 196.85 0)
+		(at 153.67 219.71 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7839,7 +8095,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab210c86-d523-43a8-8bd4-ecbbd75ee9d5")
 		(property "Reference" "H4"
-			(at 180.34 195.5799 0)
+			(at 156.21 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,8 +8103,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 180.34 198.1199 0)
+		(property "Value" "SolderNut"
+			(at 156.21 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +8113,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 177.8 196.85 0)
+			(at 153.67 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +8122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 196.85 0)
+			(at 153.67 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +8131,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 196.85 0)
+			(at 153.67 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,6 +8143,70 @@
 			(project ""
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 179.07 219.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b22a2aa4-65cd-4d07-80d6-4a13edc016cb")
+		(property "Reference" "H9"
+			(at 181.61 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ScrewHole"
+			(at 181.61 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 179.07 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 179.07 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -8418,7 +8738,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 177.8 205.74 0)
+		(at 153.67 228.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8427,7 +8747,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7ee6bee-8a50-4240-b86a-e5af7af652ce")
 		(property "Reference" "H5"
-			(at 180.34 204.4699 0)
+			(at 156.21 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,8 +8755,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 180.34 207.0099 0)
+		(property "Value" "SolderNut"
+			(at 156.21 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +8765,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 177.8 205.74 0)
+			(at 153.67 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 205.74 0)
+			(at 153.67 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8783,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 205.74 0)
+			(at 153.67 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
