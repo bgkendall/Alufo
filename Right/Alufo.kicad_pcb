@@ -14279,7 +14279,7 @@
 		(path "/c34ccab6-b359-415b-b4a6-cc7c759dad12")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -15195,7 +15195,7 @@
 		(path "/efed638c-2074-48ad-ae55-a343e541b15b")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -22229,7 +22229,7 @@
 		(path "/8d86c84a-39af-4460-9f31-db28f684e64a")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -24239,7 +24239,7 @@
 		(path "/2fac0fff-12d8-4dfb-8110-7a1cc174c38e")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -34716,7 +34716,7 @@
 		(path "/7c428452-09e6-4086-a4a4-83f86e95e9b0")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
