@@ -14477,7 +14477,7 @@
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1f89773d-c277-4920-92d0-408da89cd289")
+			(uuid "bb005357-b199-4d6f-a0a6-b6f0afd51877")
 			(effects
 				(font
 					(size 1 1)
@@ -14488,7 +14488,7 @@
 		(property "Value" "SolderNut"
 			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "13303f0c-9e9d-42df-98cf-ccce33b60f69")
+			(uuid "2f1578e7-fa94-4aa8-bc2b-ed4a1a990130")
 			(effects
 				(font
 					(size 1 1)
@@ -14501,7 +14501,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f97b7a1-f5d2-4aeb-b54f-827638d42127")
+			(uuid "0eab8f28-8088-43b6-b9ae-3900e9d0a4cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14514,7 +14514,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "513a2e29-9fb8-4d2a-8973-09f1ea9f8ea6")
+			(uuid "43299987-21c2-4efe-9656-47892254b2e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14527,7 +14527,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbb1e340-e9e7-4fb7-9838-fe04a3140a18")
+			(uuid "6eb4cdb7-b393-4902-855c-f1c5216386e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14549,7 +14549,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "2baa6fa3-e324-4348-9f35-b67b8fc07525")
+			(uuid "58fa85ae-2058-48a4-8959-44920c9a5f4e")
 		)
 		(fp_circle
 			(center 0 0)
@@ -14560,7 +14560,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "5e5194b5-f7dc-4c58-988c-d6e908171bd5")
+			(uuid "502ce71a-cdc6-41fd-9cb5-1d2cad0aeeeb")
 		)
 		(fp_circle
 			(center 0 0)
@@ -14571,12 +14571,12 @@
 			)
 			(fill none)
 			(layer "User.6")
-			(uuid "09d06bf9-8829-4e5b-8f28-d1802cbd8176")
+			(uuid "521a5bca-6e2a-4ced-a010-d4ad6927bd48")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "e1d83dea-4b23-459d-b3bd-d2f376751186")
+			(uuid "6e5128e0-95db-415d-b520-c910616e84ac")
 			(effects
 				(font
 					(size 1 1)
@@ -14593,7 +14593,7 @@
 			(net 73 "Shield")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "33a07673-fbf2-4936-a642-e5c94a054768")
+			(uuid "fb716605-1501-440a-b728-86326893c657")
 		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
@@ -15604,7 +15604,7 @@
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "40ff335d-58f2-4616-8681-ee8a9c8402d6")
+			(uuid "d7296f0e-665a-4f2b-a561-f226a4ff691f")
 			(effects
 				(font
 					(size 1 1)
@@ -15615,7 +15615,7 @@
 		(property "Value" "SolderNut"
 			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "b85390fd-7a90-4463-9b5d-5554895a77d9")
+			(uuid "1f38d727-9a00-4110-8925-5ce59c5a27fa")
 			(effects
 				(font
 					(size 1 1)
@@ -15628,7 +15628,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f20460e7-6b13-45f3-b73e-9e4300084750")
+			(uuid "3aedcc6a-0b3c-4dfd-bbc2-2c2d2c491b08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15641,7 +15641,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67e7694e-37df-41e9-aa95-c10eb0318978")
+			(uuid "25e04f2c-1f86-4837-97e1-33240c6a92fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15654,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8635e4b5-e1fb-4213-a86d-b621a3854c88")
+			(uuid "81acead4-19f2-4da9-944d-11b4f1a3222a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15676,7 +15676,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "6f4492ab-f311-41eb-8017-7ae325cb6f01")
+			(uuid "05b8fbad-6839-4e99-aa85-16f17ff132d8")
 		)
 		(fp_circle
 			(center 0 0)
@@ -15687,23 +15687,23 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "a4c9222f-b748-42f5-9e86-ad18be68a53d")
+			(uuid "73997cca-14df-402c-8b41-3e9f5b23e590")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 3.35 0)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill none)
 			(layer "User.6")
-			(uuid "fa9457a9-3cea-43e1-99d9-79e7754b4bc0")
+			(uuid "1b145ddc-c2ec-43e0-8635-fda145eb691c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "68e52eea-b5c4-42a6-85de-16c4a679e78e")
+			(uuid "994b34b7-91b1-48de-abd8-3cde25ca800b")
 			(effects
 				(font
 					(size 1 1)
@@ -15717,7 +15717,7 @@
 			(drill 2.7)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "1f0e7c05-297e-47da-ae89-a740b4209fa1")
+			(uuid "e9ae0716-f8ba-4a06-a59d-c32403333b60")
 		)
 	)
 	(footprint "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
@@ -22572,7 +22572,7 @@
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e66a8451-bfa0-4e18-93eb-f4f6b7c277e4")
+			(uuid "08a013a0-f531-4add-a152-42d332b218e6")
 			(effects
 				(font
 					(size 1 1)
@@ -22583,7 +22583,7 @@
 		(property "Value" "SolderNut"
 			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "4711ec99-c734-465c-8b13-9b45e77a7627")
+			(uuid "9d8c5434-6c89-49fd-95ab-2d9eef4f0d9b")
 			(effects
 				(font
 					(size 1 1)
@@ -22596,7 +22596,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8664c47a-c54f-4958-8e5d-28299587f3d9")
+			(uuid "0cd8a9f8-f9f5-42d4-a6ad-674b464f6a3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22609,7 +22609,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9492f9d-e49e-484e-83e4-2a3828fb2882")
+			(uuid "292d0480-a130-489f-a6c6-ca35f600a9ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22622,7 +22622,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74649629-bcf5-4d88-8f92-68dfd47adbd3")
+			(uuid "3118ea70-ced7-4b99-ada0-f436bba7c32d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22644,7 +22644,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "a6e02cfb-9226-4ba0-ba1b-1c56138e7a33")
+			(uuid "59556f9b-41ac-4628-8e37-1825d6a46477")
 		)
 		(fp_circle
 			(center 0 0)
@@ -22655,23 +22655,23 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "10c0f4ed-60ca-418c-9909-302209cc0a94")
+			(uuid "35bbf5fd-5255-41b1-81ba-247b17752d4a")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 3.35 0)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill none)
 			(layer "User.6")
-			(uuid "e95da65b-7bf9-42af-a6ed-630cbc771ebd")
+			(uuid "a7e8e746-46e3-47d4-ac5f-06bc869b14ea")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "50a9feaf-6e2c-40c9-8a6e-f95e3b01d8b9")
+			(uuid "9f004037-2deb-4b13-9015-efdfd826c369")
 			(effects
 				(font
 					(size 1 1)
@@ -22685,7 +22685,7 @@
 			(drill 2.7)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "0320db64-3f1a-44a5-87c8-3407d2a4c412")
+			(uuid "0aea762c-cea3-45b2-9ee8-ae09d371c0d0")
 		)
 	)
 	(footprint "Project Library:D_SOD-123_Mod"
@@ -24560,7 +24560,7 @@
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "60ff0c1a-18c4-43dd-9a04-e6421bf9152d")
+			(uuid "b5a5cb24-aaee-4d1a-950d-dad428e54f5c")
 			(effects
 				(font
 					(size 1 1)
@@ -24571,7 +24571,7 @@
 		(property "Value" "SolderNut"
 			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "0ec5256c-86cc-4a90-a630-144c9f12dbf4")
+			(uuid "6aae7318-9bec-4b2f-b123-d56f17cba497")
 			(effects
 				(font
 					(size 1 1)
@@ -24584,7 +24584,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "372c5332-e6dc-4cdc-b19c-f49977f0ad77")
+			(uuid "71b72ad8-29bb-4260-939f-95deee50e112")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24597,7 +24597,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c1b4fbe-d890-4bb1-9d77-731ec15d845f")
+			(uuid "eb109c44-5691-4d91-8586-1db7062c79e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24610,7 +24610,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3457ed62-d1b8-48bc-b673-6b3ee689949c")
+			(uuid "7530de3c-ae73-43a7-aee1-137af49d4fc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24632,7 +24632,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "7d169a36-41f6-4bbc-824a-b08c857e7a82")
+			(uuid "33811448-e30c-4abc-88e3-f66fa39c1376")
 		)
 		(fp_circle
 			(center 0 0)
@@ -24643,23 +24643,23 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "01a0fa8a-16fe-4b12-b637-a2faa630449a")
+			(uuid "234a8300-1adf-4b3f-a647-6b29e2754da4")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 3.35 0)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill none)
 			(layer "User.6")
-			(uuid "d0abf436-2e3c-473f-9175-d0ffde20e1f4")
+			(uuid "a46c3dd3-f1a5-47f0-b47e-f79a1c9d52e0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ca5a89f8-0f2c-4117-bce4-d4d2c6a4b07c")
+			(uuid "b9e49530-53ab-447d-91f2-d74c7f1bb284")
 			(effects
 				(font
 					(size 1 1)
@@ -24673,7 +24673,7 @@
 			(drill 2.7)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "64209bb1-c581-4805-9316-e01b545e4374")
+			(uuid "7af09b71-aea2-4950-a22c-335c6c7da59d")
 		)
 	)
 	(footprint "Project Library:Mousebites"
@@ -35486,7 +35486,7 @@
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "892d23a2-15b1-47a8-a4b2-c014d112394b")
+			(uuid "283bec78-5c1e-44e7-8590-b69ad3e74901")
 			(effects
 				(font
 					(size 1 1)
@@ -35497,7 +35497,7 @@
 		(property "Value" "SolderNut"
 			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "0064976c-bd1c-4bfd-bcc8-51d11b23171e")
+			(uuid "b0216563-c76e-4d85-ab9c-a25243bf2601")
 			(effects
 				(font
 					(size 1 1)
@@ -35510,7 +35510,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38724285-1466-4964-973e-997b5c4dc234")
+			(uuid "d3e76a56-ed08-4658-9657-dcebcf9d0aca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35523,7 +35523,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0243264c-cff7-4196-942a-f8797e150cc2")
+			(uuid "77ffe73e-2b97-4d85-afdf-3c1fce91ded6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35536,7 +35536,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "594d1693-b8fb-45e7-9b2b-070f09ea51a4")
+			(uuid "a2f6d28c-8ea7-43d6-9ec5-8e68f37cca32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35558,7 +35558,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "751e298f-f085-4563-9df5-a27d46edd009")
+			(uuid "5c2e2fe2-8397-4f53-95c5-3201fe4e17df")
 		)
 		(fp_circle
 			(center 0 0)
@@ -35569,23 +35569,23 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "f25b8c06-c41f-4402-bd3b-b42990f88504")
+			(uuid "56307e48-674c-4999-bc85-92e62d4b44e4")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.2 0)
+			(end 3.35 0)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill none)
 			(layer "User.6")
-			(uuid "17ad2aad-f5da-457f-a71c-bdcf21a9eebb")
+			(uuid "22b0e81e-4307-4ff9-b798-d2c491cfeb4a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "d541e741-4b1f-4856-8406-2121d6184df3")
+			(uuid "58ae2f8b-f9dc-4155-83af-ce74609f9f79")
 			(effects
 				(font
 					(size 1 1)
@@ -35599,7 +35599,7 @@
 			(drill 2.7)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "c5bee5bb-106a-4b43-9592-6dcc99313013")
+			(uuid "53f50b8a-3e28-488f-9976-973736c60ed1")
 		)
 	)
 	(footprint "Project Library:D_SOD-123"
@@ -38526,24 +38526,24 @@
 	(gr_poly
 		(pts
 			(arc
-				(start 134.078916 97.918661)
-				(mid 132.578912 98.223839)
-				(end 131.734042 99.500297)
+				(start 146.994959 102.191594)
+				(mid 146.842369 101.441592)
+				(end 146.204141 101.019158)
 			)
 			(arc
-				(start 131.140244 102.555121)
-				(mid 131.445423 104.055125)
-				(end 132.721881 104.899993)
+				(start 133.456728 98.541312)
+				(mid 132.706718 98.693887)
+				(end 132.284292 99.33213)
 			)
 			(arc
-				(start 144.503372 107.190083)
-				(mid 146.003376 106.884904)
-				(end 146.848244 105.608446)
+				(start 131.538992 103.166365)
+				(mid 131.691582 103.91637)
+				(end 132.32981 104.338801)
 			)
 			(arc
-				(start 147.442042 102.553623)
-				(mid 147.136863 101.053618)
-				(end 145.860404 100.20875)
+				(start 145.077223 106.816647)
+				(mid 145.827221 106.664061)
+				(end 146.249659 106.025829)
 			)
 		)
 		(stroke
@@ -38552,7 +38552,7 @@
 		)
 		(fill none)
 		(layer "User.2")
-		(uuid "072421d0-cbdb-497f-bac5-fc791d9c3aec")
+		(uuid "87ae5a26-3866-46c6-bd14-ee560e72d07d")
 	)
 	(gr_poly
 		(pts
