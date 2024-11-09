@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "../Gerbers/Alufo-Right",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Alufo.step",

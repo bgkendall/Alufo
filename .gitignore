@@ -29,3 +29,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Ignore Gerber subdirectories (only include Zipped Gerber files)
+Gerbers/**
+
