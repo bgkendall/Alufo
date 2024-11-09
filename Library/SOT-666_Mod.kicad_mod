@@ -66,6 +66,7 @@
 			)
 		)
 	)
+	(clearance 0.175)
 	(attr smd)
 	(fp_line
 		(start 0.65 -0.99)
@@ -218,20 +219,11 @@
 		(uuid "883e116e-2a5c-4005-84b6-8607abec59c3")
 	)
 	(pad "2" smd roundrect
-		(at -0.925 0)
-		(size 0.65 0.3)
+		(at -0.674999 0)
+		(size 1.149998 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "8c287b5d-3820-4423-b5ec-5f03e6575925")
-	)
-	(pad "2" smd trapezoid
-		(at -0.4 0)
-		(size 0.6 0.75)
-		(rect_delta -0.45 0)
-		(layers "F.Cu")
-		(clearance 0.127)
-		(zone_connect 2)
-		(uuid "c95a2776-d273-4921-a13a-a25a2eb3da66")
 	)
 	(pad "2" smd circle
 		(at -0.25 -1)
@@ -250,7 +242,20 @@
 			(clearance outline)
 			(anchor rect)
 		)
-		(primitives)
+		(primitives
+			(gr_arc
+				(start -0.5 0)
+				(mid -0.146447 0.146447)
+				(end 0 0.5)
+				(width 0.3)
+			)
+			(gr_arc
+				(start 0 -0.5)
+				(mid -0.146447 -0.146447)
+				(end -0.5 0)
+				(width 0.3)
+			)
+		)
 		(uuid "e7328363-1d10-41d7-848b-54224760c861")
 	)
 	(pad "2" smd circle
