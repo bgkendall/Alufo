@@ -33,3 +33,6 @@ fp-info-cache
 # Ignore Gerber subdirectories (only include Zipped Gerber files)
 Gerbers/**
 
+# FreeCAD backup files
+*.FCBak
+
