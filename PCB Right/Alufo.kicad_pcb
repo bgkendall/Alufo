@@ -14597,7 +14597,7 @@
 			(uuid "3ebb66ba-ae78-451f-ac1e-b1b514b6db47")
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+	(footprint "Project Library:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 		(layer "F.Cu")
 		(uuid "5766c43e-5837-48ff-9e5b-6eab8d02bc00")
 		(at 95.25 65.567997)
@@ -14606,7 +14606,7 @@
 		(property "Reference" "J6"
 			(at 0 -2.148 0)
 			(layer "F.SilkS")
-			(uuid "3b752089-1c91-4bf4-97e2-06df75387eb9")
+			(uuid "cb6e6425-24e3-4c63-ac33-c38f03258e4e")
 			(effects
 				(font
 					(size 1 1)
@@ -14617,7 +14617,7 @@
 		(property "Value" "SolderHole"
 			(at 0 2.25 0)
 			(layer "F.Fab")
-			(uuid "161fee3a-eb0a-4ed2-bfa7-0108b6ef8543")
+			(uuid "079b9aea-2082-4cc6-81ae-7ff7992d704b")
 			(effects
 				(font
 					(size 1 1)
@@ -14625,12 +14625,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+		(property "Footprint" "Project Library:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9abf195-8ae4-458b-a862-c07392b7c3b1")
+			(uuid "4eef6061-cff3-4ce4-80e6-a93974e109cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14643,7 +14643,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71261946-7bfb-4782-80bd-1fcba207c233")
+			(uuid "b05ff31d-6e1b-4078-8627-896a655d8bf9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,7 +14656,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "131eaaa5-a5cb-423c-9ab0-4eb3618260ee")
+			(uuid "6b9b1308-0117-4d82-b604-b2023042c369")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14678,7 +14678,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "a7887083-6d16-4753-86c6-7f881500f6ff")
+			(uuid "18faabfc-b958-49e4-875b-a74b2cb74359")
 		)
 		(fp_circle
 			(center 0 0)
@@ -14689,12 +14689,23 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "808630b8-1248-4060-9fe8-76bc64beab51")
+			(uuid "fb48feef-47be-4370-abb6-3f1303df1dec")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.45 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "User.2")
+			(uuid "a2b93c5d-e614-4c98-953f-cf3f7301e9b8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.15 0)
 			(layer "F.Fab")
-			(uuid "9a682e1b-149d-43f7-8022-5ce21f1d4894")
+			(uuid "e6544009-1508-446d-894d-2d7b4e91c0b3")
 			(effects
 				(font
 					(size 1 1)
@@ -14711,7 +14722,7 @@
 			(net 73 "Shield")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "ee370058-adc5-457a-ab3d-d9b6baec1655")
+			(uuid "8f98666d-176c-4e5f-becf-4a77ba891b20")
 		)
 	)
 	(footprint "Project Library:Mousebites"

@@ -32251,7 +32251,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+	(footprint "Project Library:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 		(layer "F.Cu")
 		(uuid "e6c6e681-0d57-44bc-b2d1-c0b3576c4554")
 		(at 238.125 65.166682)
@@ -32260,7 +32260,7 @@
 		(property "Reference" "J5"
 			(at 0 -2.148 0)
 			(layer "F.SilkS")
-			(uuid "0dbda78d-8422-4b2e-8f74-eb24b738d1a3")
+			(uuid "bcc8ee9f-006f-4aec-b61c-0c598bfb914f")
 			(effects
 				(font
 					(size 1 1)
@@ -32271,7 +32271,7 @@
 		(property "Value" "SolderHole"
 			(at 0 2.25 0)
 			(layer "F.Fab")
-			(uuid "a86f1365-88d2-4b8e-94ac-4c7f697b1d17")
+			(uuid "362084c2-3b25-441e-85de-fc9578aec085")
 			(effects
 				(font
 					(size 1 1)
@@ -32279,12 +32279,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+		(property "Footprint" "Project Library:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55b1ee8e-f805-48a6-9923-6eec2b8092a4")
+			(uuid "710904db-04e5-4403-b207-0d13884a3423")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32297,7 +32297,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "369057b3-d2c8-4bbf-ae90-0bb40572e102")
+			(uuid "61813b33-1d2d-478b-9c03-9479508a15f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32310,7 +32310,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6479b79-b8a9-4aa1-a160-94b4f63b8f3f")
+			(uuid "5e890036-219a-473e-8c49-70aa638fb3e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32332,7 +32332,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "99c19e2c-db75-4ed0-8fcd-f4ae8e8c49ec")
+			(uuid "e1ec8aaf-5dd3-41c3-a4ea-10d06f33e04f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -32343,12 +32343,23 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "071be9d2-3652-4a1c-a04d-e2d0bfd1abec")
+			(uuid "636a9373-8d72-4cb8-bf19-bfce28d6e957")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.45 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "User.2")
+			(uuid "b22a460f-c676-4560-8625-a70e10d8145e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.15 0)
 			(layer "F.Fab")
-			(uuid "cbc6606f-fa4b-4b59-875a-8fdecc707f97")
+			(uuid "c38a4d3d-e396-4d1c-b49b-12eebda6c2e4")
 			(effects
 				(font
 					(size 1 1)
@@ -32365,7 +32376,7 @@
 			(net 72 "Shield")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "2e0d89b6-e3cc-41f7-a027-2924e56dff32")
+			(uuid "b502937b-bd0a-4391-9dea-d6effc82c4ef")
 		)
 	)
 	(footprint "Project Library:LED_0805_2012Metric_Mod"

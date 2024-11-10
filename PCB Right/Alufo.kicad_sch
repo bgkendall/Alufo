@@ -5830,7 +5830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+		(property "Footprint" "Project Library:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 			(at 165.1 157.48 0)
 			(effects
 				(font
