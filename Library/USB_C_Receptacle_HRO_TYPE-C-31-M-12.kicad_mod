@@ -289,7 +289,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "User.6")
+		(layer "User.9")
 		(uuid "d2506e6d-1a12-44a8-aa15-361ba6a45088")
 	)
 	(fp_text user "${REFERENCE}"

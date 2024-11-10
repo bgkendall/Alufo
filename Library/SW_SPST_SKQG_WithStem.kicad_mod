@@ -394,7 +394,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "User.6")
+		(layer "User.9")
 		(uuid "9c13f80a-4e06-4e78-a134-44560c0107b5")
 	)
 	(fp_text user "No F.Cu tracks"
