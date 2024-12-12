@@ -261,10 +261,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ee76623-e702-4ef8-9ecf-5de8413b384d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/dc3b9026-7f81-4c46-95e1-dde3299056de")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -1124,6 +1137,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fc5b02c-5459-433b-ad08-041f95a6d68f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/6c70e3f4-4111-43d5-a590-eaf662e44282")
 		(sheetname "Matrix")
@@ -1446,7 +1472,7 @@
 		(path "/e7ee6bee-8a50-4240-b86a-e5af7af652ce")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -1563,6 +1589,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3647099"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e735a074-028a-48d4-a22a-6dc33602fed8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1900,10 +1939,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7f5af77-8e2c-426f-8066-da630fa77713")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/216f0f7f-c365-4960-b27b-bbb7e0c3f0ab")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -2737,6 +2789,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e38defd3-2294-4941-950b-95225db504ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/597d1291-ee34-4b08-8f17-8c53cfd7fe29")
 		(sheetname "Matrix")
@@ -3186,10 +3251,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa9e84c3-8588-47e2-b8b3-440615758b8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7fe0432b-de52-4c03-8b4a-06e24feed117")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -4024,7 +4102,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/876bcda9-531a-49b7-951f-13cc23f875d6")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -4268,6 +4346,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a5f3dcf-c5ea-4ffd-9253-6c9af75986d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f0371eef-6112-475b-a1ef-ccce6168b1b1")
 		(sheetname "Matrix")
@@ -4500,6 +4591,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3857b74-d2d8-482d-aa97-9786c6b02e1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -79)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "041b6fd0-127a-41c0-ae42-d1527f1cf72f")
 			(effects
 				(font
 					(size 1 1)
@@ -4830,7 +4934,7 @@
 		(path "/37b15dd2-0d18-4011-b5e5-2045c1689a0d")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_bom dnp)
 		(fp_line
 			(start -1.25 -2.5)
 			(end -1 -2.5)
@@ -5041,7 +5145,7 @@
 		(path "/199da4c0-5796-4a7e-b4a6-c9139ecbc7e8")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -5151,7 +5255,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/8683a23e-7acd-4027-91c2-f42382f0547f")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -5391,10 +5495,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "101c60e4-4ebf-44fc-a939-bc3223d328c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0c4d77e4-b0a3-4a60-8c02-de8e005ad164")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -6229,7 +6346,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/cb819428-b5af-4338-a9b3-1e71526ca9b0")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -6474,7 +6591,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a334415a-9d4a-419a-866b-8a1129444659")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -6962,7 +7079,7 @@
 		(path "/b9c02daf-e4dd-4fa8-a405-d34c0c56981b")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_bom dnp)
 		(fp_line
 			(start -1.25 -2.5)
 			(end -1 -2.5)
@@ -7169,7 +7286,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/cebcab88-6114-4f38-b1b8-e518d941dc81")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -7432,6 +7549,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0207b8ff-c95c-4f8d-bd60-464ee5ce1af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49ae1e86-2cab-4019-b072-8d286755174b")
 			(effects
 				(font
 					(size 1 1)
@@ -7757,7 +7887,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/91f46594-014d-452b-bcdf-adf234693cec")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -8020,6 +8150,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c2041e1-4eaa-477f-a7ee-5fb612dd390f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6dd4ed1-b589-4ee2-8e43-1552f444fb41")
 			(effects
 				(font
 					(size 1 1)
@@ -8340,10 +8483,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed6f60bd-ee8e-4f44-9da9-13ae7c38ecdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/85f01ba4-3a07-40e6-b1a3-c74a5fec10c3")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -9173,10 +9329,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63257883-63f2-4bdd-b185-7d6e8fdbd11a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/6a7afaf7-4e2e-47e5-8d82-ee176b88fe44")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -10010,6 +10179,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74b22d4-cbfe-4eef-9420-cfa905c9b5be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/4f7deb15-d868-46a1-8317-394cf3fbb561")
 		(sheetname "Matrix")
@@ -10458,10 +10640,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bf54c0d-a868-4164-bb3b-23ad21cfc6d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f5501762-e65d-4368-9346-d0d6d0687fdb")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -11302,7 +11497,7 @@
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
 		(zone_connect 2)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
 		(net_tie_pad_groups "1, 2")
 		(pad "1" smd circle
 			(at -0.254 0)
@@ -11404,10 +11599,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "079a326c-c924-4690-b639-20c559416c3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/4882b6ba-3d1c-4be8-807a-a6dba655fc5c")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -12237,10 +12445,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f71ae982-3550-4524-8392-721d0aaa026d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5d1e9425-8fea-42e9-9c44-275820e0a437")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -13070,10 +13291,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 11)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b5141a8-83f9-45fc-ba8b-05bf97d98671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/855e7eeb-6c23-41a2-b8f8-0a95b7d2ba46")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_poly
 			(pts
 				(xy -8.75 -8.25) (xy 8.75 -8.25) (xy 8.75 8.25) (xy -8.75 8.25)
@@ -13918,7 +14152,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/caa70f6a-151d-4ffa-b960-84279f969c3e")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -14161,6 +14395,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d313d6dd-4c38-4bca-b9ee-75dd7a588dff")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14708,7 +14955,7 @@
 		(path "/1749a226-d743-4207-86ab-2a51ab49d6a4")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -14837,7 +15084,7 @@
 		(path "/b22a2aa4-65cd-4d07-80d6-4a13edc016cb")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -14951,7 +15198,7 @@
 		(path "/0d360a8a-b189-40ef-b8e9-f140339827b8")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -15061,7 +15308,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a2171d20-0fe8-40e2-ba2c-44b58c404b63")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -15310,7 +15557,7 @@
 		(path "/0956484a-b366-43b4-82b8-fad23805272e")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_bom dnp)
 		(fp_line
 			(start 0 3.5)
 			(end 0 3.75)
@@ -15517,7 +15764,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/da6419d0-d2b5-46ad-b2be-368df0dcc977")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -15766,7 +16013,7 @@
 		(path "/86d3a50f-357e-4bf1-af17-09dc7e0ee241")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -15880,7 +16127,7 @@
 		(path "/0cc6e4c1-5de3-49aa-abd6-26caa592a5b7")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -15997,10 +16244,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 11)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91e2ee35-a9fe-47a0-8a97-e32ea9573d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/25500372-659d-435f-904b-ea7e02b38d3e")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_poly
 			(pts
 				(xy -13.125 -8.25) (xy 13.125 -8.25) (xy 13.125 8.25) (xy -13.125 8.25)
@@ -16835,10 +17095,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deb655ad-b748-43e7-86b8-95de477f4736")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/160b356f-7bda-4e84-a480-e44e5a5e58cd")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -17673,7 +17946,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/9e491835-3ca1-43fb-a39d-bda04cc92a26")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -17936,6 +18209,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2125b02-29e6-402d-8df1-7fb163029d17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71b200e7-dfb9-41ce-aabb-fac9e0f3fd05")
 			(effects
 				(font
 					(size 1 1)
@@ -18286,6 +18572,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1c24b28-daed-4276-8c70-2d90a7390a8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba3069a5-ba16-45e1-a2c0-38af7b85764e")
 		(sheetname "Root")
@@ -18584,7 +18883,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/04b2c4c3-185b-4230-ae35-9eb1927f20b4")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -18828,6 +19127,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "674faa4a-97ab-4afd-ac7a-6fc23c6551e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/467aeef4-18e1-49c8-82d1-b9c178532c97")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
@@ -18886,7 +19198,7 @@
 		)
 		(fp_arc
 			(start 1.749484 0.919719)
-			(mid 1.712511 0.81407)
+			(mid 1.712517 0.81407)
 			(end 1.699999 0.702842)
 			(stroke
 				(width 0.1)
@@ -18908,7 +19220,7 @@
 		)
 		(fp_arc
 			(start 1.699999 -0.702843)
-			(mid 1.712528 -0.814069)
+			(mid 1.712527 -0.814069)
 			(end 1.749484 -0.919721)
 			(stroke
 				(width 0.1)
@@ -18996,7 +19308,7 @@
 		)
 		(fp_arc
 			(start -1.749484 -0.919721)
-			(mid -1.638071 -1.504035)
+			(mid -1.638071 -1.504036)
 			(end -1.046711 -1.568299)
 			(stroke
 				(width 0.1)
@@ -19257,6 +19569,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8e06c40-4641-4eb3-8ecb-05f09fa8b68f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97b4d7d3-8f54-4be3-ae8e-ea4ec713909c")
 			(effects
 				(font
 					(size 1 1)
@@ -19577,10 +19902,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e98bf2f1-77b7-4962-9f13-10d81ab57a15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d14abc8d-cd7e-442d-b6d9-d1bb349f7137")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -20863,6 +21201,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bac8892-9fd1-4f1f-9dea-26db648ce468")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/5adfa011-60ae-452d-a38a-7fd5ccc24a5b")
 		(sheetname "Root")
@@ -21406,7 +21757,7 @@
 		(path "/41378a6a-a4d1-48dc-91ae-8b6a476f68d6")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_bom dnp)
 		(fp_line
 			(start 0 3.5)
 			(end 0 3.75)
@@ -21847,10 +22198,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "decf9148-dc3e-474b-a762-558518a6fcda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/71886eed-0851-4047-bfcf-6b0c8179158b")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -22710,6 +23074,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ab9da80-d589-42b9-81ee-ded696d01d00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a72cccd9-12e0-440b-9228-483ce33f330d")
 		(sheetname "Matrix")
@@ -23046,6 +23423,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "335b03e5-3be0-4960-a86b-b19935c2c46d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "002ad843-7a63-46c1-beaf-40b0b1a97cfd")
 			(effects
 				(font
 					(size 1 1)
@@ -23396,6 +23786,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "563f84a8-eb0a-4d7c-b2ff-ca043e3a6b69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/99717b07-1fce-45b2-903d-4710dc0f5428")
 		(sheetname "Matrix")
@@ -23718,7 +24121,7 @@
 		(path "/ab210c86-d523-43a8-8bd4-ecbbd75ee9d5")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)
@@ -23858,6 +24261,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83c61661-e9aa-4984-9981-6719b98e11fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5bd4a04-4a04-4575-af5f-acb37a54ae79")
 			(effects
 				(font
 					(size 1 1)
@@ -24208,6 +24624,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b338a26-b80f-48d5-bb3f-d648113e6a1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/2b3fb19b-0fa9-41d3-a0f9-9834db038b69")
 		(sheetname "Matrix")
@@ -24526,7 +24955,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/140152ec-579f-43a0-ba78-189fd2ae888a")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -24789,6 +25218,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ddee1a8-8e84-4a21-a71f-e41b3e83617f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d92bcb72-371d-4699-b94f-77929003dc58")
 			(effects
 				(font
 					(size 1 1)
@@ -25139,6 +25581,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b6911a4-3dab-4cd4-9e7a-b4e82bbc9a2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/65087728-7554-407d-81fc-f65eceb4d37d")
 		(sheetname "Matrix")
@@ -25482,6 +25937,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -79)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "960e6b27-a0c4-4609-bd1c-9f48063d46b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f079c958-dba1-4a5e-959f-41c8475c95ea")
 		(sheetname "Matrix")
@@ -25801,7 +26269,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/e8477e18-e374-4e02-9c85-af6157850c50")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -26045,6 +26513,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C20416196"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ebb1e73-e913-46e7-80c6-881e5442404a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/33072f74-5ed2-46fe-a151-55622accb5e8")
 		(sheetname "Root")
@@ -26258,7 +26739,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2837790"
+		(property "LCSC" "C193668"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27173,7 +27654,7 @@
 		(path "/27781cf3-f7f1-41e3-8f30-b46bc3648a98")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -27301,6 +27782,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f4e9a5f-6a07-408c-9e10-fda815751a59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "463f7b0f-8898-425e-8d83-a389e1cff958")
 			(effects
 				(font
 					(size 1 1)
@@ -27626,7 +28120,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0ac3fccc-ba82-4626-826b-7316587452f3")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -27871,7 +28365,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/242677e0-4e23-412d-b482-2d92bdbab7bd")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -28116,7 +28610,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/51147104-89dc-4322-a14f-6ecbab194279")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -28360,6 +28854,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60165d22-ad3e-48bb-977e-2a00e952ec6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/1945e799-8155-439c-b9a6-8455df89e3ce")
 		(sheetname "Matrix")
@@ -28574,7 +29081,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d6c92bb1-2088-4d59-9163-09d60c1da14a")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -28817,10 +29324,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02a1e474-1673-4e50-9a43-3bcd11ea8c7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/da53bbf2-561e-4023-8416-02750fd638f5")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -29654,6 +30174,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C3647099"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0d7ce2e-3792-4936-a546-86263bc71c31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?666*")
 		(path "/5215cc88-bf86-4895-b1d8-0fb7f9e4eb9d")
 		(sheetname "Root")
@@ -29991,6 +30524,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42da2a8d-6bed-4ef4-80d5-913d0d74d7d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e3e0be27-0b65-46c3-939d-e0d903431c35")
 		(sheetname "Root")
@@ -30223,6 +30769,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "759a05d5-7d9a-4f58-a5f2-e29fc9631fc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28febbbe-05bf-4b55-92aa-bf5145c8144e")
 			(effects
 				(font
 					(size 1 1)
@@ -30543,6 +31102,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2960848"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc2c4bb7-0155-4875-beb5-d80e9eb5bedb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31241,7 +31813,7 @@
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5568778f-e02a-4ec1-b133-647d39db3123")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
 			(end -7.35 -1.8)
@@ -31481,10 +32053,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d38ccde6-5ec9-4818-97af-ed3e76d4c3de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0e40a047-bfa5-4858-a80b-daed7ec5f3d7")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -32322,7 +32907,7 @@
 		(path "/f52e2994-3ff0-4464-8648-f61201d800c2")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 1.45)
@@ -32442,6 +33027,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C965818"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bc7987c-40cf-475a-99b1-34f610bc4b5e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -32718,6 +33316,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f036180b-b7f1-4612-b999-b1038c53306c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d9185a8-b5fd-4200-8d1b-e349cbd608f3")
 			(effects
 				(font
 					(size 1 1)
@@ -33038,10 +33649,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3f48cda-a222-47c7-bcc1-c1775eb7d6e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7535f086-45f1-4298-b23d-a2232035088f")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -34114,6 +34738,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9facc688-224d-4f56-9636-0991457ee02d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d738f77a-6033-4d9c-bc26-4cad8bdd2639")
 		(sheetname "Root")
@@ -34323,10 +34960,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec982323-11c1-4a23-a43e-42ce480ac362")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/167508b7-2fad-4433-9eb4-919ddf6a8fd5")
 		(sheetname "Matrix")
 		(sheetfile "Alufo-matrix.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -8.75 -8.25)
 			(end 8.75 8.25)
@@ -35186,6 +35836,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b7462d-05d4-471b-8b82-a05d24d81a34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/91c4348e-0186-4346-a79c-d7a7511e9b35")
 		(sheetname "Matrix")
@@ -35508,7 +36171,7 @@
 		(path "/16d226dc-7a1c-481c-b543-64d250beb820")
 		(sheetname "Root")
 		(sheetfile "Alufo.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.1 0)

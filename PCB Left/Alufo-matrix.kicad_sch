@@ -1717,7 +1717,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "04b2c4c3-185b-4230-ae35-9eb1927f20b4")
 		(property "Reference" "PK32"
@@ -1781,7 +1781,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0ac3fccc-ba82-4626-826b-7316587452f3")
 		(property "Reference" "PK21"
@@ -1846,7 +1846,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0c4d77e4-b0a3-4a60-8c02-de8e005ad164")
 		(property "Reference" "K24"
 			(at 161.29 48.26 0)
@@ -1891,6 +1891,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a64c50a-9ff5-48c7-8071-fa7373c5d0f4")
 		)
@@ -1914,7 +1923,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0e40a047-bfa5-4858-a80b-daed7ec5f3d7")
 		(property "Reference" "K23"
 			(at 133.35 48.26 0)
@@ -1959,6 +1968,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b526513-36c2-404f-98cf-fd609ab90c01")
 		)
@@ -1981,7 +1999,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "140152ec-579f-43a0-ba78-189fd2ae888a")
 		(property "Reference" "PK22"
@@ -2046,7 +2064,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "160b356f-7bda-4e84-a480-e44e5a5e58cd")
 		(property "Reference" "K33"
 			(at 161.29 76.2 0)
@@ -2091,6 +2109,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f626cbbb-657c-488e-bad1-8824d379c828")
 		)
@@ -2114,7 +2141,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "167508b7-2fad-4433-9eb4-919ddf6a8fd5")
 		(property "Reference" "K14"
 			(at 161.29 20.32 0)
@@ -2151,6 +2178,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 161.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 161.29 27.94 0)
 			(effects
 				(font
@@ -2229,6 +2265,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 143.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62a6c9f7-1f67-475b-bff1-228b0589f0eb")
 		)
@@ -2252,7 +2297,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "216f0f7f-c365-4960-b27b-bbb7e0c3f0ab")
 		(property "Reference" "K34"
 			(at 189.23 81.28 0)
@@ -2297,6 +2342,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a98ad3d2-6436-42aa-8089-31a28a4c1550")
 		)
@@ -2319,7 +2373,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "242677e0-4e23-412d-b482-2d92bdbab7bd")
 		(property "Reference" "PK15"
@@ -2384,7 +2438,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "25500372-659d-435f-904b-ea7e02b38d3e")
 		(property "Reference" "K36"
 			(at 109.22 172.72 0)
@@ -2421,6 +2475,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 109.22 180.34 0)
 			(effects
 				(font
@@ -2517,6 +2580,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 104.14 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "797d1046-1e2c-4304-b8fb-480bafbb5db5")
 		)
@@ -2597,6 +2669,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
 			(at 100.33 36.83 0)
 			(effects
 				(font
@@ -2692,6 +2773,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a6ed6ac-6165-4267-9c15-1de2ddc12378")
 		)
@@ -2715,7 +2805,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4882b6ba-3d1c-4be8-807a-a6dba655fc5c")
 		(property "Reference" "K11"
 			(at 77.47 35.56 0)
@@ -2752,6 +2842,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -2830,6 +2929,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 227.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b80489d-7ed3-4701-b8c4-2129b40b7614")
 		)
@@ -2852,7 +2960,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "51147104-89dc-4322-a14f-6ecbab194279")
 		(property "Reference" "PK14"
@@ -2916,7 +3024,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5568778f-e02a-4ec1-b133-647d39db3123")
 		(property "Reference" "PK13"
@@ -3027,6 +3135,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 115.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57152294-cb5e-4618-9ba1-9f5de588c320")
 		)
@@ -3097,6 +3214,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 171.45 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c5edc37-281e-4fd0-8e6f-247327890493")
 		)
@@ -3120,7 +3246,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5d1e9425-8fea-42e9-9c44-275820e0a437")
 		(property "Reference" "K31"
 			(at 105.41 81.28 0)
@@ -3157,6 +3283,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 105.41 88.9 0)
 			(effects
 				(font
@@ -3253,6 +3388,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a007b85-8711-4b8b-ba3e-4d580244bf9b")
 		)
@@ -3276,7 +3420,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6a7afaf7-4e2e-47e5-8d82-ee176b88fe44")
 		(property "Reference" "K21"
 			(at 77.47 63.5 0)
@@ -3313,6 +3457,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -3408,6 +3561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c3de58f-b208-4d59-b63c-e36c68e1ede8")
 		)
@@ -3431,7 +3593,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71886eed-0851-4047-bfcf-6b0c8179158b")
 		(property "Reference" "K15"
 			(at 189.23 25.4 0)
@@ -3476,6 +3638,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95d9f014-8e4a-4330-96c5-f90012511cb7")
 		)
@@ -3499,7 +3670,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7535f086-45f1-4298-b23d-a2232035088f")
 		(property "Reference" "K32"
 			(at 133.35 76.2 0)
@@ -3536,6 +3707,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 133.35 83.82 0)
 			(effects
 				(font
@@ -3631,6 +3811,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edadf683-2b55-47c5-940c-93e5eeacf3e0")
 		)
@@ -3654,7 +3843,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7fe0432b-de52-4c03-8b4a-06e24feed117")
 		(property "Reference" "K12"
 			(at 105.41 25.4 0)
@@ -3691,6 +3880,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 105.41 33.02 0)
 			(effects
 				(font
@@ -3787,6 +3985,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc507faa-dd44-4905-b35e-533804b9e6a4")
 		)
@@ -3866,6 +4073,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
 			(at 210.82 46.99 0)
 			(effects
 				(font
@@ -3961,6 +4177,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "704c55c3-2d89-4fbd-ab2a-670b3a63ba07")
 		)
@@ -3984,7 +4209,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "855e7eeb-6c23-41a2-b8f8-0a95b7d2ba46")
 		(property "Reference" "K35"
 			(at 83.82 172.72 0)
@@ -4029,6 +4254,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dae78d8f-66df-4fb0-ad7d-3bb2881334e9")
 		)
@@ -4052,7 +4286,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85f01ba4-3a07-40e6-b1a3-c74a5fec10c3")
 		(property "Reference" "K25"
 			(at 189.23 53.34 0)
@@ -4097,6 +4331,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0df96187-f0cb-4b71-ad26-650376a2e700")
 		)
@@ -4119,7 +4362,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8683a23e-7acd-4027-91c2-f42382f0547f")
 		(property "Reference" "PK33"
@@ -4183,7 +4426,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "876bcda9-531a-49b7-951f-13cc23f875d6")
 		(property "Reference" "PK12"
@@ -4313,6 +4556,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 72.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21ecc584-3181-413c-a294-8a6c096bb909")
 		)
@@ -4401,6 +4653,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a983ef42-cdfc-4740-b74a-42034f65fbeb")
 		)
@@ -4423,7 +4684,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "91f46594-014d-452b-bcdf-adf234693cec")
 		(property "Reference" "PK23"
@@ -4553,6 +4814,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4987702-7f38-4ac6-b2ed-df4335789142")
 		)
@@ -4575,7 +4845,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9e491835-3ca1-43fb-a39d-bda04cc92a26")
 		(property "Reference" "PK25"
@@ -4705,6 +4975,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31387d5c-c3bd-4f87-8ab8-b8cb739cf5cf")
 		)
@@ -4727,7 +5006,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a2171d20-0fe8-40e2-ba2c-44b58c404b63")
 		(property "Reference" "PK34"
@@ -4791,7 +5070,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a334415a-9d4a-419a-866b-8a1129444659")
 		(property "Reference" "PK26"
@@ -4921,6 +5200,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f1633bb-bf40-4af5-9426-26b3f5dddb73")
 		)
@@ -4943,7 +5231,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "caa70f6a-151d-4ffa-b960-84279f969c3e")
 		(property "Reference" "PK36"
@@ -5007,7 +5295,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cb819428-b5af-4338-a9b3-1e71526ca9b0")
 		(property "Reference" "PK31"
@@ -5071,7 +5359,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cebcab88-6114-4f38-b1b8-e518d941dc81")
 		(property "Reference" "PK24"
@@ -5201,6 +5489,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d6b4f24-d7f3-4cda-b2ae-3ba80f8c8053")
 		)
@@ -5224,7 +5521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d14abc8d-cd7e-442d-b6d9-d1bb349f7137")
 		(property "Reference" "K22"
 			(at 105.41 53.34 0)
@@ -5269,6 +5566,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a44a82ce-485c-4c03-9a19-08a0a8aa7d1e")
 		)
@@ -5291,7 +5597,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d6c92bb1-2088-4d59-9163-09d60c1da14a")
 		(property "Reference" "PK35"
@@ -5356,7 +5662,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "da53bbf2-561e-4023-8416-02750fd638f5")
 		(property "Reference" "K13"
 			(at 133.35 20.32 0)
@@ -5401,6 +5707,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 133.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "162d3214-7074-4c78-b73d-d73b297e6356")
 		)
@@ -5423,7 +5738,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "da6419d0-d2b5-46ad-b2be-368df0dcc977")
 		(property "Reference" "PK16"
@@ -5488,7 +5803,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dc3b9026-7f81-4c46-95e1-dde3299056de")
 		(property "Reference" "K26"
 			(at 217.17 63.5 0)
@@ -5533,6 +5848,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5333465"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "464c3b5a-2e4f-449c-88a6-c9085b4ac93a")
 		)
@@ -5555,7 +5879,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8477e18-e374-4e02-9c85-af6157850c50")
 		(property "Reference" "PK11"
@@ -5667,6 +5991,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 199.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4da1e55e-0717-4e0a-a815-8e60972caac9")
 		)
@@ -5747,6 +6080,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
 			(at 78.74 184.15 0)
 			(effects
 				(font
@@ -5843,6 +6185,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C917030"
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcbaa2a1-6d26-4b16-9c5b-5caf638a01a2")
 		)
@@ -5866,7 +6217,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f5501762-e65d-4368-9346-d0d6d0687fdb")
 		(property "Reference" "K16"
 			(at 217.17 35.56 0)
@@ -5903,6 +6254,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 217.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5333465"
 			(at 217.17 43.18 0)
 			(effects
 				(font
@@ -5991,6 +6351,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
 			(at 156.21 31.75 0)
 			(effects
 				(font

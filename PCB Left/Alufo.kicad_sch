@@ -5566,7 +5566,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0956484a-b366-43b4-82b8-fad23805272e")
 		(property "Reference" "H12"
@@ -5630,7 +5630,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0cc6e4c1-5de3-49aa-abd6-26caa592a5b7")
 		(property "Reference" "H2"
@@ -5694,7 +5694,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d360a8a-b189-40ef-b8e9-f140339827b8")
 		(property "Reference" "H10"
@@ -5912,7 +5912,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "16d226dc-7a1c-481c-b543-64d250beb820")
 		(property "Reference" "H1"
@@ -5976,7 +5976,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1749a226-d743-4207-86ab-2a51ab49d6a4")
 		(property "Reference" "H3"
@@ -6043,7 +6043,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "199da4c0-5796-4a7e-b4a6-c9139ecbc7e8")
 		(property "Reference" "H7"
@@ -6145,6 +6145,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 166.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965818"
 			(at 166.37 146.05 0)
 			(effects
 				(font
@@ -6460,7 +6469,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27781cf3-f7f1-41e3-8f30-b46bc3648a98")
 		(property "Reference" "H8"
@@ -6636,7 +6645,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2837790"
+		(property "LCSC" "C193668"
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -6788,6 +6797,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20416196"
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdd21e3f-bb2f-4929-8d88-d0c21bbeb175")
 		)
@@ -6810,7 +6828,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "37b15dd2-0d18-4011-b5e5-2045c1689a0d")
 		(property "Reference" "H11"
@@ -6940,7 +6958,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41378a6a-a4d1-48dc-91ae-8b6a476f68d6")
 		(property "Reference" "H14"
@@ -7041,6 +7059,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 77.47 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 77.47 220.98 0)
 			(effects
 				(font
@@ -7194,6 +7221,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3647099"
+			(at 120.65 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8d1db7a2-8642-4fd9-9ce1-f142f2115d33")
 		)
@@ -7332,6 +7368,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 46.99 166.37 0)
 			(effects
 				(font
@@ -7520,6 +7565,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 46.99 100.33 0)
 			(effects
 				(font
@@ -7823,7 +7877,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "86d3a50f-357e-4bf1-af17-09dc7e0ee241")
 		(property "Reference" "H6"
@@ -8261,7 +8315,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9a7114d8-e2b9-4399-abe6-26259cb4e40c")
 		(property "Reference" "NT1"
 			(at 119.38 38.1 0)
@@ -8727,7 +8781,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ab210c86-d523-43a8-8bd4-ecbbd75ee9d5")
 		(property "Reference" "H4"
@@ -8791,7 +8845,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b22a2aa4-65cd-4d07-80d6-4a13edc016cb")
 		(property "Reference" "H9"
@@ -8855,7 +8909,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b9c02daf-e4dd-4fa8-a405-d34c0c56981b")
 		(property "Reference" "H13"
@@ -8975,6 +9029,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
 			(at 69.85 212.09 0)
 			(effects
 				(font
@@ -9122,6 +9185,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3647099"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d42ea746-778a-4454-bb6e-e973e93fe93e")
 		)
@@ -9259,6 +9331,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 179.07 146.05 0)
 			(effects
 				(font
@@ -9421,6 +9502,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2960848"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e1c4b42-ba70-42e3-80f2-64529a8361b5")
 		)
@@ -9443,7 +9533,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e7ee6bee-8a50-4240-b86a-e5af7af652ce")
 		(property "Reference" "H5"
@@ -9794,7 +9884,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f52e2994-3ff0-4464-8648-f61201d800c2")
 		(property "Reference" "J5"
