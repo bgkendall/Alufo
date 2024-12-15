@@ -146,8 +146,8 @@
 		(uuid "8311c4ed-b431-4c4e-a00f-acac50a34384")
 	)
 	(fp_rect
-		(start -9 -8.5)
-		(end 9 8.5)
+		(start -9.525 -8.5)
+		(end 9.525 8.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -166,17 +166,6 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "366f37d7-9242-4be9-8c6f-df335f3e93b4")
-	)
-	(fp_rect
-		(start -9.525 -9.525)
-		(end 9.525 9.525)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Eco1.User")
-		(uuid "2ea8093a-7139-4871-8e96-62161bb3936d")
 	)
 	(fp_line
 		(start -6.95 -6.45)
@@ -716,7 +705,7 @@
 		(layer "User.4")
 		(uuid "38c6e59a-69a2-4efd-8ab1-01cff1e06c23")
 	)
-	(fp_text user "18x17 spacing"
+	(fp_text user "19.05×17 spacing"
 		(at 0 -7.6 180)
 		(layer "Dwgs.User")
 		(uuid "923585b9-4a28-4e52-8d93-dc75cc715684")
@@ -732,17 +721,6 @@
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "e739d184-f477-4a51-9f4e-18e860b8e45e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "19.05 spacing"
-		(at 0 -8.7 180)
-		(layer "Eco1.User")
-		(uuid "e72bb066-757d-4b53-a922-1fe217fe36d8")
 		(effects
 			(font
 				(size 1 1)
