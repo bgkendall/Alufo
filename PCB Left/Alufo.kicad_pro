@@ -555,7 +555,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "VBUS|VCC|GND|.3.3|.*SHIELD.*"
+        "pattern": "VBUS|VCC|GND|.3.3|.5V|.*SHIELD.*"
       }
     ]
   },

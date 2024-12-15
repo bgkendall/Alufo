@@ -6291,28 +6291,6 @@
 		)
 		(uuid "f7d9ec3f-cd02-4c4c-a8eb-9e2b33a2c06e")
 	)
-	(global_label "RX"
-		(shape input)
-		(at 210.82 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01227c65-6d02-4969-ab07-236b578e76c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.3553 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "K32"
 		(shape input)
 		(at 260.985 49.53 0)
@@ -6447,7 +6425,7 @@
 	)
 	(global_label "K12"
 		(shape input)
-		(at 229.87 72.39 180)
+		(at 226.06 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6457,7 +6435,7 @@
 		)
 		(uuid "25cd53e0-4451-43b5-806a-d24b4f26e9c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1958 72.39 0)
+			(at 219.3858 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6469,7 @@
 	)
 	(global_label "USB-"
 		(shape input)
-		(at 255.27 62.23 0)
+		(at 255.27 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6501,7 +6479,7 @@
 		)
 		(uuid "2fd1f886-f66c-45ba-bbfd-da13028352ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.6376 62.23 0)
+			(at 263.6376 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6513,7 @@
 	)
 	(global_label "K14"
 		(shape input)
-		(at 229.87 77.47 180)
+		(at 215.9 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6545,7 +6523,7 @@
 		)
 		(uuid "4a1c2d46-ad38-42b8-bede-967ef0530480")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1958 77.47 0)
+			(at 209.2258 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,9 +6533,31 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape input)
+		(at 255.27 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4efead4a-8554-44b7-a99f-827f69bb1a33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.4323 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB+"
 		(shape input)
-		(at 255.27 64.77 0)
+		(at 255.27 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6567,7 +6567,7 @@
 		)
 		(uuid "515719a7-51de-4419-b414-b0648afb2d31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.6376 64.77 0)
+			(at 263.6376 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6579,7 @@
 	)
 	(global_label "K25"
 		(shape input)
-		(at 255.27 54.61 0)
+		(at 269.24 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6589,7 +6589,7 @@
 		)
 		(uuid "590d0f59-06a8-4cc8-b321-2ba4b44a26ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.9442 54.61 0)
+			(at 275.9142 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +6645,7 @@
 	)
 	(global_label "K11"
 		(shape input)
-		(at 229.87 74.93 180)
+		(at 215.9 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6655,7 +6655,7 @@
 		)
 		(uuid "7f8064fc-3785-462b-847f-dff805400449")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1958 74.93 0)
+			(at 209.2258 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6711,7 @@
 	)
 	(global_label "K15"
 		(shape input)
-		(at 255.27 49.53 0)
+		(at 269.24 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6721,7 +6721,7 @@
 		)
 		(uuid "862e406e-42e8-4fe7-8c1b-d33868cf36a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.9442 49.53 0)
+			(at 275.9142 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,6 +6766,28 @@
 		(uuid "8a2add3d-ff44-4304-aa58-a18765967a35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 267.6592 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
+		(at 255.27 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f42377d-c609-467e-bb5e-061487cbf9c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.7347 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6909,7 @@
 	)
 	(global_label "K13"
 		(shape input)
-		(at 229.87 69.85 180)
+		(at 226.06 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6897,29 +6919,7 @@
 		)
 		(uuid "ca28c8bb-694b-44ea-8504-e867e995cbd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1958 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX"
-		(shape input)
-		(at 210.82 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb1d5bf8-0d1b-44b4-8535-da96e85b4046")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.6577 73.66 0)
+			(at 219.3858 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6953,7 @@
 	)
 	(global_label "K16"
 		(shape input)
-		(at 255.27 52.07 0)
+		(at 269.24 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6963,7 +6963,7 @@
 		)
 		(uuid "d9400f56-5743-4999-a298-97e351953b2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.9442 52.07 0)
+			(at 275.9142 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,22 +6975,22 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 227.965 100.33 180)
+		(at 255.27 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "df06221a-f9e2-4e79-ad7c-4c5652404612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.5327 100.33 0)
+			(at 261.7023 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7063,7 +7063,7 @@
 	)
 	(global_label "K24"
 		(shape input)
-		(at 255.27 57.15 0)
+		(at 269.24 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7073,7 +7073,7 @@
 		)
 		(uuid "f0704c29-0ce1-42a8-bed8-92368a7322a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.9442 57.15 0)
+			(at 275.9142 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,73 +7738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 62.23 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e56a5f9-92ec-4656-bf94-5f884038089c")
-		(property "Reference" "#PWR016"
-			(at 58.42 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC'"
-			(at 66.04 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1140ece-8564-4260-919d-c66d9fac8467")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 293.37 132.08 180)
 		(unit 1)
@@ -7832,7 +7765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 293.37 132.08 0)
 			(effects
 				(font
@@ -8352,72 +8285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 120.65 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ca39e25-923f-4958-8e24-b292d7ac764d")
-		(property "Reference" "#PWR02"
-			(at 120.65 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC'"
-			(at 120.65 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ede924e5-1e66-4b0a-b41d-3a2391c443ce")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 54.61 0)
 		(unit 1)
@@ -8508,7 +8375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -8730,7 +8597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.425 132.08 0)
 			(effects
 				(font
@@ -8882,7 +8749,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 270.51 132.08 0)
 			(effects
 				(font
@@ -9435,7 +9302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SOT-666_Mod"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 121.666 185.801 0)
 			(effects
 				(font
@@ -9874,6 +9741,72 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6734a8e3-3d2f-47ff-98b1-7eb9fb315040")
+		(property "Reference" "#PWR02"
+			(at 120.65 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c4a89ba-e43a-417e-bc9f-90493fc9d54b")
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11269,7 +11202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 259.715 132.08 0)
 			(effects
 				(font
@@ -11711,7 +11644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 340.36 130.175 0)
 			(effects
 				(font
@@ -11856,7 +11789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SOT-666_Mod"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 121.666 119.761 0)
 			(effects
 				(font
@@ -11941,7 +11874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 282.575 132.08 0)
 			(effects
 				(font
@@ -12028,7 +11961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 322.58 130.175 0)
 			(effects
 				(font
@@ -12174,7 +12107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 52.07 0)
 			(effects
 				(font
@@ -12535,7 +12468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 236.22 132.08 0)
 			(effects
 				(font
@@ -12590,6 +12523,73 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee7e27e0-0527-4bd0-a882-b98eab48a3a4")
+		(property "Reference" "#PWR05"
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 66.04 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83b0bd4c-d265-47b8-93cb-cf478637c1b5")
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
