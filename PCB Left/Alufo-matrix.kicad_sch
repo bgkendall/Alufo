@@ -175,127 +175,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -603,12 +482,6 @@
 		(uuid "8939180e-16cd-4a1e-8f6c-923daf3f2bbc")
 	)
 	(junction
-		(at 227.33 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fda3fbe-d545-4753-9dc6-3124ccd82d1d")
-	)
-	(junction
 		(at 156.21 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -619,12 +492,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5a7b9fc-2e31-4ae3-a779-92243f81f786")
-	)
-	(junction
-		(at 199.39 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b34fceda-83fc-4885-929f-9df9b8c54ad5")
 	)
 	(junction
 		(at 72.39 78.74)
@@ -666,16 +533,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 60.96) (xy 199.39 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050d8691-5194-455b-b3dc-428a05587c94")
-	)
-	(wire
-		(pts
 			(xy 184.15 40.64) (xy 208.28 40.64)
 		)
 		(stroke
@@ -683,16 +540,6 @@
 			(type default)
 		)
 		(uuid "0e2324d8-6ace-424e-82cb-054170036fcb")
-	)
-	(wire
-		(pts
-			(xy 227.33 71.12) (xy 227.33 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1048217c-75dc-4498-a373-9fdd6a7ced0f")
 	)
 	(wire
 		(pts
@@ -806,7 +653,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 39.37) (xy 143.51 55.88)
+			(xy 143.51 27.94) (xy 143.51 55.88)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +663,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 39.37) (xy 171.45 55.88)
+			(xy 171.45 27.94) (xy 171.45 55.88)
 		)
 		(stroke
 			(width 0)
@@ -893,16 +740,6 @@
 			(type default)
 		)
 		(uuid "51f44ea5-2ca4-4f26-9b77-fa44e4c97876")
-	)
-	(wire
-		(pts
-			(xy 143.51 27.94) (xy 143.51 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5224e83c-46f2-45b9-86cd-06ab0e9f0a08")
 	)
 	(wire
 		(pts
@@ -986,7 +823,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 54.61) (xy 227.33 71.12)
+			(xy 227.33 43.18) (xy 227.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1013,16 +850,6 @@
 			(type default)
 		)
 		(uuid "82878622-838f-4403-a219-fbc9c28d5445")
-	)
-	(wire
-		(pts
-			(xy 115.57 44.45) (xy 115.57 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894b0fb5-56ce-4054-b5e7-c0eb3bd89d67")
 	)
 	(wire
 		(pts
@@ -1076,26 +903,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 33.02) (xy 115.57 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9302c55f-a7cb-4fec-a001-614d71d304b7")
-	)
-	(wire
-		(pts
-			(xy 171.45 27.94) (xy 171.45 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4a6e09-5567-4ab1-9a52-b875e06e78f8")
-	)
-	(wire
-		(pts
 			(xy 100.33 96.52) (xy 128.27 96.52)
 		)
 		(stroke
@@ -1103,16 +910,6 @@
 			(type default)
 		)
 		(uuid "9f754c35-8457-4ce4-a832-89c9cf45e1fa")
-	)
-	(wire
-		(pts
-			(xy 199.39 44.45) (xy 199.39 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27221b3-e812-4e64-8ea4-aa69ba150143")
 	)
 	(wire
 		(pts
@@ -1216,13 +1013,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 43.18) (xy 227.33 46.99)
+			(xy 115.57 33.02) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf3fbf5f-4184-4da5-9dda-8f2e4c00332d")
+		(uuid "ceb28a89-a5ce-4833-a267-3a0bed1fb184")
 	)
 	(wire
 		(pts
@@ -1356,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 33.02) (xy 199.39 36.83)
+			(xy 199.39 33.02) (xy 199.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1402,28 +1199,6 @@
 		)
 		(uuid "5a03f1d0-2bc8-47d1-a26f-6162e4fb9581")
 	)
-	(global_label "Col5T"
-		(shape input)
-		(at 199.39 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0979f6cd-2aa2-46fa-8bab-e0016648be0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 81.9065 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row3"
 		(shape input)
 		(at 68.58 96.52 180)
@@ -1468,7 +1243,7 @@
 			)
 		)
 	)
-	(global_label "Col6T"
+	(global_label "Col6"
 		(shape input)
 		(at 116.84 180.34 0)
 		(fields_autoplaced yes)
@@ -1480,7 +1255,7 @@
 		)
 		(uuid "3922357b-68b3-4f8a-8a31-650e2aff1e51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.0865 180.34 0)
+			(at 124.1189 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,28 +1283,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col6T"
-		(shape input)
-		(at 227.33 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69e61e03-b32a-462f-b9e4-b636d2942949")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 81.9065 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -1600,7 +1353,7 @@
 			)
 		)
 	)
-	(global_label "Col5T"
+	(global_label "Col5"
 		(shape input)
 		(at 91.44 180.34 0)
 		(fields_autoplaced yes)
@@ -1612,7 +1365,7 @@
 		)
 		(uuid "9c336b99-edc3-4420-a9de-956f14d69937")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.6865 180.34 0)
+			(at 98.7189 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,85 +1964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1945e799-8155-439c-b9a6-8455df89e3ce")
-		(property "Reference" "R13"
-			(at 146.05 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 146.05 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 141.732 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2960848"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62a6c9f7-1f67-475b-bff1-228b0589f0eb")
-		)
-		(pin "2"
-			(uuid "1fb6e63f-2567-4da3-94dd-ed288d37f7b0")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 189.23 88.9 0)
 		(mirror y)
@@ -2875,85 +2549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 227.33 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f7deb15-d868-46a1-8317-394cf3fbb561")
-		(property "Reference" "R16"
-			(at 229.87 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 229.87 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 225.552 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2960848"
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b80489d-7ed3-4701-b8c4-2129b40b7614")
-		)
-		(pin "2"
-			(uuid "84ac449c-07f4-4fb4-81ed-f95b9f37c343")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 161.29 116.84 0)
 		(unit 1)
@@ -3076,163 +2671,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "PK13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "597d1291-ee34-4b08-8f17-8c53cfd7fe29")
-		(property "Reference" "R12"
-			(at 118.11 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 118.11 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 113.792 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2960848"
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57152294-cb5e-4618-9ba1-9f5de588c320")
-		)
-		(pin "2"
-			(uuid "b326d657-3a03-494e-81f7-bf8c7f5a8dc4")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cdbd2a1-d37c-41e9-9192-fee15e1fdd69")
-		(property "Reference" "R14"
-			(at 173.99 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 173.99 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 169.672 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2960848"
-			(at 171.45 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c5edc37-281e-4fd0-8e6f-247327890493")
-		)
-		(pin "2"
-			(uuid "27277563-c994-4ccb-8088-c8c01d284468")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5931,85 +5369,6 @@
 			(project ""
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "PK11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0371eef-6112-475b-a1ef-ccce6168b1b1")
-		(property "Reference" "R15"
-			(at 201.93 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 201.93 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 197.612 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2960848"
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4da1e55e-0717-4e0a-a815-8e60972caac9")
-		)
-		(pin "2"
-			(uuid "7ecb4794-9ff7-49b3-aa77-b65d2bcab3a1")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R15")
 					(unit 1)
 				)
 			)
