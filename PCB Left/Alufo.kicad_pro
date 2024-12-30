@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.35,
-          "width": 0.82
+          "height": 1.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -546,6 +546,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+5V": "Power",
       "Net-(D1-A)": "Power",
       "Net-(D2-A)": "Power",
       "Net-(D3-K)": "Power",
