@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Project Library")(type "KiCad")(uri "${KIPRJMOD}/../Library")(options "")(descr ""))
+  (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/../Library")(options "")(descr ""))
 )
