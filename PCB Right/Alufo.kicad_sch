@@ -1782,7 +1782,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project Library:MCU_CH552T_TSSOP-20"
+		(symbol "Project_Library:MCU_CH552T_TSSOP-20"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2216,7 +2216,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project Library:USB_C_Receptacle_USB2.0_16P_2SH"
+		(symbol "Project_Library:USB_C_Receptacle_USB2.0_16P_2SH"
 			(pin_names
 				(offset 1.016)
 			)
@@ -5002,7 +5002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:USB_C_Receptacle_USB2.0_16P_2SH")
+		(lib_id "Project_Library:USB_C_Receptacle_USB2.0_16P_2SH")
 		(at 46.99 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5027,7 +5027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Project_Library:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 50.8 100.33 0)
 			(effects
 				(font
@@ -5151,7 +5151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:Mousebites"
+		(property "Footprint" "Project_Library:Mousebites"
 			(at 179.07 233.68 0)
 			(effects
 				(font
@@ -5188,7 +5188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:USB_C_Receptacle_USB2.0_16P_2SH")
+		(lib_id "Project_Library:USB_C_Receptacle_USB2.0_16P_2SH")
 		(at 46.99 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5213,7 +5213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Project_Library:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 50.8 166.37 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SOT-666_Mod"
+		(property "Footprint" "Project_Library:SOT-666_Mod"
 			(at 121.666 185.801 0)
 			(effects
 				(font
@@ -5420,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:LED_0805_2012Metric_Mod"
+		(property "Footprint" "Project_Library:LED_0805_2012Metric_Mod"
 			(at 166.37 146.05 0)
 			(effects
 				(font
@@ -5578,7 +5578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:Mousebites"
+		(property "Footprint" "Project_Library:Mousebites"
 			(at 179.07 242.57 0)
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
+		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
 			(at 153.67 203.2 0)
 			(effects
 				(font
@@ -5903,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+		(property "Footprint" "Project_Library:TestPoint_THTPad_D2.5mm_Drill1.2mm"
 			(at 165.1 157.48 0)
 			(effects
 				(font
@@ -6036,7 +6036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:Mousebites"
+		(property "Footprint" "Project_Library:Mousebites"
 			(at 153.67 233.68 0)
 			(effects
 				(font
@@ -6824,7 +6824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
+		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
 			(at 153.67 167.64 0)
 			(effects
 				(font
@@ -7151,7 +7151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
+		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
 			(at 153.67 194.31 0)
 			(effects
 				(font
@@ -7215,7 +7215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:Mousebites"
+		(property "Footprint" "Project_Library:Mousebites"
 			(at 153.67 242.57 0)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SOT-666_Mod"
+		(property "Footprint" "Project_Library:SOT-666_Mod"
 			(at 121.666 119.761 0)
 			(effects
 				(font
@@ -7980,7 +7980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut_Pad"
+		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut_Pad"
 			(at 153.67 184.15 0)
 			(effects
 				(font
@@ -8020,7 +8020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:MCU_CH552T_TSSOP-20")
+		(lib_id "Project_Library:MCU_CH552T_TSSOP-20")
 		(at 49.53 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8393,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:NetTie-2_SMD_Pad0.2mm"
+		(property "Footprint" "Project_Library:NetTie-2_SMD_Pad0.2mm"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -8594,7 +8594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_SPST_SKQG_WithStem"
+		(property "Footprint" "Project_Library:SW_SPST_SKQG_WithStem"
 			(at 172.72 127 0)
 			(effects
 				(font
@@ -8832,7 +8832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
+		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
 			(at 153.67 176.53 0)
 			(effects
 				(font
