@@ -378,7 +378,7 @@
 				)
 			)
 		)
-		(symbol "Project Library:SW_SP5T"
+		(symbol "Project_Library:SW_SP5T"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -2207,7 +2207,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123"
+		(property "Footprint" "Project_Library:D_SOD-123"
 			(at 113.03 186.69 0)
 			(effects
 				(font
@@ -2293,7 +2293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 161.29 50.8 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -2431,7 +2431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 133.35 115.57 0)
 			(effects
 				(font
@@ -2493,7 +2493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 161.29 78.74 0)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 161.29 22.86 0)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 189.23 83.82 0)
 			(effects
 				(font
@@ -2838,7 +2838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 100.33 36.83 0)
 			(effects
 				(font
@@ -2926,7 +2926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 189.23 137.16 0)
 			(effects
 				(font
@@ -2990,7 +2990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 161.29 115.57 0)
 			(effects
 				(font
@@ -3053,7 +3053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -3140,7 +3140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123"
+		(property "Footprint" "Project_Library:D_SOD-123"
 			(at 113.03 176.53 0)
 			(effects
 				(font
@@ -3226,7 +3226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 77.47 38.1 0)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 77.47 130.81 0)
 			(effects
 				(font
@@ -3402,7 +3402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:SW_SP5T")
+		(lib_id "Project_Library:SW_SP5T")
 		(at 101.6 184.15 0)
 		(mirror x)
 		(unit 1)
@@ -3427,7 +3427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_nav_CPG135001S30_SKQUCAA010_1layer_1u_1"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_nav_CPG135001S30_SKQUCAA010_1layer_1u_1"
 			(at 85.725 188.595 0)
 			(effects
 				(font
@@ -3577,7 +3577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 105.41 83.82 0)
 			(effects
 				(font
@@ -3646,7 +3646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123"
+		(property "Footprint" "Project_Library:D_SOD-123"
 			(at 113.03 191.77 0)
 			(effects
 				(font
@@ -3734,7 +3734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 189.23 118.11 0)
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 184.15 36.83 0)
 			(effects
 				(font
@@ -3886,7 +3886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1.5u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1.5u"
 			(at 105.41 147.32 0)
 			(effects
 				(font
@@ -3948,7 +3948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1.5u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1.5u"
 			(at 85.09 168.91 0)
 			(effects
 				(font
@@ -4016,7 +4016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 77.47 66.04 0)
 			(effects
 				(font
@@ -4085,7 +4085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 210.82 74.93 0)
 			(effects
 				(font
@@ -4173,7 +4173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 189.23 128.27 0)
 			(effects
 				(font
@@ -4235,7 +4235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 189.23 27.94 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 133.35 78.74 0)
 			(effects
 				(font
@@ -4372,7 +4372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 128.27 87.63 0)
 			(effects
 				(font
@@ -4458,7 +4458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 105.41 27.94 0)
 			(effects
 				(font
@@ -4528,7 +4528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 105.41 128.27 0)
 			(effects
 				(font
@@ -4592,7 +4592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 156.21 87.63 0)
 			(effects
 				(font
@@ -4679,7 +4679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 210.82 46.99 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 184.15 92.71 0)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 189.23 55.88 0)
 			(effects
 				(font
@@ -4922,7 +4922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123"
+		(property "Footprint" "Project_Library:D_SOD-123"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -5010,7 +5010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 72.39 74.93 0)
 			(effects
 				(font
@@ -5098,7 +5098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 105.41 137.16 0)
 			(effects
 				(font
@@ -5162,7 +5162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 128.27 31.75 0)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 133.35 137.16 0)
 			(effects
 				(font
@@ -5314,7 +5314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 128.27 59.69 0)
 			(effects
 				(font
@@ -5402,7 +5402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 105.41 118.11 0)
 			(effects
 				(font
@@ -5466,7 +5466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 184.15 64.77 0)
 			(effects
 				(font
@@ -5554,7 +5554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 217.17 130.81 0)
 			(effects
 				(font
@@ -5618,7 +5618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 161.29 125.73 0)
 			(effects
 				(font
@@ -5682,7 +5682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -5770,7 +5770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 77.47 120.65 0)
 			(effects
 				(font
@@ -5834,7 +5834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 133.35 125.73 0)
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 156.21 59.69 0)
 			(effects
 				(font
@@ -5984,7 +5984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 105.41 55.88 0)
 			(effects
 				(font
@@ -6052,7 +6052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 133.35 22.86 0)
 			(effects
 				(font
@@ -6121,7 +6121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123"
+		(property "Footprint" "Project_Library:D_SOD-123"
 			(at 113.03 171.45 0)
 			(effects
 				(font
@@ -6207,7 +6207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 217.17 66.04 0)
 			(effects
 				(font
@@ -6277,7 +6277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 161.29 137.16 0)
 			(effects
 				(font
@@ -6341,7 +6341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 133.35 147.32 0)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_Plate_CPG135001S30_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_Plate_CPG135001S30_1u"
 			(at 217.17 120.65 0)
 			(effects
 				(font
@@ -6468,7 +6468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123"
+		(property "Footprint" "Project_Library:D_SOD-123"
 			(at 113.03 181.61 0)
 			(effects
 				(font
@@ -6626,7 +6626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 100.33 64.77 0)
 			(effects
 				(font
@@ -6712,7 +6712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
+		(property "Footprint" "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 			(at 217.17 38.1 0)
 			(effects
 				(font
@@ -6782,7 +6782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Project Library:D_SOD-123_Mod"
+		(property "Footprint" "Project_Library:D_SOD-123_Mod"
 			(at 156.21 31.75 0)
 			(effects
 				(font
