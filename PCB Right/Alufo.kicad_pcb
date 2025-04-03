@@ -6564,7 +6564,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D45"
-			(at -3.556 0.000001 349)
+			(at 3.556 0.000001 79)
 			(layer "F.SilkS")
 			(uuid "46544b4a-07ab-4a76-82e4-77ed5db55168")
 			(effects
@@ -9850,7 +9850,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D43"
-			(at -3.556 0.000001 349)
+			(at 3.556 0.000001 79)
 			(layer "F.SilkS")
 			(uuid "bfd8c952-5b27-4bfa-80ed-1d50435adab3")
 			(effects
@@ -11685,7 +11685,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D44"
-			(at -3.556 0.000001 349)
+			(at 3.556 0.000001 79)
 			(layer "F.SilkS")
 			(uuid "f343329c-d243-4985-bf5a-d4099d6df112")
 			(effects
@@ -12236,7 +12236,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D46"
-			(at -3.556 0.000001 349)
+			(at 3.556 0.000001 79)
 			(layer "F.SilkS")
 			(uuid "ab7aa65a-c0d3-4e53-bfb0-224549cb63dc")
 			(effects
@@ -29811,7 +29811,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D42"
-			(at -3.556 0.000001 349)
+			(at 3.556 0.000001 79)
 			(layer "F.SilkS")
 			(uuid "651baf94-67ad-4227-b3d2-a98a619726ef")
 			(effects
@@ -35603,7 +35603,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D41"
-			(at -3.556 0.000001 349)
+			(at 3.556 0.000001 79)
 			(layer "F.SilkS")
 			(uuid "16f7a201-56fe-40e7-8c2e-723e958b1afd")
 			(effects
@@ -39207,6 +39207,17 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
+			)
+		)
+	)
+	(gr_text "Note\norientation!"
+		(at 148.336 104.394 79)
+		(layer "F.SilkS")
+		(uuid "411f04b5-445a-42ce-8235-1df1726a296e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
