@@ -3481,7 +3481,7 @@
 	(text_box "Split Connection"
 		(exclude_from_sim no)
 		(at 15.24 139.7 90)
-		(size 132.08 58.42)
+		(size 132.08 64.77)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 0)
@@ -3607,10 +3607,6 @@
 	(no_connect
 		(at 46.99 123.19)
 		(uuid "2af5f03d-b954-4bd1-ae17-2e1f9a2dc288")
-	)
-	(no_connect
-		(at 41.91 189.23)
-		(uuid "2b0ffcee-0f7e-4edf-9020-4031b47bcb49")
 	)
 	(no_connect
 		(at 62.23 181.61)
@@ -5089,6 +5085,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -5177,6 +5174,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5927,6 +5925,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7143,6 +7142,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -8106,6 +8106,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8423,9 +8424,85 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 41.91 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe188041-63a2-40a9-b5cc-ff93c45ec8e8")
+		(property "Reference" "FB4"
+			(at 41.91 199.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 41.91 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 40.132 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20416196"
+			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7dedefb-346c-47da-9482-dbae0408b377")
+		)
+		(pin "2"
+			(uuid "8016de53-0cb3-453c-9de3-93353ea15281")
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 15.24 203.2)
-		(size 132.08 46.99)
+		(at 15.24 209.55)
+		(size 132.08 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8440,7 +8517,7 @@
 		)
 		(uuid "ba0213d9-9934-4194-9bec-bf394cd27126")
 		(property "Sheetname" "Matrix"
-			(at 15.24 202.4884 0)
+			(at 15.24 208.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
