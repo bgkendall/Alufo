@@ -1915,7 +1915,7 @@
 	)
 	(global_label "Row4"
 		(shape input)
-		(at 76.2 181.61 180)
+		(at 68.58 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1925,7 +1925,7 @@
 		)
 		(uuid "72953fba-61e1-4f78-9da6-5daa52eef91b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2558 181.61 0)
+			(at 60.6358 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,6 +2151,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row4T"
+		(shape input)
+		(at 77.47 181.61 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f25465dd-e1a2-4c1a-b0ca-737c88f7b85e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 189.5603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3366,6 +3388,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6036,6 +6059,83 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8e44349-5db0-417b-9f8a-80740b303489")
+		(property "Reference" "R16"
+			(at 71.1199 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 73.6599 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+			(at 72.39 183.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2960848"
+			(at 72.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb93e461-26f1-44d6-b7a8-edbd2d9f28df")
+		)
+		(pin "2"
+			(uuid "9c3d7df0-655f-42c4-a0bd-e4b7130e8fe5")
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
+					(reference "R16")
 					(unit 1)
 				)
 			)
