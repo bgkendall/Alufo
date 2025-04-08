@@ -791,132 +791,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -4141,6 +4015,12 @@
 		(uuid "642b8693-ca12-4330-8541-dc25aa98db70")
 	)
 	(junction
+		(at 39.37 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77165298-7acd-4bb0-9cd9-39842477e4af")
+	)
+	(junction
 		(at 82.55 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4235,6 +4115,10 @@
 		(uuid "c5877049-8f5e-4275-b939-9e0583e6e2e7")
 	)
 	(no_connect
+		(at 41.91 123.19)
+		(uuid "ee177640-d789-4b18-b453-e2bcee0eaff3")
+	)
+	(no_connect
 		(at 62.23 179.07)
 		(uuid "f369773f-8482-44b7-b922-ec022033d6ed")
 	)
@@ -4274,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 127) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e996b5-7796-406e-a398-9ab7540f9e23")
+	)
+	(wire
+		(pts
 			(xy 62.23 99.06) (xy 62.23 100.33)
 		)
 		(stroke
@@ -4281,16 +4175,6 @@
 			(type default)
 		)
 		(uuid "187ae39e-9c7a-4c5f-b265-2ddd801b4b5b")
-	)
-	(wire
-		(pts
-			(xy 41.91 123.19) (xy 41.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1daa6029-a946-46e6-97da-ecb6a263bc6b")
 	)
 	(wire
 		(pts
@@ -4424,13 +4308,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 127) (xy 52.07 128.27)
+			(xy 48.26 127) (xy 49.53 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57aeae97-0810-44f6-8e8b-3b51c5e6fe04")
+		(uuid "58a5be9a-5bdf-4944-bc76-e3051fddc967")
 	)
 	(wire
 		(pts
@@ -4464,7 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 127) (xy 49.53 127)
+			(xy 53.34 127) (xy 49.53 127)
 		)
 		(stroke
 			(width 0)
@@ -4494,16 +4378,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 124.46 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ded19e-1fef-414b-9952-ba33aee1e812")
-	)
-	(wire
-		(pts
 			(xy 62.23 170.18) (xy 62.23 171.45)
 		)
 		(stroke
@@ -4511,6 +4385,16 @@
 			(type default)
 		)
 		(uuid "7abde4dc-e26d-475c-83c4-4b7effee86fe")
+	)
+	(wire
+		(pts
+			(xy 39.37 127) (xy 40.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c816bc8-babc-410b-86a1-878cbc43a848")
 	)
 	(wire
 		(pts
@@ -4524,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 43.18) (xy 116.84 43.18)
+			(xy 121.92 43.18) (xy 124.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4571,6 +4455,16 @@
 			(type default)
 		)
 		(uuid "9fb1660e-6568-4723-9faa-b4eacd4d10db")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8360d9b-a2a7-4d7a-8294-fa54041800d7")
 	)
 	(wire
 		(pts
@@ -5048,7 +4942,7 @@
 	)
 	(global_label "USB+"
 		(shape input)
-		(at 113.03 43.18 180)
+		(at 121.92 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5058,7 +4952,7 @@
 		)
 		(uuid "9a8534c5-438a-4f4f-80cf-6bf2bbc275cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.6624 43.18 0)
+			(at 113.5524 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,8 +5994,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC'"
-			(at 66.04 151.1299 90)
+		(property "Value" "VCC"
+			(at 66.04 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,72 +6325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 120.65 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ca39e25-923f-4958-8e24-b292d7ac764d")
-		(property "Reference" "#PWR02"
-			(at 120.65 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC'"
-			(at 120.65 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ede924e5-1e66-4b0a-b41d-3a2391c443ce")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 127 91.44 180)
 		(unit 1)
@@ -6522,7 +6350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "BGK_Kicad:D_SOD-323"
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -6584,7 +6412,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 39.37 123.19 0)
+		(at 35.56 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6593,7 +6421,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f8e7571-50c4-488a-85d3-b941c9649847")
 		(property "Reference" "#PWR024"
-			(at 39.37 129.54 0)
+			(at 35.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +6430,7 @@
 			)
 		)
 		(property "Value" "SHIELD"
-			(at 39.37 128.27 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 123.19 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 123.19 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +6456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 39.37 123.19 0)
+			(at 35.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +6545,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 45.72 127 90)
+		(at 44.45 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6725,7 +6553,7 @@
 		(dnp no)
 		(uuid "33072f74-5ed2-46fe-a151-55622accb5e8")
 		(property "Reference" "FB1"
-			(at 45.72 132.08 90)
+			(at 44.45 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +6561,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 45.72 134.62 90)
+			(at 44.45 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6569,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 45.72 128.778 90)
+			(at 44.45 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 127 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6587,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 45.72 127 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6596,7 @@
 			)
 		)
 		(property "LCSC" "C20416196"
-			(at 45.72 127 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +6897,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 128.27 0)
+		(at 53.34 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7078,7 +6906,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b51b91a-2b13-49f0-8c39-ffc82a5fcbb8")
 		(property "Reference" "#PWR03"
-			(at 52.07 134.62 0)
+			(at 53.34 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +6915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 133.35 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +6923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 128.27 0)
+			(at 53.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +6932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 128.27 0)
+			(at 53.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +6941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 128.27 0)
+			(at 53.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,6 +7313,72 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 120.65 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7056d451-dd88-4337-bf98-5b69d0780b22")
+		(property "Reference" "#PWR018"
+			(at 120.65 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 120.65 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dadc01b4-12f5-4150-9f97-25c8b2a0afb6")
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8272,140 +8166,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 119.38 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9a7114d8-e2b9-4399-abe6-26259cb4e40c")
-		(property "Reference" "NT1"
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project_Library:NetTie-2_SMD_Pad0.2mm"
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1539f745-d7a4-4146-a56c-803c563c1be6")
-		)
-		(pin "1"
-			(uuid "b6f2dede-1914-4129-bae7-f7e78027b1c0")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 124.46 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a762c41-2091-49f5-b237-608f9f44843e")
-		(property "Reference" "#PWR019"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC'"
-			(at 128.27 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4be19848-3e9c-45b8-8758-35275bb3ddde")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9419,83 +9179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 120.65 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3e0be27-0b65-46c3-939d-e0d903431c35")
-		(property "Reference" "R9"
-			(at 120.65 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 120.65 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 120.65 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2960848"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e1c4b42-ba70-42e3-80f2-64529a8361b5")
-		)
-		(pin "2"
-			(uuid "71c32264-1b1d-46af-9ee6-94c9d719bd2d")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 153.67 205.74 0)
 		(unit 1)
@@ -9774,73 +9457,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 116.84 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f76409f1-90e1-48d8-bba7-0b4f93357437")
-		(property "Reference" "#PWR018"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 113.03 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb003148-7c05-4ab5-8ddb-396dd44b8f38")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
