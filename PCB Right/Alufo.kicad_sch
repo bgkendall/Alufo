@@ -3629,10 +3629,6 @@
 		(uuid "7f7f82d6-b0b7-4dcb-a333-e81280ffa0a6")
 	)
 	(no_connect
-		(at 106.68 88.9)
-		(uuid "923b1bfe-cdfb-470c-a6bd-1307ea507227")
-	)
-	(no_connect
 		(at 62.23 156.21)
 		(uuid "9fdf5606-f534-4fa3-a88c-dc54e28505ea")
 	)
@@ -8300,7 +8296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "BGK_Kicad:D_SOD-323"
 			(at 127 91.44 0)
 			(effects
 				(font
