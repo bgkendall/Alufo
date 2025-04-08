@@ -17102,7 +17102,7 @@
 		)
 		(fp_arc
 			(start 1.749484 0.919719)
-			(mid 1.712517 0.81407)
+			(mid 1.712511 0.81407)
 			(end 1.699999 0.702842)
 			(stroke
 				(width 0.1)
@@ -17124,7 +17124,7 @@
 		)
 		(fp_arc
 			(start 1.699999 -0.702843)
-			(mid 1.712527 -0.814069)
+			(mid 1.712528 -0.814069)
 			(end 1.749484 -0.919721)
 			(stroke
 				(width 0.1)
@@ -17212,7 +17212,7 @@
 		)
 		(fp_arc
 			(start -1.749484 -0.919721)
-			(mid -1.638071 -1.504036)
+			(mid -1.638071 -1.504035)
 			(end -1.046711 -1.568299)
 			(stroke
 				(width 0.1)
@@ -19047,7 +19047,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "2fadf5c3-7052-41f7-8b4f-3e343141860b")
 			(effects
@@ -19058,7 +19058,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e187c3b2-e306-4509-8123-f2fbf6aa9cbc")
 			(effects
@@ -19239,7 +19239,7 @@
 			(uuid "f29d7302-e221-4049-bc37-d55f2c4a889e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "50de4835-139a-4a6f-a470-a3babf76292e")
 			(effects
@@ -22951,7 +22951,7 @@
 		(descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW1"
-			(at 0 -1.865 360)
+			(at 0 -1.865 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "88393c07-5023-42a0-9734-c6a337899355")
@@ -22963,7 +22963,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0.000001 3.725676 360)
+			(at 0.000001 3.725676 0)
 			(layer "F.SilkS")
 			(uuid "186a4f6f-9d12-4c14-b9c2-936d0b77141e")
 			(effects
@@ -22974,7 +22974,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SW_SPST_SKQG_WithStem"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "81e016e1-1a51-45c2-8680-6d519e4d78ee")
@@ -22986,7 +22986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae7c2063-f8c5-4c19-aed9-dc583979cc8b")
@@ -22998,7 +22998,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "40b0496a-9c73-4804-acc8-e11119f390b4")
@@ -23360,7 +23360,7 @@
 			(uuid "dcede1df-5033-4481-97e8-1dfe0bd6c30b")
 		)
 		(fp_text user "KEEP-OUT ZONE"
-			(at -2.5 -0.199999 360)
+			(at -2.5 -0.199999 0)
 			(layer "Cmts.User")
 			(uuid "43d10bc1-7ce0-4824-8a73-6130bf2209da")
 			(effects
@@ -23371,7 +23371,7 @@
 			)
 		)
 		(fp_text user "KEEP-OUT ZONE"
-			(at 2.5 -0.199999 360)
+			(at 2.5 -0.199999 0)
 			(layer "Cmts.User")
 			(uuid "5a76a92d-8531-4687-a5f7-b009808f4238")
 			(effects
@@ -23382,7 +23382,7 @@
 			)
 		)
 		(fp_text user "No F.Cu tracks"
-			(at -2.5 0.199999 360)
+			(at -2.5 0.199999 0)
 			(layer "Cmts.User")
 			(uuid "a5124265-086d-4a13-8170-950739699509")
 			(effects
@@ -23393,7 +23393,7 @@
 			)
 		)
 		(fp_text user "No F.Cu tracks"
-			(at 2.5 0.199999 360)
+			(at 2.5 0.199999 0)
 			(layer "Cmts.User")
 			(uuid "f13ff16a-8ca4-4c0f-b747-1344f593b684")
 			(effects
@@ -23404,7 +23404,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "52decc2b-9093-4ba6-bdcf-0aed91945d76")
 			(effects
@@ -25766,7 +25766,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ef896767-74eb-425b-ba48-8045fa513d1a")
 			(effects
@@ -25947,7 +25947,7 @@
 			(uuid "b136f6af-5c9f-4862-a4ea-306282bcf687")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "479fa309-f753-4256-90d6-96419c101806")
 			(effects
