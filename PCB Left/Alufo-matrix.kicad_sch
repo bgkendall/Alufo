@@ -1070,16 +1070,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 44.45) (xy 115.57 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894b0fb5-56ce-4054-b5e7-c0eb3bd89d67")
-	)
-	(wire
-		(pts
 			(xy 100.33 40.64) (xy 100.33 50.8)
 		)
 		(stroke
@@ -1130,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 33.02) (xy 115.57 36.83)
+			(xy 115.57 33.02) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3092,84 +3082,6 @@
 			(project "Alufo"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
 					(reference "PK13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "597d1291-ee34-4b08-8f17-8c53cfd7fe29")
-		(property "Reference" "R12"
-			(at 118.11 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 118.11 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 113.792 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2960848"
-			(at 115.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57152294-cb5e-4618-9ba1-9f5de588c320")
-		)
-		(pin "2"
-			(uuid "b326d657-3a03-494e-81f7-bf8c7f5a8dc4")
-		)
-		(instances
-			(project "Alufo"
-				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3/ba0213d9-9934-4194-9bec-bf394cd27126"
-					(reference "R12")
 					(unit 1)
 				)
 			)

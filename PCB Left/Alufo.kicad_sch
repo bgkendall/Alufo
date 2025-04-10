@@ -4612,7 +4612,7 @@
 	)
 	(global_label "Col1"
 		(shape input)
-		(at 38.1 53.34 180)
+		(at 38.1 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4622,7 +4622,7 @@
 		)
 		(uuid "2e59674f-a782-411a-a93d-ee5e12e4f572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.8211 53.34 0)
+			(at 30.8211 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +4810,7 @@
 	)
 	(global_label "Col2"
 		(shape input)
-		(at 38.1 50.8 180)
+		(at 38.1 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4820,7 +4820,7 @@
 		)
 		(uuid "651794c0-5ef3-4d3b-9897-5c3b19d0c07d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.8211 50.8 0)
+			(at 30.8211 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
