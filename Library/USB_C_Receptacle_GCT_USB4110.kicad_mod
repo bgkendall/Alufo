@@ -6,7 +6,7 @@
 	(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf")
 	(tags "USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A")
 	(property "Reference" "REF**"
-		(at 0 -1.27 180)
+		(at 0 -2.015 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c1d1f28e-112b-4224-bacc-403582e597d6")
@@ -474,20 +474,12 @@
 		(uuid "29c09d82-eb6f-4d54-9346-afeafa4ec23c")
 	)
 	(pad "" smd roundrect
-		(at -1.798333 0.825)
-		(size 2.75 2.5)
+		(at 0 0.825)
+		(size 2.8 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "c090f04a-487a-417e-a7de-424ccc3f46f0")
-	)
-	(pad "" smd roundrect
-		(at 1.798333 0.825)
-		(size 2.75 2.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.125)
-		(thermal_bridge_angle 45)
-		(uuid "b906a3ad-a043-4e81-8fd4-875f26e1da9d")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.89 -2.605)
