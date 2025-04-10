@@ -13694,7 +13694,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5143397"
+		(property "LCSC" "C2681552"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20484,7 +20484,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5143397"
+		(property "LCSC" "C2681552"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25996,13 +25996,13 @@
 		(descr "SOD-323 — A happy medium between KiCad’s footprints D_SOD-323 (pads are too small) and D_SOD-323_HandSoldering (pads are too big)")
 		(tags "SOD-323")
 		(property "Reference" "D1"
-			(at -0.1 -0.127 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "dac89b09-d15b-43c9-8d88-7d92105c15ba")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.12)
 				)
 			)
 		)
