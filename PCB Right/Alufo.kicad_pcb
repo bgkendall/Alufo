@@ -199,6 +199,7 @@
 	(net 68 "USB_P-")
 	(net 69 "USB+")
 	(net 70 "USB-")
+	(net 71 "Net-(J10-Pin_1)")
 	(footprint "Project_Library:SW_choc_v1_HS_CPG135001S30_1layer_1u"
 		(layer "F.Cu")
 		(uuid "01a70619-6093-4b3c-9b19-d6b1082d0749")
@@ -14507,7 +14508,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
+	(footprint "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut_Pad"
 		(layer "F.Cu")
 		(uuid "56aaae2a-43ec-4079-993b-e5564eba3f50")
 		(at 95.25 70.83335)
@@ -14549,7 +14550,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14562,7 +14563,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/c34ccab6-b359-415b-b4a6-cc7c759dad12")
 		(sheetname "/")
 		(sheetfile "Alufo.kicad_sch")
@@ -14576,7 +14577,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "794619ba-56b6-4d5f-8cdb-06d3eebac48a")
+			(uuid "141201ed-f90a-4460-a61f-3dbb66ad9803")
 		)
 		(fp_circle
 			(center 0 0)
@@ -14587,18 +14588,18 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "bc0c64b1-4d71-49b7-a0b3-6e76e0e3718a")
+			(uuid "b0d2d9c5-87b7-457f-9bd3-2fa45dbd5b2e")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.35 0)
+			(end 2.5 0)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "User.9")
-			(uuid "360cb592-783c-4ca0-aec8-1b85823f6719")
+			(uuid "0619ba72-ad28-4ecf-8759-4924bc2a773c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -14611,13 +14612,16 @@
 				)
 			)
 		)
-		(pad "" thru_hole circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 4.7 4.7)
 			(drill 2.7)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "fb02d2ea-ce34-481a-b9dd-27b0341ab67c")
+			(net 71 "Net-(J10-Pin_1)")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "d69755e7-399d-4f9f-96d6-474b5b9a2667")
 		)
 		(embedded_fonts no)
 	)
@@ -33512,6 +33516,136 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Project_Library:Shield_Connector"
+		(layer "F.Cu")
+		(uuid "f57806a7-9f08-44d8-960d-3ba25714e89d")
+		(at 95.25 64.866682 180)
+		(descr "Wire connection from PCB to aluminum core")
+		(property "Reference" "J10"
+			(at 0 -0.499999 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b066976-85bb-441a-9fee-d500a207cc7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Shield_Connection"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c7957f73-cdac-4cac-ba6f-5dd8dbcb6ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67337a8b-bacb-4456-9669-f1dc653e8c04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb882be2-b76d-4480-989a-d33dc640c490")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/37ac14f4-2087-4b13-aca3-0cc828421267")
+		(sheetname "/")
+		(sheetfile "Alufo.kicad_sch")
+		(attr smd)
+		(fp_poly
+			(pts
+				(arc
+					(start -0.4 -1.8)
+					(mid -0.753553 -1.653553)
+					(end -0.9 -1.3)
+				)
+				(arc
+					(start -0.9 0.9)
+					(mid -0.636396 1.536396)
+					(end 0 1.8)
+				)
+				(arc
+					(start 0 1.8)
+					(mid 0.636396 1.536396)
+					(end 0.9 0.9)
+				)
+				(arc
+					(start 0.9 -1.3)
+					(mid 0.753553 -1.653553)
+					(end 0.4 -1.8)
+				)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "User.3")
+			(uuid "c7ebd26b-2603-40e4-b477-3375cb8231f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ba813c9c-0e11-44b9-b6a0-dfefdea22fc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.3 180)
+			(size 1.2 2.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.2)
+			(chamfer_ratio 0)
+			(chamfer bottom_left bottom_right)
+			(net 71 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "1352325c-380d-4294-ad40-92a182cbd348")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0.9 180)
+			(size 1.2 1.2)
+			(drill 0.6)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
+			(net 71 "Net-(J10-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "ea432ca8-cd7c-41de-881f-0733f839e188")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f62d612b-c472-4b59-a636-eb50b8a64641")
@@ -44696,6 +44830,14 @@
 		(net 70)
 		(uuid "ccfcea72-d531-4347-8101-d026298e263f")
 	)
+	(segment
+		(start 95.25 65.166682)
+		(end 95.25 70.83335)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "e127b19c-f5b7-4a7d-8cbf-1f8bf91a4b70")
+	)
 	(zone
 		(net 0)
 		(net_name "")
@@ -45374,7 +45516,7 @@
 				(xy 156.262 69.745504) (xy 156.262 69.143882) (xy 156.262011 69.14242) (xy 156.263559 69.03762)
 				(xy 156.264395 69.026161) (xy 156.266526 69.009972) (xy 156.292133 68.815452) (xy 156.294652 68.802783)
 				(xy 156.348893 68.600343) (xy 156.353053 68.588091) (xy 156.433246 68.394483) (xy 156.438973 68.382869)
-				(xy 156.439878 68.381302) (xy 156.543749 68.201385) (xy 156.550927 68.19064) (xy 156.6803 68.022035)
+				(xy 156.441398 68.378669) (xy 156.543749 68.201385) (xy 156.550927 68.19064) (xy 156.6803 68.022035)
 				(xy 156.687806 68.013351) (xy 156.760841 67.938144) (xy 156.761795 67.937174) (xy 157.223731 67.475238)
 				(xy 157.224568 67.474413) (xy 157.299858 67.401321) (xy 157.308531 67.393829) (xy 157.477141 67.264454)
 				(xy 157.4879 67.257264) (xy 157.66939 67.152482) (xy 157.680987 67.146764) (xy 157.874601 67.066569)

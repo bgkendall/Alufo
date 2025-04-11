@@ -943,23 +943,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MountingHole_1"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -984,7 +988,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1002,7 +1006,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1011,9 +1015,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_1_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1021,6 +1025,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5521,6 +5545,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 153.67 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ac14f4-2087-4b13-aca3-0cc828421267")
+		(property "Reference" "J10"
+			(at 156.21 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Shield_Connection"
+			(at 156.21 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project_Library:Shield_Connector"
+			(at 153.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df3663a-926a-4ab0-9714-0b78600eed3a")
+		)
+		(instances
+			(project "Alufo"
+				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 153.67 233.68 0)
 		(unit 1)
@@ -6176,7 +6266,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 153.67 167.64 0)
+		(at 153.67 158.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -6185,7 +6275,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c428452-09e6-4086-a4a4-83f86e95e9b0")
 		(property "Reference" "H1"
-			(at 156.21 166.3699 0)
+			(at 156.21 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6284,7 @@
 			)
 		)
 		(property "Value" "SolderNut"
-			(at 156.21 168.9099 0)
+			(at 156.21 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6293,7 @@
 			)
 		)
 		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 153.67 167.64 0)
+			(at 153.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 167.64 0)
+			(at 153.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6311,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 153.67 167.64 0)
+			(at 153.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,18 +7430,17 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 153.67 184.15 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 153.67 177.8 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c34ccab6-b359-415b-b4a6-cc7c759dad12")
 		(property "Reference" "H3"
-			(at 156.21 182.88 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7449,7 @@
 			)
 		)
 		(property "Value" "SolderNut"
-			(at 156.21 185.42 0)
+			(at 156.21 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,8 +7457,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 153.67 184.15 0)
+		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut_Pad"
+			(at 153.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 184.15 0)
+			(at 153.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,14 +7475,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 153.67 184.15 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 153.67 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "072460f3-bda4-4160-aed9-2159eb5d7523")
 		)
 		(instances
 			(project "Alufo"
@@ -8066,7 +8158,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 153.67 176.53 0)
+		(at 153.67 167.64 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -8075,7 +8167,7 @@
 		(fields_autoplaced yes)
 		(uuid "efed638c-2074-48ad-ae55-a343e541b15b")
 		(property "Reference" "H2"
-			(at 156.21 175.2599 0)
+			(at 156.21 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8176,7 @@
 			)
 		)
 		(property "Value" "SolderNut"
-			(at 156.21 177.7999 0)
+			(at 156.21 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +8185,7 @@
 			)
 		)
 		(property "Footprint" "Project_Library:MountingHole_2.2mm_M2_SMD_Solder_Nut"
-			(at 153.67 176.53 0)
+			(at 153.67 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 176.53 0)
+			(at 153.67 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8203,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 153.67 176.53 0)
+			(at 153.67 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
