@@ -506,7 +506,7 @@
     ]
   },
   "meta": {
-    "filename": "Alufo.kicad_pro",
+    "filename": "AlufoLeft.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -580,7 +580,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerbers/Alufo-Left",
+      "plot": "../Gerbers/AlufoLeft",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Alufo.step",

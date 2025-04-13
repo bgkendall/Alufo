@@ -125,7 +125,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Gerbers/Alufo-Left")
+			(outputdirectory "../Gerbers/AlufoLeft")
 		)
 	)
 	(net 0 "")
@@ -265,7 +265,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/dc3b9026-7f81-4c46-95e1-dde3299056de")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -1130,7 +1130,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/6c70e3f4-4111-43d5-a590-eaf662e44282")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -1436,7 +1436,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e7ee6bee-8a50-4240-b86a-e5af7af652ce")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
@@ -1562,7 +1562,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/c8c5575a-a1da-4638-8d4e-2316d8ad83ad")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(clearance 0.175)
 		(attr smd)
 		(fp_line
@@ -1896,7 +1896,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/216f0f7f-c365-4960-b27b-bbb7e0c3f0ab")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -2748,7 +2748,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/784515f4-94af-4dff-819d-51be3e85aef6")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -2958,7 +2958,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7fe0432b-de52-4c03-8b4a-06e24feed117")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -3782,7 +3782,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/876bcda9-531a-49b7-951f-13cc23f875d6")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -4031,7 +4031,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f0371eef-6112-475b-a1ef-ccce6168b1b1")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -4271,7 +4271,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/26f94493-6a73-4eb5-a41e-365d837e801d")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -4578,7 +4578,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/37b15dd2-0d18-4011-b5e5-2045c1689a0d")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_bom dnp)
 		(fp_line
 			(start -1.25 -2.5)
@@ -4781,7 +4781,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/199da4c0-5796-4a7e-b4a6-c9139ecbc7e8")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -4880,7 +4880,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/8683a23e-7acd-4027-91c2-f42382f0547f")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -5125,7 +5125,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0c4d77e4-b0a3-4a60-8c02-de8e005ad164")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -5949,7 +5949,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/cb819428-b5af-4338-a9b3-1e71526ca9b0")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -6183,7 +6183,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a334415a-9d4a-419a-866b-8a1129444659")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -6445,7 +6445,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/017931d2-c52e-473a-8b7c-c9d94bbc960c")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -6647,7 +6647,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b9c02daf-e4dd-4fa8-a405-d34c0c56981b")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_bom dnp)
 		(fp_line
 			(start -1.25 -2.5)
@@ -6847,7 +6847,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/cebcab88-6114-4f38-b1b8-e518d941dc81")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -7122,7 +7122,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/ff459a94-7666-41ab-a85a-7e242a7ab4dc")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -7425,7 +7425,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/91f46594-014d-452b-bcdf-adf234693cec")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -7700,7 +7700,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/8c58f811-dde7-445e-bbc9-3e63fc33d027")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -8007,7 +8007,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0acbd254-b0f0-4376-bdb4-0e96315d0390")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -8074,7 +8074,7 @@
 			(net 67 "Net-(J7-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "b8b45e3b-8cb6-4114-a418-eac19f53f699")
+			(uuid "3087e6ba-b5da-43e2-9c0d-05b52d0f8f9d")
 		)
 		(embedded_fonts no)
 	)
@@ -8144,7 +8144,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/85f01ba4-3a07-40e6-b1a3-c74a5fec10c3")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -8979,7 +8979,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/6a7afaf7-4e2e-47e5-8d82-ee176b88fe44")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -9818,7 +9818,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/4f7deb15-d868-46a1-8317-394cf3fbb561")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -10045,7 +10045,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/91a3b107-1c86-4c49-8bb6-b542215bef87")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -10255,7 +10255,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f5501762-e65d-4368-9346-d0d6d0687fdb")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -11090,7 +11090,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/4882b6ba-3d1c-4be8-807a-a6dba655fc5c")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -11925,7 +11925,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5d1e9425-8fea-42e9-9c44-275820e0a437")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -12760,7 +12760,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/855e7eeb-6c23-41a2-b8f8-0a95b7d2ba46")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -13589,7 +13589,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/caa70f6a-151d-4ffa-b960-84279f969c3e")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -13843,7 +13843,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/727ea1f7-a782-44e2-ab10-bc799e92a224")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.58 -0.64)
@@ -14597,7 +14597,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/1749a226-d743-4207-86ab-2a51ab49d6a4")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -14714,7 +14714,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b22a2aa4-65cd-4d07-80d6-4a13edc016cb")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -14816,7 +14816,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0d360a8a-b189-40ef-b8e9-f140339827b8")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -14915,7 +14915,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a2171d20-0fe8-40e2-ba2c-44b58c404b63")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -15152,7 +15152,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0956484a-b366-43b4-82b8-fad23805272e")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_bom dnp)
 		(fp_line
 			(start 0 3.5)
@@ -15352,7 +15352,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/da6419d0-d2b5-46ad-b2be-368df0dcc977")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -15589,7 +15589,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/86d3a50f-357e-4bf1-af17-09dc7e0ee241")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -15691,7 +15691,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0cc6e4c1-5de3-49aa-abd6-26caa592a5b7")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
@@ -15813,7 +15813,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/25500372-659d-435f-904b-ea7e02b38d3e")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -16653,7 +16653,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/160b356f-7bda-4e84-a480-e44e5a5e58cd")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -17477,7 +17477,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/9e491835-3ca1-43fb-a39d-bda04cc92a26")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -17753,7 +17753,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/846236da-51cd-4c39-aaae-943dfc3b798d")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -18097,7 +18097,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba3069a5-ba16-45e1-a2c0-38af7b85764e")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -18379,7 +18379,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/04b2c4c3-185b-4230-ae35-9eb1927f20b4")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -18627,7 +18627,7 @@
 		)
 		(path "/467aeef4-18e1-49c8-82d1-b9c178532c97")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -19065,7 +19065,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f2a2f7cd-2c63-4508-958d-97f0a3618a39")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -19379,7 +19379,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d14abc8d-cd7e-442d-b6d9-d1bb349f7137")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -20217,7 +20217,7 @@
 		)
 		(path "/1f23f698-29d7-4b79-9d4d-16bd7ff6f6c1")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -3.385)
@@ -20657,7 +20657,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/5adfa011-60ae-452d-a38a-7fd5ccc24a5b")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.58 -0.64)
@@ -21411,7 +21411,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/41378a6a-a4d1-48dc-91ae-8b6a476f68d6")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_bom dnp)
 		(fp_line
 			(start 0 3.5)
@@ -21639,7 +21639,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8f045435-1cc7-4763-8e9f-611e2b9084a0")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -21849,7 +21849,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/71886eed-0851-4047-bfcf-6b0c8179158b")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -22714,7 +22714,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/a72cccd9-12e0-440b-9228-483ce33f330d")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -23058,7 +23058,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/3f41ae48-43ca-41a0-b836-6136f8484caa")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -23402,7 +23402,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/99717b07-1fce-45b2-903d-4710dc0f5428")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -23708,7 +23708,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ab210c86-d523-43a8-8bd4-ecbbd75ee9d5")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
@@ -23860,7 +23860,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/9e6a82ff-77be-4eb4-bfce-37690faa0cde")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -24204,7 +24204,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/2b3fb19b-0fa9-41d3-a0f9-9834db038b69")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -24507,7 +24507,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/140152ec-579f-43a0-ba78-189fd2ae888a")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -24782,7 +24782,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d134f743-9d2b-4f71-b815-9984d5e3bcd8")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -25126,7 +25126,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/65087728-7554-407d-81fc-f65eceb4d37d")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -25470,7 +25470,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/f079c958-dba1-4a5e-959f-41c8475c95ea")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -25774,7 +25774,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/e8477e18-e374-4e02-9c85-af6157850c50")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -26012,7 +26012,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/214b2cdd-9431-43ed-ac3a-41cb1f361e83")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -26079,7 +26079,7 @@
 			(net 70 "Net-(J9-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "685afc7a-c9e1-4766-8fe8-f13a7bab96f1")
+			(uuid "b3d85da5-4e92-4de2-bdb3-9ed3ed332570")
 		)
 		(embedded_fonts no)
 	)
@@ -26166,7 +26166,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2f604cba-ebee-431a-b1d4-0432bca71890")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 0.85)
@@ -26441,7 +26441,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f16d3af6-4d75-4fed-86b4-15f1b1fc6cc0")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -26508,7 +26508,7 @@
 			(net 20 "Net-(J5-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "e19c75df-3caf-45ed-9284-7ea57fc3917e")
+			(uuid "29f016a2-0d7f-46b4-9cad-ef250dd8ca8f")
 		)
 		(embedded_fonts no)
 	)
@@ -26593,7 +26593,7 @@
 		)
 		(path "/ea8ee0c6-d58d-465f-b8bf-38149582708c")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.72 1.04)
@@ -27080,7 +27080,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/27781cf3-f7f1-41e3-8f30-b46bc3648a98")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
@@ -27220,7 +27220,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/849f1b0b-0dad-456c-ae90-78c30426b513")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -27523,7 +27523,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0ac3fccc-ba82-4626-826b-7316587452f3")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -27757,7 +27757,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/242677e0-4e23-412d-b482-2d92bdbab7bd")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -27991,7 +27991,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/51147104-89dc-4322-a14f-6ecbab194279")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -28240,7 +28240,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/1945e799-8155-439c-b9a6-8455df89e3ce")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -28439,7 +28439,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/d6c92bb1-2088-4d59-9163-09d60c1da14a")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -28687,7 +28687,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/da53bbf2-561e-4023-8416-02750fd638f5")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -29526,7 +29526,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/5215cc88-bf86-4895-b1d8-0fb7f9e4eb9d")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(clearance 0.175)
 		(attr smd)
 		(fp_line
@@ -29863,7 +29863,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e3e0be27-0b65-46c3-939d-e0d903431c35")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -30103,7 +30103,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/81ec5d65-f94d-45ca-8f3a-c1f6b5e1d42c")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -30421,7 +30421,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5cdbd2a1-d37c-41e9-9192-fee15e1fdd69")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.527064 1.36)
@@ -30648,7 +30648,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e3926a83-d1ad-4770-88c8-ad01893e7c88")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -30875,7 +30875,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/0ede0dce-f951-4a7b-aef3-b18b6e1ae288")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.162779 0.51)
@@ -31074,7 +31074,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/5568778f-e02a-4ec1-b133-647d39db3123")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -7.35 -5.2)
@@ -31319,7 +31319,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/0e40a047-bfa5-4858-a80b-daed7ec5f3d7")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -32158,7 +32158,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1cdd3364-bd5b-446e-8162-392d3de066f9")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -32438,7 +32438,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7f69d6d3-6224-4a53-b149-4991e72e83ce")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -32752,7 +32752,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/7535f086-45f1-4298-b23d-a2232035088f")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -33604,7 +33604,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/26954e1a-b86f-441a-9681-f939f4b5a777")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -33818,7 +33818,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d738f77a-6033-4d9c-bc26-4cad8bdd2639")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -34028,7 +34028,7 @@
 		)
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/167508b7-2fad-4433-9eb4-919ddf6a8fd5")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.3 7.475)
@@ -34893,7 +34893,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ba0213d9-9934-4194-9bec-bf394cd27126/91c4348e-0186-4346-a79c-d7a7511e9b35")
 		(sheetname "/Matrix/")
-		(sheetfile "Alufo-matrix.kicad_sch")
+		(sheetfile "AlufoLeft-matrix.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -35199,7 +35199,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/16d226dc-7a1c-481c-b543-64d250beb820")
 		(sheetname "/")
-		(sheetfile "Alufo.kicad_sch")
+		(sheetfile "AlufoLeft.kicad_sch")
 		(attr exclude_from_pos_files dnp)
 		(fp_circle
 			(center 0 0)
