@@ -506,7 +506,7 @@
     ]
   },
   "meta": {
-    "filename": "Alufo.kicad_pro",
+    "filename": "AlufoRight.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -581,10 +581,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerbers/Alufo-Right",
+      "plot": "../Gerbers/AlufoRight",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Alufo.step",
+      "step": "AlufoRight.step",
       "svg": "../Middle Layer/Right",
       "vrml": ""
     },

@@ -5,7 +5,7 @@
 	(uuid "52f043ac-ccff-4c85-bc10-2db9d3c9e3f3")
 	(paper "A4" portrait)
 	(title_block
-		(title "Alufo ")
+		(title "Alufo")
 		(rev "1.1R")
 		(company "bgkendall")
 		(comment 1 "Split one-layer reversible keyboard PCB (righthand side)")
@@ -4622,7 +4622,7 @@
 			(uuid "29161700-8666-497c-bb4c-ff0c9533601e")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "J2")
 					(unit 1)
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H12")
 					(unit 1)
@@ -4817,7 +4817,7 @@
 			(uuid "2219ce0b-851b-4adf-9742-2b2b3a961540")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "J4")
 					(unit 1)
@@ -4911,7 +4911,7 @@
 			(uuid "6e183252-695f-4531-a34a-c8db13d03ba4")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "U6")
 					(unit 1)
@@ -5055,7 +5055,7 @@
 			(uuid "76db03c4-3aaf-4ee5-8660-1fb6225027da")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "J8")
 					(unit 1)
@@ -5143,7 +5143,7 @@
 			(uuid "52ddcfd9-2e4a-42f3-ac9c-3978adc3a71d")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C2")
 					(unit 1)
@@ -5207,7 +5207,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H14")
 					(unit 1)
@@ -5273,7 +5273,7 @@
 			(uuid "e2180789-2cbb-4bca-86eb-c5fcfdec8b94")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR030")
 					(unit 1)
@@ -5339,7 +5339,7 @@
 			(uuid "d3b55c9e-bb5d-496f-98fc-62bf26cd4108")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR032")
 					(unit 1)
@@ -5403,7 +5403,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H5")
 					(unit 1)
@@ -5470,7 +5470,7 @@
 			(uuid "4a5f3642-3db9-4cf5-a843-6ac457e1ddf7")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR035")
 					(unit 1)
@@ -5536,7 +5536,7 @@
 			(uuid "83edb55c-af8b-45fb-9cba-bb95a2406143")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR026")
 					(unit 1)
@@ -5602,7 +5602,7 @@
 			(uuid "7df3663a-926a-4ab0-9714-0b78600eed3a")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "J10")
 					(unit 1)
@@ -5666,7 +5666,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H11")
 					(unit 1)
@@ -5732,7 +5732,7 @@
 			(uuid "a91ff837-e7bb-4447-8694-2c9b9d7d5835")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR033")
 					(unit 1)
@@ -5796,7 +5796,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H8")
 					(unit 1)
@@ -5884,7 +5884,7 @@
 			(uuid "bcca4d95-3d15-47f3-8196-7bdf0f31b4ab")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "C4")
 					(unit 1)
@@ -5951,7 +5951,7 @@
 			(uuid "c423ca6f-7bf3-49a4-9570-33d7e61084cb")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR029")
 					(unit 1)
@@ -6036,7 +6036,7 @@
 			(uuid "7659cfc3-746d-4db8-a14c-e20e3b2e440a")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R2")
 					(unit 1)
@@ -6102,7 +6102,7 @@
 			(uuid "12a7f8bd-9cb0-4472-935a-719df386c6ad")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR031")
 					(unit 1)
@@ -6169,7 +6169,7 @@
 			(uuid "08281025-20ad-4d54-8cfc-6e67f5fb8acc")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR010")
 					(unit 1)
@@ -6256,7 +6256,7 @@
 			(uuid "a3cc4751-559b-40d1-af35-bc31717af415")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "F2")
 					(unit 1)
@@ -6320,7 +6320,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H1")
 					(unit 1)
@@ -6387,7 +6387,7 @@
 			(uuid "3db7350f-94b8-474e-bae3-7278e44846cf")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR023")
 					(unit 1)
@@ -6453,7 +6453,7 @@
 			(uuid "1e1df4f0-6fca-4ab9-b455-0ffe0a2c625c")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR036")
 					(unit 1)
@@ -6519,7 +6519,7 @@
 			(uuid "7d78c9ec-4ece-4ea9-acbe-c4105fd14f62")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR034")
 					(unit 1)
@@ -6583,7 +6583,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H7")
 					(unit 1)
@@ -6647,7 +6647,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H4")
 					(unit 1)
@@ -6711,7 +6711,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H13")
 					(unit 1)
@@ -6778,7 +6778,7 @@
 			(uuid "ad51da3c-069c-493a-8e0d-ba31dd47e270")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR020")
 					(unit 1)
@@ -6845,7 +6845,7 @@
 			(uuid "c41f9fd9-561c-4298-b16f-5fedd85aa550")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR028")
 					(unit 1)
@@ -6931,7 +6931,7 @@
 			(uuid "6d4a2647-b3a7-4ac3-9f10-28c26196df5e")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R4")
 					(unit 1)
@@ -7025,7 +7025,7 @@
 			(uuid "0a05b688-04de-47b7-88f5-4325924a9203")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "U4")
 					(unit 1)
@@ -7092,7 +7092,7 @@
 			(uuid "a95cff7b-1496-4e5a-a196-6edb6a42020c")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR021")
 					(unit 1)
@@ -7159,7 +7159,7 @@
 			(uuid "1fd71888-2e88-4993-87a8-35fae4feb2a4")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR022")
 					(unit 1)
@@ -7225,7 +7225,7 @@
 			(uuid "6d9315d9-0fde-4c81-ba81-932513f392b6")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR025")
 					(unit 1)
@@ -7289,7 +7289,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H10")
 					(unit 1)
@@ -7355,7 +7355,7 @@
 			(uuid "9a57521a-f6db-4141-ab4e-99b6c9c21001")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR027")
 					(unit 1)
@@ -7421,7 +7421,7 @@
 			(uuid "68551d54-ea09-4166-a37e-aa7ad608a10b")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR024")
 					(unit 1)
@@ -7488,7 +7488,7 @@
 			(uuid "072460f3-bda4-4160-aed9-2159eb5d7523")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H3")
 					(unit 1)
@@ -7706,7 +7706,7 @@
 			(uuid "45368c9a-f3e7-4f02-b7c2-263002cd9ee7")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R6")
 					(unit 1)
@@ -7770,7 +7770,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H9")
 					(unit 1)
@@ -7836,7 +7836,7 @@
 			(uuid "b1997932-a69e-4696-be4c-5796798deae8")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "#PWR037")
 					(unit 1)
@@ -7912,7 +7912,7 @@
 			(uuid "7ff85f0d-640a-4368-ada3-3057764cf29a")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "R8")
 					(unit 1)
@@ -7998,7 +7998,7 @@
 			(uuid "8a263554-d156-4c1f-a999-7d81af13901f")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "SW2")
 					(unit 1)
@@ -8062,7 +8062,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H6")
 					(unit 1)
@@ -8148,7 +8148,7 @@
 			(uuid "cb36e760-21a5-4411-aa57-f587a702df72")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "D2")
 					(unit 1)
@@ -8212,7 +8212,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "H2")
 					(unit 1)
@@ -8279,7 +8279,7 @@
 			(uuid "e65d8dae-d29c-4216-8c01-708045e17ff1")
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(reference "J6")
 					(unit 1)
@@ -8312,7 +8312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Alufo-matrix.kicad_sch"
+		(property "Sheetfile" "AlufoRight-matrix.kicad_sch"
 			(at 15.24 250.7746 0)
 			(effects
 				(font
@@ -8322,7 +8322,7 @@
 			)
 		)
 		(instances
-			(project "Alufo"
+			(project "AlufoRight"
 				(path "/52f043ac-ccff-4c85-bc10-2db9d3c9e3f3"
 					(page "2")
 				)

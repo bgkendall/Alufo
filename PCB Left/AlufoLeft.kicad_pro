@@ -583,7 +583,7 @@
       "plot": "../Gerbers/AlufoLeft",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Alufo.step",
+      "step": "AlufoLeft.step",
       "svg": "../Middle Layer/Left",
       "vrml": ""
     },
