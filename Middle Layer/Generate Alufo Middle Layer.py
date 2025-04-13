@@ -11,7 +11,10 @@ import Part
 SVG_PREFIX = "Alufo-"
 MODEL_NAME = "AlufoMiddle"
 SIDE_DIRS = [ "Left", "Right" ]
+HAS_GUI = ("Gui" in dir())
 
+
+doc = App.newDocument(MODEL_NAME)
 svgParentDir = ""
 
 # KiCad SVG export to 3D model component mapping:
@@ -26,17 +29,31 @@ LAYERS = [
     [ "User_9",    4.0,     False ]
 ]
 
+
+def warn(message):
+    print('\033[91m' + message + '\033[0m')
+
+def log(message):
+    print('\033[96m' + message + '\033[0m')
+
+def debug(message):
+    print('\033[96m' + message + '\033[0m')
+
+
 def getSvgParentDirectory():
 
-    #directory = QtGui.QFileDialog.getExistingDirectory(caption="SVG Parent Directory")
-    directory = "/Users/barnaby/Development/GitHub/Alufo/Middle Layer"
+    if HAS_GUI:
+        directory = QtGui.QFileDialog.getExistingDirectory(caption="SVG Parent Directory")
+    else:
+        directory = input("Enter parent SVG directory: ").strip("\"' ").replace("\\", "")
+
     if not directory:
-        print("*** No directory specified — stopping")
+        warn("No directory specified — stopping")
         return False
     else:
         for side in SIDE_DIRS:
             if not os.path.isdir(os.path.join(directory, side)):
-                print(f"*** Directory {svgParentDir} does not contain a directory {side} — stopping")
+                warn(f"Directory '{directory}' does not contain a directory '{side}' — stopping")
                 return False
 
     return directory
@@ -52,7 +69,8 @@ def extrudePath(parent, path, height):
     return extrusion.Name
 
 def hideObject(obj):
-    obj.ViewObject.Visibility = False
+    if HAS_GUI:
+        obj.ViewObject.Visibility = False
 
 def generateLayer(doc, side, layerName, layerHeight, layerIsOutline):
 
@@ -60,7 +78,7 @@ def generateLayer(doc, side, layerName, layerHeight, layerIsOutline):
 
     svg = os.path.join(svgParentDir, side, SVG_PREFIX + layerName + ".svg")
     if not os.path.isfile(svg):
-        print(f"*** No SVG file for {side} {layerName} found - skipping layer")
+        log(f"No SVG file for {side} {layerName} found - skipping layer")
     else:
         newObjectStart = len(doc.Objects)
 
@@ -101,16 +119,20 @@ def generateSide(doc, side):
     body = bop.make_cut([extrusions[0], fusion.Name])
     body.Label = MODEL_NAME + side
 
+    # Rotate body so that cuts are visible from front:
+    body.Placement = App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,1,0),180))
+
     # Recompute body and export as STL:
     x = doc.recompute()
     stl = os.path.join(svgParentDir, body.Label + ".stl")
-    print(f"*** Writing {Side} body to {stl}")
+    log(f"Writing {side} body to '{stl}'")
     Mesh.export([body], stl)
 
 
 def resetView():
-    Gui.SendMsgToActiveView("ViewFit")
-    # TODO: Rotate view 180º
+    if HAS_GUI:
+        Gui.SendMsgToActiveView("ViewFit")
+        # TODO: Rotate view 180º
 
 
 def makeMiddle():
@@ -118,12 +140,12 @@ def makeMiddle():
 
     if svgParentDir := getSvgParentDirectory():
 
-        doc = App.newDocument(MODEL_NAME)
-
         for side in SIDE_DIRS:
             generateSide(doc, side)
 
         resetView()
 
+    else:
+        App.closeDocument(doc.Name)
 
 makeMiddle()
