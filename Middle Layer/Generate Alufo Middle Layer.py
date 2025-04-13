@@ -8,14 +8,14 @@ import os
 import Part
 
 
-SVG_PREFIX = "Alufo-"
+SVG_PREFIX = "Alufo"
 MODEL_NAME = "AlufoMiddle"
 SIDE_DIRS = [ "Left", "Right" ]
 HAS_GUI = ("Gui" in dir())
 
 
 doc = App.newDocument(MODEL_NAME)
-svgParentDir = ""
+svgDir = ""
 
 # KiCad SVG export to 3D model component mapping:
 #     Layer Name | Height | Is Outline
@@ -40,23 +40,23 @@ def debug(message):
     print('\033[96m' + message + '\033[0m')
 
 
-def getSvgParentDirectory():
+def getSvgDirectory():
 
     if HAS_GUI:
         directory = QtGui.QFileDialog.getExistingDirectory(caption="SVG Parent Directory")
     else:
-        directory = input("Enter parent SVG directory: ").strip("\"' ").replace("\\", "")
+        directory = input("Enter SVG directory: ").strip("\"' ").replace("\\", "")
 
     if not directory:
         warn("No directory specified — stopping")
         return False
-    else:
-        for side in SIDE_DIRS:
-            if not os.path.isdir(os.path.join(directory, side)):
-                warn(f"Directory '{directory}' does not contain a directory '{side}' — stopping")
-                return False
 
     return directory
+
+
+def getSvgFilename(side, layer):
+
+    return os.path.join(svgDir, SVG_PREFIX + side + '-' + layer + ".svg")
 
 
 def extrudePath(parent, path, height):
@@ -72,11 +72,12 @@ def hideObject(obj):
     if HAS_GUI:
         obj.ViewObject.Visibility = False
 
+
 def generateLayer(doc, side, layerName, layerHeight, layerIsOutline):
 
     extrusions = []
 
-    svg = os.path.join(svgParentDir, side, SVG_PREFIX + layerName + ".svg")
+    svg = getSvgFilename(side, layerName)
     if not os.path.isfile(svg):
         log(f"No SVG file for {side} {layerName} found - skipping layer")
     else:
@@ -124,7 +125,7 @@ def generateSide(doc, side):
 
     # Recompute body and export as STL:
     x = doc.recompute()
-    stl = os.path.join(svgParentDir, body.Label + ".stl")
+    stl = os.path.join(svgDir, body.Label + ".stl")
     log(f"Writing {side} body to '{stl}'")
     Mesh.export([body], stl)
 
@@ -136,9 +137,9 @@ def resetView():
 
 
 def makeMiddle():
-    global svgParentDir
+    global svgDir
 
-    if svgParentDir := getSvgParentDirectory():
+    if svgDir := getSvgDirectory():
 
         for side in SIDE_DIRS:
             generateSide(doc, side)
