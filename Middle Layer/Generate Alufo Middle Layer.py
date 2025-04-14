@@ -6,15 +6,19 @@ import importSVG
 import Mesh
 import os
 import Part
+import time
 
 
 SVG_PREFIX = "Alufo"
 MODEL_NAME = "AlufoMiddle"
-SIDE_DIRS = [ "Left", "Right" ]
+SIDES = [ "Left", "Right" ]
 HAS_GUI = ("Gui" in dir())
+INDENT = 0
+TIMERS = {}
+VERBOSE_SVG_IMPORT = False
 
+DOC = App.newDocument(MODEL_NAME)
 
-doc = App.newDocument(MODEL_NAME)
 svgDir = ""
 
 # KiCad SVG export to 3D model component mapping:
@@ -26,32 +30,68 @@ LAYERS = [
     [ "User_3",    1.8,     False ],
     [ "User_4",    2.2,     False ],
     [ "User_5",    2.2,     True  ],
-    [ "User_9",    4.0,     False ]
+    [ "User_9",    4.0,     False ],
 ]
 
 
-def warn(message):
-    print('\033[91m' + message + '\033[0m')
-
 def log(message):
-    print('\033[96m' + message + '\033[0m')
+    App.Console.PrintMessage(message + "\n")
 
-def debug(message):
-    print('\033[96m' + message + '\033[0m')
+def logStart(message):
+    global TIMERS
+    global INDENT
+    if INDENT == 0:
+        log("")
+    log(f"{' ' * INDENT} Starting {message}…")
+    TIMERS[message] = time.time()
+    INDENT += 2
+
+def logEnd(message):
+    global INDENT
+    INDENT -= 2
+    log(f"{(' ' * INDENT)}…finished {message} ({getElapsedTime(message)}).")
+
+def logUnexpected(message, originalMessage):
+    global TIMERS
+    global INDENT
+    TIMERS.pop(originalMessage)
+    INDENT -= 2
+    logWarning((' ' * INDENT) + message)
+
+def getElapsedTime(message):
+    global TIMERS
+    t = time.time()-TIMERS.pop(message)
+    if t < 0.001:
+        t *= 1000000
+        u = "µs"
+    else:
+        u = "s"
+    return f"{t:.03f}{u}"
+
+def logError(message):
+    App.Console.PrintError(message + '\n')
+
+def logWarning(message):
+    App.Console.PrintWarning(message + '\n')
+
+def _d(message):
+    log(message)
 
 
 def getSvgDirectory():
+    global svgDir
 
     if HAS_GUI:
-        directory = QtGui.QFileDialog.getExistingDirectory(caption="SVG Parent Directory")
+        svgDir = QtGui.QFileDialog.getExistingDirectory(caption="SVG Parent Directory")
     else:
-        directory = input("Enter SVG directory: ").strip("\"' ").replace("\\", "")
+        svgDir = input("Enter SVG directory: ").strip("\"' ").replace("\\", "")
+        #svgDir = "Exports"
 
-    if not directory:
-        warn("No directory specified — stopping")
+    if not svgDir:
+        logError("No directory specified — stopping")
         return False
 
-    return directory
+    return svgDir
 
 
 def getSvgFilename(side, layer):
@@ -64,89 +104,117 @@ def extrudePath(parent, path, height):
     extrusion = parent.addObject("Part::Extrusion")
     extrusion.Base = path
     extrusion.Dir = (0, 0, height)
-    extrusion.Solid = (True)
+    extrusion.Solid = True
 
-    return extrusion.Name
+    return extrusion
 
 def hideObject(obj):
-    if HAS_GUI:
+    if hasattr(obj, "ViewObject") and hasattr(obj.ViewObject, "Visibility"):
         obj.ViewObject.Visibility = False
 
 
-def generateLayer(doc, side, layerName, layerHeight, layerIsOutline):
+def generateLayer(side, layerName, layerHeight, layerIsOutline):
 
-    extrusions = []
+    action = f"generation of {side}.{layerName} layer"
+    logStart(action)
 
     svg = getSvgFilename(side, layerName)
     if not os.path.isfile(svg):
-        log(f"No SVG file for {side} {layerName} found - skipping layer")
-    else:
-        newObjectStart = len(doc.Objects)
+        logUnexpected(f"…no SVG file for {side} {layerName} found - skipping layer", action)
+        return None
 
-        # Import SVG:
-        importSVG.insert(svg, doc.Name)
+    newObjectStart = len(DOC.Objects)
 
-        if layerIsOutline:
-            # This layer is a set of paths forming an outline (e.g., edge cuts) and not a
-            # collection of distinct shapes. Combine all the paths into a sketch:
-            sketch = Draft.makeSketch(doc.Objects[newObjectStart:], autoconstraints=True)
+    # Import SVG:
+    logStart(f"loading file '{svg}'")
+    App.Console.SetStatus("Console", "Msg", VERBOSE_SVG_IMPORT)
+    importSVG.insert(svg, DOC.Name)
+    App.Console.SetStatus("Console", "Msg", True)
+    logEnd(f"loading file '{svg}'")
 
-            # Remove the component paths leaving only the sketch:
-            for obj in doc.Objects[newObjectStart:]:
-                if obj != sketch:
-                    doc.removeObject(obj.Name)
+    if layerIsOutline:
+        # This layer is a set of paths forming an outline (e.g., edge cuts) and not a
+        # collection of distinct shapes. Combine all the paths into a sketch:
+        sketch = Draft.makeSketch(DOC.Objects[newObjectStart:], autoconstraints=True)
 
-        # Loop through all the new objects (for outline layers only be the sketch will be
-        # remaining) and extrude them:
-        for obj in doc.Objects[newObjectStart:]:
-            extrusions.append(extrudePath(doc, obj, layerHeight))
-            hideObject(obj)
+        # Remove the component paths leaving only the sketch:
+        for obj in DOC.Objects[newObjectStart:]:
+            if obj != sketch:
+                DOC.removeObject(obj.Name)
 
-    return extrusions
-
-
-def generateSide(doc, side):
-
+    # Loop through all the new objects (for outline layers only be the sketch will be
+    # remaining) and extrude them:
     extrusions = []
-    bop = BOPFeatures.BOPFeatures(doc)
+    for obj in DOC.Objects[newObjectStart:]:
+        extrusions.append(extrudePath(DOC, obj, layerHeight))
+        hideObject(obj)
+
+    # If there is only one extrusion then that is the layer,
+    # otherwise combine all the parts into a single fusion object:
+    if len(extrusions) == 1:
+        layer = extrusions[0]
+        layer.Label = side + layerName
+    elif len(extrusions) > 1:
+        logStart(f"fusion of {side}.{layerName} layer")
+        layer = DOC.addObject("Part::MultiFuse", side + layerName)
+        layer.Shapes = extrusions
+        logEnd(f"fusion of {side}.{layerName} layer")
+
+    logEnd(action)
+
+    return layer
+
+
+def generateSide(side):
+
+    action = f"generation of {side} side"
+    logStart(action)
+
+    bop = BOPFeatures.BOPFeatures(DOC)
+    body = None
 
     for layer in LAYERS:
-        extrusions += generateLayer(doc, side, *layer)
+        if obj := generateLayer(side, *layer):
+            if body:
+                prevLabel = body.Label
+                logStart(f"subtraction of {obj.Label} from {prevLabel}")
+                body = bop.make_cut([body.Name, obj.Name])
+                logEnd(f"subtraction of {obj.Label} from {prevLabel}")
+                body.Label = prevLabel + "-" + obj.Label.replace(side, "")
+            else:
+                body = obj
 
-    # Gather all the objects except the first (the body) into a single item:
-    fusion = bop.make_multi_fuse(extrusions[1:])
-
-    # Cut out all the other objects from the body:
-    body = bop.make_cut([extrusions[0], fusion.Name])
-    body.Label = MODEL_NAME + side
-
-    # Rotate body so that cuts are visible from front:
+    # Flip over final body so that cuts are on top in both FreeCAD and the exported STL:
     body.Placement = App.Placement(App.Vector(0,0,0), App.Rotation(App.Vector(0,1,0),180))
 
-    # Recompute body and export as STL:
-    x = doc.recompute()
-    stl = os.path.join(svgDir, body.Label + ".stl")
-    log(f"Writing {side} body to '{stl}'")
+    logStart(f"recompute of {side} side")
+    x = DOC.recompute()
+    logEnd(f"recompute of {side} side")
+
+    stl = os.path.join(svgDir, MODEL_NAME + side + ".stl")
+    logStart(f"writing {side} body to '{stl}'")
     Mesh.export([body], stl)
+    logEnd(f"writing {side} body to '{stl}'")
+
+    logEnd(action)
 
 
 def resetView():
     if HAS_GUI:
         Gui.SendMsgToActiveView("ViewFit")
-        # TODO: Rotate view 180º
 
 
 def makeMiddle():
-    global svgDir
 
-    if svgDir := getSvgDirectory():
+    if getSvgDirectory():
 
-        for side in SIDE_DIRS:
-            generateSide(doc, side)
+        for side in SIDES:
+            generateSide(side)
 
         resetView()
 
     else:
-        App.closeDocument(doc.Name)
+        App.closeDocument(DOC.Name)
+
 
 makeMiddle()
