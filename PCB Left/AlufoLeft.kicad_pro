@@ -580,7 +580,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Middle Layer/Exports/",
+      "plot": "../Gerbers/Alufo-Left/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "AlufoLeft.step",
