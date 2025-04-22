@@ -1,7 +1,7 @@
 (footprint "MountingHole_2.2mm_M2_SMD_Solder_Nut_Pad"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 2.2mm, M2, DIN965")
 	(tags "mounting hole 2.2mm m2 din965")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f88b63e8-450b-4272-9c82-11e344fba67e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -75,7 +62,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "7606c7dc-b12d-4c7f-91a2-a5cdc9bef866")
 	)
@@ -86,7 +73,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e53b809b-42d0-4edc-868c-2f21896d1276")
 	)
@@ -97,7 +84,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.9")
 		(uuid "30e2a724-b78a-41c6-bb17-8219b390328c")
 	)
@@ -115,9 +102,10 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 4.7 4.7)
-		(drill 2.7)
+		(drill 2.5)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(uuid "949f2f2f-e88f-4142-aed0-64c4cb342c9d")
 	)
+	(embedded_fonts no)
 )

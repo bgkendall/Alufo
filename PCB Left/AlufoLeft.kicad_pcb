@@ -89,7 +89,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55d5ff55_57555550)
+			(layerselection 0x00000000_00000000_55555555_57557573)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -121,11 +121,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk yes)
-			(outputformat 5)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Middle Layer/Exports/")
+			(outputdirectory "../Gerbers/Alufo-Left/")
 		)
 	)
 	(net 0 "")
@@ -1447,7 +1447,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "dc26953c-a2f4-4d1a-97ed-b0d13e39bd3a")
+			(uuid "ed425aa9-c6d6-47d5-8d4d-a91ae80fd843")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1458,7 +1458,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a3d3fce4-be28-48d3-97e4-3d5cefac7f55")
+			(uuid "d2165739-346a-426f-a48d-580fad5b10bf")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1469,7 +1469,7 @@
 			)
 			(fill no)
 			(layer "User.9")
-			(uuid "750ed5f6-1ed0-43bb-9953-3910069c1d2e")
+			(uuid "9c8c10a0-6578-4505-8c3f-ad1ba0433c32")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -1485,10 +1485,10 @@
 		(pad "" thru_hole circle
 			(at 0 0)
 			(size 4.7 4.7)
-			(drill 2.7)
+			(drill 2.5)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "76393a53-6580-4fc4-b8a2-96794ba116cd")
+			(uuid "1085adba-af89-4993-82cc-e3262a140621")
 		)
 		(embedded_fonts no)
 	)
@@ -12457,7 +12457,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "933d183f-4534-4550-afca-d7f78c7a54b5")
+			(uuid "ebaa8cf7-3800-4525-b906-88a951b73a14")
 		)
 		(fp_circle
 			(center 0 0)
@@ -12468,7 +12468,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e9d31c7d-8111-41f9-8f5e-7f2d780e050c")
+			(uuid "e70b2848-212a-499f-ad32-cf8f02a1af38")
 		)
 		(fp_circle
 			(center 0 0)
@@ -12479,7 +12479,7 @@
 			)
 			(fill no)
 			(layer "User.9")
-			(uuid "76123726-b2fb-4d5a-aedb-d14afdf71ed2")
+			(uuid "4be02613-a593-40a5-be81-d6f8e5848539")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -12495,7 +12495,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 4.7 4.7)
-			(drill 2.7)
+			(drill 2.5)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
 			(net 70 "Net-(J9-Pin_1)")
@@ -12574,7 +12574,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "3b335154-1e8c-466d-9de7-09c044621265")
+			(uuid "e3ca3dc7-ea28-4f88-8f5a-180a02b6babe")
 		)
 		(fp_circle
 			(center 0 0)
@@ -12585,7 +12585,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "eb89823f-8824-44b2-a661-5fb869450989")
+			(uuid "1fc2c57f-5345-4387-9e94-66624e4b21a6")
 		)
 		(fp_circle
 			(center 0 0)
@@ -12596,7 +12596,7 @@
 			)
 			(fill no)
 			(layer "User.9")
-			(uuid "217fb8ab-cba6-43fb-a4f5-ce28b62cd5ba")
+			(uuid "71763805-92fe-4d9a-9d99-079a9ef23a51")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -12612,10 +12612,10 @@
 		(pad "" thru_hole circle
 			(at 0 0)
 			(size 4.7 4.7)
-			(drill 2.7)
+			(drill 2.5)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "a243a7bf-28fc-46d4-ad83-a54f4bd1dc65")
+			(uuid "2809c81f-1531-4b11-ac0b-232aacecb544")
 		)
 		(embedded_fonts no)
 	)
@@ -19919,7 +19919,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "ce6aa4e6-1ceb-4555-94d3-f02b2e4b74a0")
+			(uuid "6d873b51-96e9-4aa3-a3aa-fa87d1f60fbd")
 		)
 		(fp_circle
 			(center 0 0)
@@ -19930,7 +19930,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c5a861a6-fb92-4b6d-8d77-70440b82b671")
+			(uuid "e598053f-5457-47f9-a060-2ae2d3379547")
 		)
 		(fp_circle
 			(center 0 0)
@@ -19941,7 +19941,7 @@
 			)
 			(fill no)
 			(layer "User.9")
-			(uuid "19aeee29-f16a-4ef6-b19c-f283268dffbc")
+			(uuid "72b89e3a-fb59-465b-88ec-578fa2985a6c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -19957,10 +19957,10 @@
 		(pad "" thru_hole circle
 			(at 0 0)
 			(size 4.7 4.7)
-			(drill 2.7)
+			(drill 2.5)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "a18efec7-cf1b-47e5-b9c8-8d431bad2e86")
+			(uuid "2293a9f6-329f-4d61-a261-e0f589252fa3")
 		)
 		(embedded_fonts no)
 	)
@@ -29667,7 +29667,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "827fa75d-c073-4ba4-812e-1a98c8336fd3")
+			(uuid "c4dffec3-6427-4cc9-a361-987961aab2b6")
 		)
 		(fp_circle
 			(center 0 0)
@@ -29678,7 +29678,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d7ef067d-46ad-4b9d-9d42-5934ef8e7739")
+			(uuid "25139cc1-53c2-44a8-99f0-ac14e69c9e55")
 		)
 		(fp_circle
 			(center 0 0)
@@ -29689,7 +29689,7 @@
 			)
 			(fill no)
 			(layer "User.9")
-			(uuid "fca9bb60-b6a4-48a8-8b19-2fa2ce6800ce")
+			(uuid "956b00a5-033d-485e-895b-c048ffcd602d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -29705,10 +29705,10 @@
 		(pad "" thru_hole circle
 			(at 0 0)
 			(size 4.7 4.7)
-			(drill 2.7)
+			(drill 2.5)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
-			(uuid "f65ca141-a221-4f46-91e9-d33849966d97")
+			(uuid "49832fb5-107b-40e5-91ee-1749bec80fd0")
 		)
 		(embedded_fonts no)
 	)
