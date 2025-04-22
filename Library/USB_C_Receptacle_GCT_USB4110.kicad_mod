@@ -522,7 +522,6 @@
 		(size 0.6 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "cbb90ded-7be7-448c-a053-34b491753bec")
 	)
 	(pad "A4" smd roundrect
@@ -578,7 +577,6 @@
 		(size 0.6 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(thermal_bridge_angle 45)
 		(uuid "709e7181-baa8-4238-b21b-350ef9aebc68")
 	)
 	(pad "B1" smd roundrect
